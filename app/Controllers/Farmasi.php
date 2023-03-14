@@ -22,8 +22,9 @@ class Farmasi extends BaseController
 	{
 		$nama = $this->request->getVar('nama');
 		if ($nama !== "") {
-			$options = ['tanggal_dihapus' => ""];
-			$dataObat = $this->mongo->getLike("obat","nama",$nama,$options);
+			$and = ['tanggal_dihapus' => ""];
+			$options = ['sort' => ['nama' => 1]];
+			$dataObat = $this->mongo->getLike("obat","nama",$nama,$options,$and);
         }
         else{
 			$dataObat = $this->mongo->get("obat", ['tanggal_dihapus' => ""]);
@@ -167,11 +168,10 @@ class Farmasi extends BaseController
 	public function hapusObat()
     {
 		$id = $this->request->getVar('id');
-		$tindakan = new ObatModel();
-		$data = [
-			'deleted_at' => date("Y-m-d H:i:s")
+		$dtInf = [
+			"tanggal_dihapus" => date("Y-m-d H:i:s"),
 		];
-		$tindakan->update($id, $data);
+		$result = $this->mongo->updateById("obat",$dtInf,$id);
 		$dataResponse = [
 			"fail" => false,
 			'errors' => "",
