@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "63f1b1990d88f7853cd7ee8c"
+  },
+  "nik": "00.02.2023",
+  "gelar_depan": "",
+  "nama": "Superadmin",
+  "gelar_belakang": "",
+  "unit": "Direktur",
+  "atasan": "",
+  "str": "",
+  "tahun_akhir_str": "",
+  "tanggal_dibuat": {
+    "$date": "2023-02-18T06:00:00Z"
+  },
+  "tanggal_dihapus": ""
+}]

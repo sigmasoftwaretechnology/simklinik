@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "638037e45d230000bf0031dc"
+  },
+  "nama_karyawan": "Superadmin",
+  "nama_pengguna": "superadmin",
+  "password": "$2a$12$43PkAI0kOZXDllK.nIFbF.fWMn19N.8ffW0Be4wPEU0rcGq32J7fq",
+  "role": [
+    "rekam-medis",
+    "rekam-medis/pendaftaran",
+    "rekam-medis/pasien-registrasi",
+    "rekam-medis/pasien",
+    "rekam-medis/pemeriksaan",
+    "rekam-medis/tindakan",
+    "farmasi",
+    "farmasi/obat-masuk",
+    "farmasi/obat",
+    "farmasi/supplier",
+    "farmasi/resep",
+    "farmasi/resep-bebas",
+    "keuangan",
+    "keuangan/kasir",
+    "keuangan/laporan-keuangan",
+    "setting",
+    "setting/buka-erm",
+    "setting/informasi",
+    "setting/poli",
+    "setting/unit",
+    "setting/pengguna",
+    "hrd",
+    "hrd/karyawan"
+  ],
+  "tanggal_dibuat": {
+    "$date": "2023-01-27T06:00:00Z"
+  },
+  "tanggal_dihapus": ""
+}]
