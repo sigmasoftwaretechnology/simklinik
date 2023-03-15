@@ -284,9 +284,7 @@ class Rekammedis extends BaseController
 		$id_reg = $this->request->getVar('q');
 		$query 	= $db->query("select a.id,a.no_reg,b.no_rm,b.nama,b.no_bpjs,b.alamat,b.tgl_lahir from pendaftaran a join pasien b on b.id = a.no_rm  where a.id = '$id_reg'");
 		$row 	= $query->getRow();
-		$queryObat 	= $db->query("select a.* from detail_obat a  where a.stok > 10");
-		$rowObat 	= $queryObat->getRow();
-		return view('pemeriksaan/form-pemeriksaan',compact('row','rowObat'));
+		return view('pemeriksaan/form-pemeriksaan',compact('row'));
 	}
 
 	public function dataKunjungan()

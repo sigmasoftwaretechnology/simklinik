@@ -27,24 +27,24 @@ helper('klinik_helper');
 				<td class="align-middle"><?php echo $data->no_antrian;?></td>
 				<td class="text-center">
 					<?php if($data->aktif == "yes"):?>
-					<button type="button" class="btn btn-outline-danger btn-flat btn-xs" 
+					<a
 					data-toggle="modal"
 					href="#modal-delete"
 					data-id="<?php echo $data->_id;?>">
-							<i class="fa fa-folder-open"></i>&nbsp Non Aktifkan
-					</button>
+							<img src="<?php echo base_url(); ?>/assets/img/icon/switch-off.png">
+					</a>
 					<?php else:?>
-					<button type="button" class="btn btn-outline-success btn-flat btn-xs" 
+					<a
 					data-toggle="modal"
 					href="#modal-open"
 					data-id="<?php echo $data->_id;?>">
-							<i class="fa fa-folder-open"></i>&nbsp Aktifkan
-					</button>
+							<img src="<?php echo base_url(); ?>/assets/img/icon/switch-on.png">
+					</a>
 					<?php endif;?>
-					<button type="button" class="btn btn-outline-primary btn-flat btn-xs" onclick="resetNomor(this)"
+					<a onclick="resetNomor(this)"
 					data-id="<?php echo $data->_id;?>">
-							<i class="fa fa-folder-open"></i>&nbsp Reset Nomor
-					</button>
+							<img src="<?php echo base_url(); ?>/assets/img/icon/redo.png">
+					</a>
 				  </td>
 				</tr>
 				<?php endforeach;?>

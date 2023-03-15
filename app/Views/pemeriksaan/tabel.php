@@ -41,12 +41,12 @@ helper('klinik_helper');
 			  <td class="align-middle"><?=$data->dokter?></td>
 
 			  <td class="text-center">
-					<a type="button" class="btn btn-outline-danger btn-flat btn-xs" href="<?php echo base_url();?>/rekam-medis/pemeriksaan?q=<?=$data->id?>"  id="periksa-px" ><img src="<?php echo base_url(); ?>/assets/img/icon/doctor.png"></a>
-					<a id="panggil" type="button" 
+					<a href="<?php echo base_url();?>/rekam-medis/pemeriksaan?q=<?=$data->id?>"  id="periksa-px" ><img src="<?php echo base_url(); ?>/assets/img/icon/doctor.png"></a>
+					<a id="panggil"
 					data-no_reg="<?=$data->no_reg?>" 
 					data-nomor="<?=$data->antrian?>" 
 					data-suara="<?php echo str_replace(' ', '', strtolower($data->poli));?>"
-					data-poli="<?=$data->poli?>" class="btn btn-outline-danger btn-flat btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/mic.png"></button>					
+					data-poli="<?=$data->poli?>"><img src="<?php echo base_url(); ?>/assets/img/icon/mic.png"></button>					
 			  </td>
 			</tr>
 			<?php $no++;endforeach;?>

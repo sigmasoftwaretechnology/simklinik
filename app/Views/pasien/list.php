@@ -34,7 +34,7 @@
 								<input class="form-control form-control-sm" id="filterNama" type="text" value="">
 							</div>
 							<div class="col-3">
-								<button id="filter" type="button" class="btn btn-outline-primary btn-xs"><i class="fas fa-search"></i> Filter</button>
+								<button id="filter" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/search.png"> Filter</button>
 							</div>
 						</div>
 					</div>

@@ -35,13 +35,7 @@
 								<input class="form-control form-control-sm" id="filterNama" type="text" value="">
 							</div>
 							<div class="col-1">
-								<button id="filter" type="button" class="btn btn-outline-primary btn-xs"><i class="fas fa-search"></i> Filter</button>
-							</div>
-							<div class="col-4">
-								<button type="button" class="btn btn-outline-danger btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/rekam-medis/pendaftaran/tambah" href="#modal-form-register"><i class="far fa-plus-square"></i> Tambah Pendaftaran</button>
-								<button type="button" class="btn btn-outline-primary btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/rekam-medis/pasien/tambah" href="#modal-form-baru"><i class="far fa-plus-square"></i> Pasien Baru</button>
+								<button id="filter" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/search.png"> Filter</button>
 							</div>
 						</div>
 					</div>

@@ -22,10 +22,10 @@ helper('klinik_helper');
                             <td class="align-middle"><?php echo $data->kode;?></td>
                             <td class="align-middle"><?php echo $data->dokter;?></td>
                             <td class="text-center">
-                                <button type="button" class="btn btn-outline-danger btn-flat btn-xs" data-toggle="modal"
+                                <a data-toggle="modal"
                                     href="#modal-delete" data-id="<?php echo $data->_id;?>">
-                                    <i class="fa fa-folder-open"></i>&nbsp Hapus
-                                </button>
+                                    <img src="<?php echo base_url(); ?>/assets/img/icon/delete.png">
+                                </a>
                             </td>
                         </tr>
                         <?php endforeach;?>

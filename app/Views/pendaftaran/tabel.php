@@ -24,14 +24,11 @@ helper('klinik_helper');
 			<tr>
 				<td class="align-middle"><?=$i?></td>
 				<td class="text-center">
-			  		<button type="button" id="update-<?=$data->id?>" data-href="<?=base_url()?>/rekam-medis/pendaftaran/ubah?id=<?=$data->id?>" data-toggle="modal" data-target="#modal-form-update" class="btn btn-outline-danger btn-flat btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/edit.png"></i></button>
-					<a type="button" target="_blank" href="<?php echo base_url();?>/rekam-medis/pendaftaran/cetak-antrian?q=<?=$data->id?>"  class="btn text-center btn-outline-danger btn-flat btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/printer.png"></a>
-					<button type="button" class="btn btn-outline-danger btn-flat btn-xs" 
-					data-toggle="modal"
-					href="#modal-delete"
-					data-id="<?=$data->id?>">
+			  		<a id="update-<?=$data->id?>" data-href="<?=base_url()?>/rekam-medis/pendaftaran/ubah?id=<?=$data->id?>" data-toggle="modal" data-target="#modal-form-update"><img src="<?php echo base_url(); ?>/assets/img/icon/edit.png"></i></button>
+					<a target="_blank" href="<?php echo base_url();?>/rekam-medis/pendaftaran/cetak-antrian?q=<?=$data->id?>"><img src="<?php echo base_url(); ?>/assets/img/icon/printer.png"></a>
+					<a data-toggle="modal" href="#modal-delete" data-id="<?=$data->id?>">
 						<img src="<?php echo base_url(); ?>/assets/img/icon/delete.png">
-					</button>
+					</a>
 			  </td>
 				<td class="align-middle"><?=$data->no_reg?></td>
 				<td class="align-middle"><?=$data->tanggal?></td>

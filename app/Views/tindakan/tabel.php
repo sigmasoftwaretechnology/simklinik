@@ -14,11 +14,10 @@
 			  <td class="text-left"><?=$data->nama?></td>
 			  <td class="text-right"><?="Rp ".number_format($data->tarif, 0, ',', '.')?></td>
 			  <td class="text-center">
-				<button type="button" id="update-<?=$data->id?>" data-href="<?=base_url()?>/rekam-medis/tindakan/ubah?id=<?=$data->id?>" data-toggle="modal" data-target="#modal-form-baru" class="btn btn-outline-danger btn-flat btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/edit.png"></button>
-				<button type="button" class="btn btn-outline-danger btn-flat btn-xs" 
-				data-toggle="modal"
+				<a id="update-<?=$data->id?>" data-href="<?=base_url()?>/rekam-medis/tindakan/ubah?id=<?=$data->id?>" data-toggle="modal" data-target="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/edit.png"></a>
+				<a data-toggle="modal"
 				href="#modal-delete"
-				data-id="<?=$data->id?>"><img src="<?php echo base_url(); ?>/assets/img/icon/delete.png"></button>				  
+				data-id="<?=$data->id?>"><img src="<?php echo base_url(); ?>/assets/img/icon/delete.png"></a>				  
 			  </td>
 			</tr>
 			<?php endforeach;?>
