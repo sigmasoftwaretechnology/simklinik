@@ -20,8 +20,7 @@
                             <div class="col-md-12">
                                 <div class="form-group mb-1">
                                     <label class="mb-0">No RM</label>
-                                    <input type="text" class="form-control form-control-sm col-4" name="no_rm"
-                                        value="">
+                                    <input type="text" class="form-control form-control-sm col-4" readonly name="no_rm" placeholder="Dibuat Otomatis" value="">
                                 </div>
                                 <div class="form-group mb-1">
                                     <label class="mb-0" for="exampleInputNama">Nama</label>

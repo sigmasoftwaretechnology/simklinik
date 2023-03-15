@@ -17,7 +17,7 @@ $(document).on('change', "select[name='poli']", function (event) {
 	$("#dpjp").val($(this).find(":selected").attr("data-dokter"));
 });
 
-$(document).on('click', "button[id='panggil']", function (event) {
+$(document).on('click', "#panggil", function (event) {
 	
     var nomor = $(this).data("nomor").toString();
     var $nomorantri = $(this).data("nomor");

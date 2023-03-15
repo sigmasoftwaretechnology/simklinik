@@ -1,0 +1,10414 @@
+[{
+  "_id": {
+    "$oid": "638845645d230000bf0031f0"
+  },
+  "kode": "VITAMIN",
+  "nama": "apialys sirup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "4"
+  },
+  "harga": "60000",
+  "harga_pokok": "45000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "30332",
+      "expired": "01/07/24",
+      "stok": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "639a904874e5a3620fb82de8"
+  },
+  "kode": "VITAMIN",
+  "nama": "apialys drop",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "9"
+  },
+  "harga": "72000",
+  "harga_pokok": "54000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a0532",
+      "expired": "01/08/24",
+      "stok": 6
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ddd812d16b00004e002e2f"
+  },
+  "kode": "VITAMIN",
+  "nama": "asi-m",
+  "supplier": "PT KALISTA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "120"
+  },
+  "harga": "4000",
+  "harga_pokok": "2900",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2212071",
+      "expired": "01/12/24",
+      "expired_date": {
+        "$date": "2024-01-11T17:00:00Z"
+      },
+      "stok": "120"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63ddd87dd16b00004e002e30"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "cefila dry syrup",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "3"
+  },
+  "harga": "153500",
+  "harga_pokok": "115000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4516aaa7800002e0069a4"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "cefila 100 mg-kapsul",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "20"
+  },
+  "harga": "33500",
+  "harga_pokok": "25000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "eb102",
+      "expired": "01/12/24",
+      "expired_date": {
+        "$date": "2024-01-11T17:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e451cdaa7800002e0069a5"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "dom suspensi",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "61500",
+  "harga_pokok": "46000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/23",
+      "expired_date": {
+        "$date": "2022-12-31T17:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4520aaa7800002e0069a6"
+  },
+  "kode": "VITAMIN",
+  "nama": "imunos syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "0"
+  },
+  "harga": "86700",
+  "harga_pokok": "65000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/23",
+      "expired_date": {
+        "$date": "2022-12-31T17:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45389aa7800002e0069a7"
+  },
+  "kode": "VITAMIN",
+  "nama": "imunos plus syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "122700",
+  "harga_pokok": "92000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e453b3aa7800002e0069a8"
+  },
+  "kode": "VITAMIN",
+  "nama": "imunos kaplet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "10700",
+  "harga_pokok": "8000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45432aa7800002e0069a9"
+  },
+  "kode": "VITAMIN",
+  "nama": "l-bio sachet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "0"
+  },
+  "harga": "10500",
+  "harga_pokok": "7750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4546caa7800002e0069aa"
+  },
+  "kode": "VITAMIN",
+  "nama": "l-zinc syrup",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "4"
+  },
+  "harga": "63500",
+  "harga_pokok": "47500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "w2062",
+      "expired": "01/07/24",
+      "stok": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e454d8aa7800002e0069ab"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "lapisiv syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "28000",
+  "harga_pokok": "21000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45561aa7800002e0069ac"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "lasal syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "37500",
+  "harga_pokok": "28000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 8
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45598aa7800002e0069ad"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "lasal 2 mg cap",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "2": "30"
+  },
+  "harga": "2500",
+  "harga_pokok": "2100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "07122",
+      "expired": "01/08/25",
+      "stok": 22
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e455caaa7800002e0069ae"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "lasal 4-kapsul",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "2500",
+  "harga_pokok": "1800",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4562daa7800002e0069af"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "lasal sirup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "4"
+  },
+  "harga": "43000",
+  "harga_pokok": "32000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "05122",
+      "expired": "01/10/25",
+      "expired_date": {
+        "$date": "2025-01-09T17:00:00Z"
+      },
+      "stok": "4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4565faa7800002e0069b0"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "lasal com",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e456beaa7800002e0069b1"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "rhelafen susp",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "28000",
+  "harga_pokok": "21000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e456e1aa7800002e0069b2"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "tiriz kaplet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "5500",
+  "harga_pokok": "4000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45718aa7800002e0069b3"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "tiriz drop",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "4"
+  },
+  "harga": "100000",
+  "harga_pokok": "75000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "d5092",
+      "expired": "01/09/26",
+      "expired_date": {
+        "$date": "2026-01-08T17:00:00Z"
+      },
+      "stok": "4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45797aa7800002e0069b4"
+  },
+  "kode": "VITAMIN",
+  "nama": "fervit drop",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "10"
+  },
+  "harga": "53500",
+  "harga_pokok": "40000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "bi042",
+      "expired": "01/10/24",
+      "stok": 8
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e457caaa7800002e0069b5"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "lapimuc drop",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "50000",
+  "harga_pokok": "37500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e457fbaa7800002e0069b6"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "lapisiv-t tablet",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "115"
+  },
+  "harga": "3000",
+  "harga_pokok": "2150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "64422",
+      "expired": "01/10/24",
+      "stok": 105
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4581faa7800002e0069b7"
+  },
+  "kode": "VITAMIN",
+  "nama": "queenvit",
+  "supplier": "PT KALISTA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "30"
+  },
+  "harga": "9600",
+  "harga_pokok": "7200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ds013",
+      "expired": "01/01/25",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4583faa7800002e0069b8"
+  },
+  "kode": "VITAMIN",
+  "nama": "vitacur syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "53300",
+  "harga_pokok": "40000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4586daa7800002e0069b9"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "apetic drop",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "33500",
+  "harga_pokok": "25000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45888aa7800002e0069ba"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "apetic susp",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "37000",
+  "harga_pokok": "27500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e458a9aa7800002e0069bb"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "apetic forte susp",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "43500",
+  "harga_pokok": "32500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e458e6aa7800002e0069bc"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "lapiflox 500 tab",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10",
+    "2": "100"
+  },
+  "harga": "19000",
+  "harga_pokok": "14000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    },
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45905aa7800002e0069bd"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "lapimox 500-kaplet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "3": "100"
+  },
+  "harga": "4500",
+  "harga_pokok": "3250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "43242",
+      "expired": "01/10/25",
+      "expired_date": {
+        "$date": "2025-01-09T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45955aa7800002e0069be"
+  },
+  "kode": "VITAMIN",
+  "nama": "promavit kapsul",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "510"
+  },
+  "harga": "6500",
+  "harga_pokok": "4800",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "w3472",
+      "expired": "01/08/24",
+      "stok": 300
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45974aa7800002e0069bf"
+  },
+  "kode": "VITAMIN",
+  "nama": "cal-95 kaplet",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "290"
+  },
+  "harga": "10000",
+  "harga_pokok": "7300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "i1c92",
+      "expired": "01/11/24",
+      "stok": 200
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4598eaa7800002e0069c0"
+  },
+  "kode": "VITAMIN",
+  "nama": "nonemi tablet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10",
+    "2": "100"
+  },
+  "harga": "2600",
+  "harga_pokok": "1900",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": "10"
+    },
+    {
+      "batch": "",
+      "expired": "",
+      "stok": 70
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e459aaaa7800002e0069c1"
+  },
+  "kode": "VITAMIN",
+  "nama": "microgest 100 mg-kapsul",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "3": "30"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cc162",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e459c5aa7800002e0069c2"
+  },
+  "kode": "VITAMIN",
+  "nama": "microgest 200-kapsul",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "15"
+  },
+  "harga": "35000",
+  "harga_pokok": "26000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cd1g2",
+      "expired": "01/11/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e459ffaa7800002e0069c3"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "odr syrup",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "133500",
+  "harga_pokok": "100000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 7
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45a25aa7800002e0069c4"
+  },
+  "kode": "ANALGESIK",
+  "nama": "analtram",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10",
+    "2": "100"
+  },
+  "harga": "12000",
+  "harga_pokok": "9000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    },
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45a53aa7800002e0069c5"
+  },
+  "kode": "ANALGESIK",
+  "nama": "kingvit",
+  "supplier": "PT KALISTA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "30"
+  },
+  "harga": "9600",
+  "harga_pokok": "7200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "dr132",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45a80aa7800002e0069c6"
+  },
+  "kode": "VITAMIN",
+  "nama": "lavit-c 500",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "2700",
+  "harga_pokok": "2000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45a9eaa7800002e0069c7"
+  },
+  "kode": "VITAMIN",
+  "nama": "lavit-c 1000",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4200",
+  "harga_pokok": "3100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45abeaa7800002e0069c8"
+  },
+  "kode": "VITAMIN",
+  "nama": "avogin kaplet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "5500",
+  "harga_pokok": "4100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45b2caa7800002e0069c9"
+  },
+  "kode": "VITAMIN",
+  "nama": "genoclom tablet",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "18700",
+  "harga_pokok": "14000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45b68aa7800002e0069ca"
+  },
+  "kode": "ANALGESIK",
+  "nama": "lapistan 500 mg",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "2500",
+  "harga_pokok": "1700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "10342",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45bf1aa7800002e0069cb"
+  },
+  "kode": "VITAMIN",
+  "nama": "labumin kapsul",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "60"
+  },
+  "harga": "11900",
+  "harga_pokok": "8900",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "g0482",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "60"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45c20aa7800002e0069cc"
+  },
+  "kode": "VITAMIN",
+  "nama": "floralgyn kapsul",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "17600",
+  "harga_pokok": "13200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45c46aa7800002e0069cd"
+  },
+  "kode": "VITAMIN",
+  "nama": "l-vit d3 5000iu",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "2": "30"
+  },
+  "harga": "5000",
+  "harga_pokok": "3800",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cf012",
+      "expired": "01/10/24",
+      "stok": 27
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45cf7aa7800002e0069cf"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "acitral chewable tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "2000",
+  "harga_pokok": "1465",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45d2baa7800002e0069d0"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "acitral liquid 120ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "59500",
+  "harga_pokok": "44500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45d59aa7800002e0069d1"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "alco oral drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "121500",
+  "harga_pokok": "91000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45d83aa7800002e0069d2"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "alco plus dmp syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "71000",
+  "harga_pokok": "53000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45da4aa7800002e0069d3"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "alco plus syrup 100ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "87000",
+  "harga_pokok": "65000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45dcfaa7800002e0069d4"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "anadex dragee tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4200",
+  "harga_pokok": "3100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45de6aa7800002e0069d5"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "anadex syrup 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "48000",
+  "harga_pokok": "36000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45e19aa7800002e0069d6"
+  },
+  "kode": "ANALGESIK",
+  "nama": "antrain inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "15000",
+  "harga_pokok": "11200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45e3baa7800002e0069d7"
+  },
+  "kode": "ANALGESIK",
+  "nama": "antrain tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3000",
+  "harga_pokok": "2200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45f15aa7800002e0069d8"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "ceptik 100-kapsul",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "46000",
+  "harga_pokok": "34500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "k050l00",
+      "expired": "01/02/24",
+      "expired_date": {
+        "$date": "2024-01-01T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45fc8aa7800002e0069d9"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "ceptik syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "157500",
+  "harga_pokok": "118000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e45ff9aa7800002e0069da"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "ceptik 200 tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "57000",
+  "harga_pokok": "42800",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4601daa7800002e0069db"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clabat 500 tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "26100",
+  "harga_pokok": "19528",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4603caa7800002e0069dc"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clabat dry syrup 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "143000",
+  "harga_pokok": "107000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46068aa7800002e0069dd"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clabat forte dry syrup 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "171500",
+  "harga_pokok": "128500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4608aaa7800002e0069de"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clabat inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "141500",
+  "harga_pokok": "106000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46101aa7800002e0069df"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "cliad tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "5000",
+  "harga_pokok": "3640",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4612caa7800002e0069e0"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clinium gel",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "60000",
+  "harga_pokok": "45000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4614caa7800002e0069e1"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clinium 300-kapsul",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14000",
+  "harga_pokok": "10380",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4618baa7800002e0069e2"
+  },
+  "kode": "VITAMIN",
+  "nama": "cobazim 1000",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "8000",
+  "harga_pokok": "6000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "k003l032",
+      "expired": "01/12/24",
+      "stok": 80
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e461aaaa7800002e0069e3"
+  },
+  "kode": "VITAMIN",
+  "nama": "cobazim 3000",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "2"
+  },
+  "harga": "16500",
+  "harga_pokok": "14100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "k020l004",
+      "expired": "01/10/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e461ddaa7800002e0069e4"
+  },
+  "kode": "OBAT TELINGA",
+  "nama": "colme ear drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "64500",
+  "harga_pokok": "48150",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e461ffaa7800002e0069e5"
+  },
+  "kode": "OBAT MATA",
+  "nama": "colme eye drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "64500",
+  "harga_pokok": "51350",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4622faa7800002e0069e6"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "cortamine syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "77500",
+  "harga_pokok": "58000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46253aa7800002e0069e7"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "cortamin tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4800",
+  "harga_pokok": "3600",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4626faa7800002e0069e8"
+  },
+  "kode": "VITAMIN",
+  "nama": "coten-100",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "22000",
+  "harga_pokok": "16500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e462a4aa7800002e0069e9"
+  },
+  "kode": "VITAMIN",
+  "nama": "coten licaps",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "11200",
+  "harga_pokok": "8400",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e462caaa7800002e0069ea"
+  },
+  "kode": "VITAMIN",
+  "nama": "curfos syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "184000",
+  "harga_pokok": "138000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46300aa7800002e0069eb"
+  },
+  "kode": "VITAMIN",
+  "nama": "daily d3-1000iu",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3600",
+  "harga_pokok": "2675",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46329aa7800002e0069ec"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "dazolin infus",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "160500",
+  "harga_pokok": "120375",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46360aa7800002e0069ed"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "dazolin n-ovula",
+  "supplier": "PT MBS",
+  "satuan": "OVULA",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "19500",
+  "harga_pokok": "14500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46384aa7800002e0069ee"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "diagit tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "3800",
+  "harga_pokok": "2810",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e463beaa7800002e0069ef"
+  },
+  "kode": "ANALGESIK",
+  "nama": "diflam 50mg tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "6000",
+  "harga_pokok": "4500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e463f7aa7800002e0069f0"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "digenta cr 10gr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "132000",
+  "harga_pokok": "99000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46438aa7800002e0069f1"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "erdobat kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "11300",
+  "harga_pokok": "8450",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46455aa7800002e0069f2"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "erdobat dry syrup 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "87000",
+  "harga_pokok": "65000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e464aeaa7800002e0069f3"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "erythrin 500-kap",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "79000",
+  "harga_pokok": "59000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e464d7aa7800002e0069f4"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "erythrin dry syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "79000",
+  "harga_pokok": "59000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46533aa7800002e0069f5"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "extimon inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "473000",
+  "harga_pokok": "355000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4658caa7800002e0069f6"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "fenris susp jeruk",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "51000",
+  "harga_pokok": "38000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e465bbaa7800002e0069f7"
+  },
+  "kode": "VITAMIN",
+  "nama": "fertin tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "27000",
+  "harga_pokok": "20300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e465f8aa7800002e0069f8"
+  },
+  "kode": "ANALGESIK",
+  "nama": "fetik supp",
+  "supplier": "PT MBS",
+  "satuan": "SUPPOSITORIA",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "25000",
+  "harga_pokok": "18600",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4661caa7800002e0069f9"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "gastridin inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "40000",
+  "harga_pokok": "30000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4663eaa7800002e0069fa"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "gastridin  tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "9000",
+  "harga_pokok": "6700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e466e3aa7800002e0069fb"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "gitas inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "43000",
+  "harga_pokok": "32100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46708aa7800002e0069fc"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "gitas plus kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9700",
+  "harga_pokok": "7250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4674daa7800002e0069fd"
+  },
+  "kode": "ANTI HEMOROID",
+  "nama": "hesmin fc caps",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "15000",
+  "harga_pokok": "11000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46772aa7800002e0069fe"
+  },
+  "kode": "VITAMIN",
+  "nama": "immucea kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "14500",
+  "harga_pokok": "10833",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4678faa7800002e0069ff"
+  },
+  "kode": "VITAMIN",
+  "nama": "immucea syrup ",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "140000",
+  "harga_pokok": "105000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e467d3aa7800002e006a00"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "inadryl expec 50ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "37500",
+  "harga_pokok": "28000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e467f4aa7800002e006a01"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "inadryl expec 100ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "61500",
+  "harga_pokok": "46000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46816aa7800002e006a02"
+  },
+  "kode": "VITAMIN",
+  "nama": "inbion kapsul",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "4200",
+  "harga_pokok": "3100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "stok": 80
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e468bcaa7800002e006a03"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "inclarin tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "8600",
+  "harga_pokok": "6400",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e468deaa7800002e006a04"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "indexon inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "19500",
+  "harga_pokok": "14500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e468ffaa7800002e006a05"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "indexon tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "30"
+  },
+  "harga": "1500",
+  "harga_pokok": "1075",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "t031k01",
+      "expired": "01/09/26",
+      "expired_date": {
+        "$date": "2026-01-08T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46b28aa7800002e006a06"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "inerson cr 15gr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "126000",
+  "harga_pokok": "94500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46b56aa7800002e006a07"
+  },
+  "kode": "VITAMIN",
+  "nama": "inlacta 500 dha",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "10000",
+  "harga_pokok": "7500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46b82aa7800002e006a08"
+  },
+  "kode": "OBAT MATA",
+  "nama": "inmatrol eye drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "65000",
+  "harga_pokok": "48600",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46bb8aa7800002e006a09"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "interbi 250mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "50000",
+  "harga_pokok": "37200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46bdbaa7800002e006a0a"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "interbi cr 5g",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "48000",
+  "harga_pokok": "36000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46bfdaa7800002e006a0b"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "interdoxin 100mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12000",
+  "harga_pokok": "8900",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46c17aa7800002e006a0c"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "interdoxin 50mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "7400",
+  "harga_pokok": "5500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46c4eaa7800002e006a0d"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "interhistin syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "61000",
+  "harga_pokok": "45500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46c6baa7800002e006a0e"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "interhisti tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1300",
+  "harga_pokok": "970",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46c93aa7800002e006a0f"
+  },
+  "kode": "VITAMIN",
+  "nama": "interlac vit-d3",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "15400",
+  "harga_pokok": "11533",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46cb3aa7800002e006a10"
+  },
+  "kode": "VITAMIN",
+  "nama": "interlac probiotik drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "386500",
+  "harga_pokok": "290000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46cd5aa7800002e006a11"
+  },
+  "kode": "VITAMIN",
+  "nama": "interlac sch",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14800",
+  "harga_pokok": "11100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46cecaa7800002e006a12"
+  },
+  "kode": "VITAMIN",
+  "nama": "interlac tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14000",
+  "harga_pokok": "10500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46d10aa7800002e006a13"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "intermoxil 500mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "5900",
+  "harga_pokok": "4365",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46d38aa7800002e006a14"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "intermoxil inj",
+  "supplier": "PT MBS",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "57500",
+  "harga_pokok": "43000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46d75aa7800002e006a15"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "interpec 15",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "70500",
+  "harga_pokok": "52800",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46d99aa7800002e006a16"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "interpec 30",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "76000",
+  "harga_pokok": "56800",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46dcbaa7800002e006a17"
+  },
+  "kode": "VITAMIN",
+  "nama": "interxantin",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "17500",
+  "harga_pokok": "13000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46de3aa7800002e006a18"
+  },
+  "kode": "VITAMIN",
+  "nama": "interzinc tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6400",
+  "harga_pokok": "4750",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46e02aa7800002e006a19"
+  },
+  "kode": "VITAMIN",
+  "nama": "interzinc syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "63500",
+  "harga_pokok": "47500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46e24aa7800002e006a1a"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "interzole cr 5g",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "40000",
+  "harga_pokok": "30000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46e40aa7800002e006a1b"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "interzole tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9500",
+  "harga_pokok": "7100",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46e77aa7800002e006a1c"
+  },
+  "kode": "ANALGESIK",
+  "nama": "intidrol 16mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14200",
+  "harga_pokok": "10650",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46e9eaa7800002e006a1d"
+  },
+  "kode": "ANALGESIK",
+  "nama": "intidrol 4mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6000",
+  "harga_pokok": "4450",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46ebfaa7800002e006a1e"
+  },
+  "kode": "ANALGESIK",
+  "nama": "intidrol inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "190000",
+  "harga_pokok": "142500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46eddaa7800002e006a1f"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "intrizin drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "139000",
+  "harga_pokok": "104000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46efcaa7800002e006a20"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "intrizin syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "99500",
+  "harga_pokok": "74000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46f14aa7800002e006a21"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "intrizin tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "10300",
+  "harga_pokok": "7700",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46f3eaa7800002e006a22"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "invlomit 4 inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "61000",
+  "harga_pokok": "45500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46f5caa7800002e006a23"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "invlomit 8 inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "121500",
+  "harga_pokok": "91000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46f79aa7800002e006a24"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "invlomit 4 tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "26400",
+  "harga_pokok": "19750",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46f97aa7800002e006a25"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "invlomit 8 tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "39000",
+  "harga_pokok": "29250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46fb7aa7800002e006a26"
+  },
+  "kode": "VITAMIN",
+  "nama": "lycalvit syrup 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "62000",
+  "harga_pokok": "46500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46fd6aa7800002e006a27"
+  },
+  "kode": "VITAMIN",
+  "nama": "lycalvit tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "2500",
+  "harga_pokok": "1875",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e46ff0aa7800002e006a28"
+  },
+  "kode": "VITAMIN",
+  "nama": "lyvit syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "60000",
+  "harga_pokok": "45000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4700baa7800002e006a29"
+  },
+  "kode": "ANALGESIK",
+  "nama": "mefinter 500",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3300",
+  "harga_pokok": "2450",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e470cbaa7800002e006a2a"
+  },
+  "kode": "STRETCH MARKS",
+  "nama": "mustela cr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "546500",
+  "harga_pokok": "410000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e470ebaa7800002e006a2b"
+  },
+  "kode": "STRETCH MARKS",
+  "nama": "mustela serum",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "469000",
+  "harga_pokok": "352000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4710caa7800002e006a2c"
+  },
+  "kode": "VITAMIN",
+  "nama": "ossovit syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "111500",
+  "harga_pokok": "83500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47124aa7800002e006a2d"
+  },
+  "kode": "VITAMIN",
+  "nama": "ossovit kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "7600",
+  "harga_pokok": "5675",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47152aa7800002e006a2e"
+  },
+  "kode": "OBAT TELINGA",
+  "nama": "ottopain ear drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "113500",
+  "harga_pokok": "85000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4718aaa7800002e006a2f"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "oxtercid inj",
+  "supplier": "PT MBS",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "136000",
+  "harga_pokok": "102000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e471dfaa7800002e006a30"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "pamol 125 supp",
+  "supplier": "PT MBS",
+  "satuan": "SUPPOSITORIA",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "20500",
+  "harga_pokok": "15250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47204aa7800002e006a31"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "pamol 250 supp",
+  "supplier": "PT MBS",
+  "satuan": "SUPPOSITORIA",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "30000",
+  "harga_pokok": "22500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47226aa7800002e006a32"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "pamol drop",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "71500",
+  "harga_pokok": "53500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47242aa7800002e006a33"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "pamol syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "43000",
+  "harga_pokok": "32000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4725daa7800002e006a34"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "pamol tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "1500",
+  "harga_pokok": "975",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "t001l16",
+      "expired": "01/10/26",
+      "expired_date": {
+        "$date": "2026-01-09T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4729daa7800002e006a35"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "pantopump inj",
+  "supplier": "PT MBS",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "272500",
+  "harga_pokok": "204500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e472e9aa7800002e006a36"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "physiomer baby comfort",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "244000",
+  "harga_pokok": "183000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47314aa7800002e006a37"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "physiomer baby hypertonic",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "212500",
+  "harga_pokok": "159500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47342aa7800002e006a38"
+  },
+  "kode": "VITAMIN",
+  "nama": "prestrenol",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6900",
+  "harga_pokok": "5150",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4737baa7800002e006a39"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "prome expect 100ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "70000",
+  "harga_pokok": "52500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47398aa7800002e006a3a"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "prome expect 60ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "46000",
+  "harga_pokok": "34250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e473bbaa7800002e006a3b"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "promedex syrup ",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "50000",
+  "harga_pokok": "37250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e473dfaa7800002e006a3c"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "promedex tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3000",
+  "harga_pokok": "2200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47447aa7800002e006a3d"
+  },
+  "kode": "VITAMIN",
+  "nama": "promeno",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "15000",
+  "harga_pokok": "11200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e474e6aa7800002e006a3e"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "rycef inj",
+  "supplier": "PT MBS",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "308000",
+  "harga_pokok": "231000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47522aa7800002e006a3f"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "salticin cr 5gr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "43000",
+  "harga_pokok": "32250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e475bfaa7800002e006a40"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "salticin inj",
+  "supplier": "PT MBS",
+  "satuan": "INJEKSI",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "37000",
+  "harga_pokok": "27500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47664aa7800002e006a41"
+  },
+  "kode": "OBAT KULIT",
+  "nama": "sanoskin melladerm plus gel",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "321500",
+  "harga_pokok": "241000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e476aaaa7800002e006a42"
+  },
+  "kode": "OBAT KULIT",
+  "nama": "sanoskin oxy gel",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "536500",
+  "harga_pokok": "402600",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e476eeaa7800002e006a43"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "sedofen 500 caps",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "20000",
+  "harga_pokok": "15000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47738aa7800002e006a44"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "sedrofen forte syr",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "136000",
+  "harga_pokok": "102000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4775aaa7800002e006a45"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "sedrofen syr",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "101500",
+  "harga_pokok": "76000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e477b1aa7800002e006a46"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "spiranter kaps",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12700",
+  "harga_pokok": "9050",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e477ddaa7800002e006a47"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "spirocon kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "38500",
+  "harga_pokok": "28900",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47809aa7800002e006a48"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "starxon inj",
+  "supplier": "PT MBS",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "376000",
+  "harga_pokok": "282000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47836aa7800002e006a49"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "sucralbat susp",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "96000",
+  "harga_pokok": "72000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47870aa7800002e006a4a"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "theobron elixir 100ml",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "67000",
+  "harga_pokok": "50000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47890aa7800002e006a4b"
+  },
+  "kode": "PERNAPASAN",
+  "nama": "theobron kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4300",
+  "harga_pokok": "3200",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e478cbaa7800002e006a4c"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "thiamycin 1000mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12500",
+  "harga_pokok": "9275",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e478f2aa7800002e006a4d"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "thiamyvin 500mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6900",
+  "harga_pokok": "5170",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47916aa7800002e006a4e"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "thiamycin forte syr",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "125500",
+  "harga_pokok": "94000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4794baa7800002e006a4f"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "thiamycin syr",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "74500",
+  "harga_pokok": "55750",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e4797faa7800002e006a50"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "tilidon tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "7500",
+  "harga_pokok": "5620",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47a0caa7800002e006a51"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "tilidon syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "76500",
+  "harga_pokok": "57300",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47a55aa7800002e006a52"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "triamcort tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "5700",
+  "harga_pokok": "4270",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47a89aa7800002e006a53"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "thriamcort-a cr 10gr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "110000",
+  "harga_pokok": "82500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47aa7aa7800002e006a54"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "trifed syrup",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "49000",
+  "harga_pokok": "36500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47ac0aa7800002e006a55"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "trifed tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4500",
+  "harga_pokok": "3050",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47af0aa7800002e006a56"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "urinter kap",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "8500",
+  "harga_pokok": "6180",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47b25aa7800002e006a57"
+  },
+  "kode": "VITAMIN",
+  "nama": "vitazet ",
+  "supplier": "PT MBS",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "322500",
+  "harga_pokok": "242000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47b4baa7800002e006a58"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "xybat tss",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6700",
+  "harga_pokok": "5000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47b78aa7800002e006a59"
+  },
+  "kode": "ANTIVIRUS",
+  "nama": "zoter cr 5gr",
+  "supplier": "PT MBS",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "78000",
+  "harga_pokok": "58500",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47ba6aa7800002e006a5a"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "zycin 500mg",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "71000",
+  "harga_pokok": "53000",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47bc5aa7800002e006a5b"
+  },
+  "kode": "ANTIVIRUS",
+  "nama": "zoter tab",
+  "supplier": "PT MBS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "16500",
+  "harga_pokok": "12250",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47c4faa7800002e006a5c"
+  },
+  "kode": "VAKSIN",
+  "nama": "prevenar (pvc)",
+  "supplier": "PT BINA SAN PRIMA",
+  "satuan": "VIAL",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "900000",
+  "harga_pokok": "800000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "em6434",
+      "expired": "01/05/23",
+      "expired_date": {
+        "$date": "2023-01-04T17:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47c7daa7800002e006a5d"
+  },
+  "kode": "VAKSIN",
+  "nama": "je",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "57000",
+  "harga_pokok": "57000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47cafaa7800002e006a5e"
+  },
+  "kode": "VAKSIN",
+  "nama": "cervarix",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "PFS",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "809500",
+  "harga_pokok": "809500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47cd0aa7800002e006a5f"
+  },
+  "kode": "VAKSIN",
+  "nama": "havrix 720 junior",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "PFS",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "385500",
+  "harga_pokok": "385500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47cf1aa7800002e006a60"
+  },
+  "kode": "VAKSIN",
+  "nama": "pentabio",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "223000",
+  "harga_pokok": "223000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47d0eaa7800002e006a61"
+  },
+  "kode": "VAKSIN",
+  "nama": "pentabio 2,5ml",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "134000",
+  "harga_pokok": "134000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47d34aa7800002e006a62"
+  },
+  "kode": "VAKSIN",
+  "nama": "diptheria nitoxin (ads 10000 ui)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3868500",
+  "harga_pokok": "3868500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47d58aa7800002e006a63"
+  },
+  "kode": "VAKSIN",
+  "nama": "biosat-1.5 (ats 1500 ui)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "227500",
+  "harga_pokok": "227500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47d97aa7800002e006a64"
+  },
+  "kode": "VAKSIN",
+  "nama": "biosave (abu)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1271500",
+  "harga_pokok": "1271500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47db0aa7800002e006a65"
+  },
+  "kode": "VAKSIN",
+  "nama": "serum antibisa ular polivalen ii",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": ""
+  },
+  "harga": "105804090",
+  "harga_pokok": "105804090",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": ""
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47dceaa7800002e006a66"
+  },
+  "kode": "VAKSIN",
+  "nama": "ppd 2ut",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1025700",
+  "harga_pokok": "1025700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47deaaa7800002e006a67"
+  },
+  "kode": "VAKSIN",
+  "nama": "cerviscan hrhpv qpcr",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "180000",
+  "harga_pokok": "180000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47e05aa7800002e006a68"
+  },
+  "kode": "VAKSIN",
+  "nama": "fastbio-rbd",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3000",
+  "harga_pokok": "3000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47e1faa7800002e006a69"
+  },
+  "kode": "VAKSIN",
+  "nama": "typherix pfs",
+  "supplier": "PT BINA SAN PRIMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1",
+  "harga_pokok": "1",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63e47e3baa7800002e006a6a"
+  },
+  "kode": "VAKSIN",
+  "nama": "varilrix vial",
+  "supplier": "PT BINA SAN PRIMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1",
+  "harga_pokok": "1",
+  "tanggal_dibuat": {
+    "$date": "2023-02-08T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64002b12fe7e0000d500252d"
+  },
+  "kode": "BIAYA RESEP",
+  "nama": "resep",
+  "supplier": "INSTALASI FARMASI KLINIK SEHATI",
+  "satuan": "pcs",
+  "stok": {
+    "1": "3",
+    "2": "1000"
+  },
+  "harga": "2000",
+  "harga_pokok": "2000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 0
+    },
+    {
+      "batch": "2",
+      "expired": "10/10/25",
+      "stok": 883
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64002b4cfe7e0000d500252e"
+  },
+  "kode": "BIAYA RESEP",
+  "nama": "racikan puyer",
+  "supplier": "INSTALASI FARMASI KLINIK SEHATI",
+  "satuan": "pcs",
+  "stok": {
+    "2": "1000"
+  },
+  "harga": "150",
+  "harga_pokok": "150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 25
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64002bbefe7e0000d500252f"
+  },
+  "kode": "BIAYA RESEP",
+  "nama": "racikan kapsul",
+  "supplier": "INSTALASI FARMASI KLINIK SEHATI",
+  "satuan": "pcs",
+  "stok": {
+    "1": "1000"
+  },
+  "harga": "200",
+  "harga_pokok": "200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-01T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 905
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014bca625b000056001f85"
+  },
+  "kode": "VITAMIN",
+  "nama": "alostop",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3700",
+  "harga_pokok": "2750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014c9f625b000056001f86"
+  },
+  "kode": "VITAMIN",
+  "nama": "astina 4",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9500",
+  "harga_pokok": "7000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014cd9625b000056001f87"
+  },
+  "kode": "VITAMIN",
+  "nama": "astina 6",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12000",
+  "harga_pokok": "9000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014d27625b000056001f88"
+  },
+  "kode": "VITAMIN",
+  "nama": "bonesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "6500",
+  "harga_pokok": "4750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014d5f625b000056001f89"
+  },
+  "kode": "VITAMIN",
+  "nama": "diosete",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "STRIP",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14700",
+  "harga_pokok": "11000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014da8625b000056001f8a"
+  },
+  "kode": "VITAMIN",
+  "nama": "dipa c",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1500",
+  "harga_pokok": "1100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014deb625b000056001f8b"
+  },
+  "kode": "VITAMIN",
+  "nama": "dipa c",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "1500",
+  "harga_pokok": "1100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014e24625b000056001f8c"
+  },
+  "kode": "VITAMIN",
+  "nama": "escovit",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12500",
+  "harga_pokok": "9250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014e8b625b000056001f8d"
+  },
+  "kode": "VITAMIN",
+  "nama": "esfolat",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4000",
+  "harga_pokok": "2880",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014ec6625b000056001f8e"
+  },
+  "kode": "VITAMIN",
+  "nama": "eturol",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "7500",
+  "harga_pokok": "5500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014ef7625b000056001f8f"
+  },
+  "kode": "VITAMIN",
+  "nama": "fetavita",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "11000",
+  "harga_pokok": "8250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64014f77625b000056001f90"
+  },
+  "kode": "VITAMIN",
+  "nama": "fibrinase",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "19500",
+  "harga_pokok": "14500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640165c2625b000056001f94"
+  },
+  "kode": "VITAMIN",
+  "nama": "hepa balance",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "16700",
+  "harga_pokok": "12500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016649625b000056001f95"
+  },
+  "kode": "VITAMIN",
+  "nama": "imesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "7700",
+  "harga_pokok": "5750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640166b1625b000056001f96"
+  },
+  "kode": "VITAMIN",
+  "nama": "krili",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "12000",
+  "harga_pokok": "9000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640166eb625b000056001f97"
+  },
+  "kode": "VITAMIN",
+  "nama": "lipesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9500",
+  "harga_pokok": "7000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016716625b000056001f98"
+  },
+  "kode": "VITAMIN",
+  "nama": "slimesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9700",
+  "harga_pokok": "8000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016753625b000056001f99"
+  },
+  "kode": "VITAMIN",
+  "nama": "tonicard",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "22000",
+  "harga_pokok": "16500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016785625b000056001f9b"
+  },
+  "kode": "VITAMIN",
+  "nama": "tride",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "2700",
+  "harga_pokok": "2000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640167dd625b000056001f9c"
+  },
+  "kode": "VITAMIN",
+  "nama": "trobesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "9000",
+  "harga_pokok": "6750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016811625b000056001f9d"
+  },
+  "kode": "VITAMIN",
+  "nama": "ubesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14000",
+  "harga_pokok": "10500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016846625b000056001f9e"
+  },
+  "kode": "VITAMIN",
+  "nama": "vitafol",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3500",
+  "harga_pokok": "2500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016c2b625b000056001f9f"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "avesco 10mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "5600",
+  "harga_pokok": "4200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016c5e625b000056001fa0"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "avesco 20mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "8600",
+  "harga_pokok": "6400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016c93625b000056001fa1"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "avesco 40mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "13600",
+  "harga_pokok": "10200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016ce2625b000056001fa2"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "ciprazol",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "20000",
+  "harga_pokok": "15000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016d7e625b000056001fa3"
+  },
+  "kode": "ANALGESIK",
+  "nama": "dipasolon",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "4000",
+  "harga_pokok": "3000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016dd9625b000056001fa4"
+  },
+  "kode": "VITAMIN",
+  "nama": "dipthen",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "16000",
+  "harga_pokok": "11850",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016e16625b000056001fa5"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "domesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "3700",
+  "harga_pokok": "2750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016e70625b000056001fa6"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "fibesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "20000",
+  "harga_pokok": "15000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016ef0625b000056001fa7"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "fexoven od",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "5700",
+  "harga_pokok": "4250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016f63625b000056001fa8"
+  },
+  "kode": "ANTIKANKER",
+  "nama": "femaplex",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "22500",
+  "harga_pokok": "16666",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64016fba625b000056001fa9"
+  },
+  "kode": "ANALGESIK",
+  "nama": "gabesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "14700",
+  "harga_pokok": "11000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401703b625b000056001faa"
+  },
+  "kode": "SITOTOKSIS",
+  "nama": "hepamed",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "20000",
+  "harga_pokok": "15000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017096625b000056001fab"
+  },
+  "kode": "VITAMIN",
+  "nama": "hyper rho",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3223500",
+  "harga_pokok": "2420000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640170cd625b000056001fac"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "inflesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401710c625b000056001fad"
+  },
+  "kode": "ANTIHIPERTENSI",
+  "nama": "miniten",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "7000",
+  "harga_pokok": "5250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017146625b000056001fae"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "ondesco tab 8mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 10
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640171b0625b000056001faf"
+  },
+  "kode": "JANTUNG",
+  "nama": "plavesco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "50"
+  },
+  "harga": "22000",
+  "harga_pokok": "16500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "50"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640171e3625b000056001fb0"
+  },
+  "kode": "ANALGESIK",
+  "nama": "puresco",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "4500",
+  "harga_pokok": "3250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401721a625b000056001fb1"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "suvesco 10mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "8500",
+  "harga_pokok": "6250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017249625b000056001fb2"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "suvesco 20mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "2": "20"
+  },
+  "harga": "14000",
+  "harga_pokok": "10500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401727e625b000056001fb3"
+  },
+  "kode": "KOLESTEROL",
+  "nama": "suvesco 40mg",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "21700",
+  "harga_pokok": "16250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640172b2625b000056001fb4"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "zithrolan ",
+  "supplier": "PT PENTA VALEN",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "38000",
+  "harga_pokok": "28500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017727625b000056001fb6"
+  },
+  "kode": "VAKSIN",
+  "nama": "bcg",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "AMP",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "17300",
+  "harga_pokok": "17300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017759625b000056001fb7"
+  },
+  "kode": "VAKSIN",
+  "nama": "bio td",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "AMP",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "92400",
+  "harga_pokok": "92400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401778f625b000056001fb8"
+  },
+  "kode": "VAKSIN",
+  "nama": "tetanus (tt)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "14700",
+  "harga_pokok": "14700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640177bf625b000056001fb9"
+  },
+  "kode": "VAKSIN",
+  "nama": "bio tt",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "AMP",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "48400",
+  "harga_pokok": "48400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6401785e625b000056001fba"
+  },
+  "kode": "VAKSIN",
+  "nama": "difteri tetanus (dt)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "15600",
+  "harga_pokok": "15600",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017926625b000056001fbb"
+  },
+  "kode": "VAKSIN",
+  "nama": "tetanus difteri (td)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "16200",
+  "harga_pokok": "16200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017946625b000056001fbc"
+  },
+  "kode": "VAKSIN",
+  "nama": "menivax",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "168000",
+  "harga_pokok": "168000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017994625b000056001fbd"
+  },
+  "kode": "VAKSIN",
+  "nama": "polio (sabin) bivalen (bopv)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "10500",
+  "harga_pokok": "10500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017a50625b000056001fbf"
+  },
+  "kode": "VAKSIN",
+  "nama": "inactivated polio vaccine (ipv)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "20500",
+  "harga_pokok": "20500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017aa9625b000056001fc0"
+  },
+  "kode": "VAKSIN",
+  "nama": "campak",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "10500",
+  "harga_pokok": "10500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017ae6625b000056001fc1"
+  },
+  "kode": "VAKSIN",
+  "nama": "hepatitis b rekombinan uniject (dws)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "POUCH",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "100700",
+  "harga_pokok": "100700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017b14625b000056001fc2"
+  },
+  "kode": "VAKSIN",
+  "nama": "hepatitis b rekombinan uniject (anak)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "POUCH",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "100700",
+  "harga_pokok": "100700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017b36625b000056001fc3"
+  },
+  "kode": "VAKSIN",
+  "nama": "flubio",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "100700",
+  "harga_pokok": "100700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017de3625b000056001fc4"
+  },
+  "kode": "VAKSIN",
+  "nama": "measles rubella (mr)",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "70000",
+  "harga_pokok": "70000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-02T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64017e05625b000056001fc5"
+  },
+  "kode": "VAKSIN",
+  "nama": "varicella",
+  "supplier": "PT. KIMIA FARMA",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "480500",
+  "harga_pokok": "480500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-03T06:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640469c95239000024003c39"
+  },
+  "kode": "VITAMIN",
+  "nama": "maltofer fol chew",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "24"
+  },
+  "harga": "5000",
+  "harga_pokok": "3600",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "21k032",
+      "expired": "01/10/27",
+      "stok": 19
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046ab45239000024003c3b"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "pyrazinamid kf",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "750",
+  "harga_pokok": "550",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "i11309b",
+      "expired": "01/08/26",
+      "expired_date": {
+        "$date": "2026-01-07T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046b265239000024003c3c"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "rifampicin 450mg kf",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "102"
+  },
+  "harga": "3500",
+  "harga_pokok": "2400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "g21236j",
+      "expired": "01/07/26",
+      "expired_date": {
+        "$date": "2026-01-06T17:00:00Z"
+      },
+      "stok": "102"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046b695239000024003c3d"
+  },
+  "kode": "OTC",
+  "nama": "sirplus",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "240"
+  },
+  "harga": "350",
+  "harga_pokok": "350",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a3a8g8",
+      "expired": "01/01/26",
+      "stok": 196
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046bb15239000024003c3e"
+  },
+  "kode": "blank",
+  "nama": "blank",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "0"
+  },
+  "harga": "1",
+  "harga_pokok": "1",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "",
+      "expired": "",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046c055239000024003c3f"
+  },
+  "kode": "VITAMIN",
+  "nama": "vitamin b12 ipi",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "204"
+  },
+  "harga": "200",
+  "harga_pokok": "100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2011200",
+      "expired": "01/12/24",
+      "stok": 133
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046c3a5239000024003c40"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "amoxsan drop ",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "2"
+  },
+  "harga": "37000",
+  "harga_pokok": "27500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cbg891",
+      "expired": "01/04/24",
+      "expired_date": {
+        "$date": "2024-01-03T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046d545239000024003c42"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "claneksi ds syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "88000",
+  "harga_pokok": "66000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cj4034",
+      "expired": "01/09/24",
+      "expired_date": {
+        "$date": "2024-01-08T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046da95239000024003c43"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "sanprima syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "43500",
+  "harga_pokok": "32500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ba1675",
+      "expired": "01/01/23",
+      "expired_date": {
+        "$date": "2022-12-31T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046e2c5239000024003c44"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "betason-n 5gr cr",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "3"
+  },
+  "harga": "18000",
+  "harga_pokok": "13400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "l13641w",
+      "expired": "01/12/24",
+      "stok": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046e775239000024003c45"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "genoint sk",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "6500",
+  "harga_pokok": "4800",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "o.17572",
+      "expired": "01/08/24",
+      "expired_date": {
+        "$date": "2024-01-07T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046eb75239000024003c46"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "mupirocin 10gr cr",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "47500",
+  "harga_pokok": "35500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ega263",
+      "expired": "01/01/25",
+      "expired_date": {
+        "$date": "2024-12-31T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64046f195239000024003c47"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "azithromycin 500mg kf",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "29"
+  },
+  "harga": "3500",
+  "harga_pokok": "2500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "112922j",
+      "expired": "01/09/26",
+      "stok": 9
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640471245239000024003c48"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "cefixime tab 100mg dexa",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "115"
+  },
+  "harga": "950",
+  "harga_pokok": "710",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "53g1047",
+      "expired": "01/06/25",
+      "stok": 89
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6404735d5239000024003c49"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "clindamycin 300mg novel",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "115"
+  },
+  "harga": "2000",
+  "harga_pokok": "1500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "eff054",
+      "expired": "01/06/24",
+      "expired_date": {
+        "$date": "2024-01-05T17:00:00Z"
+      },
+      "stok": "115"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640474085239000024003c4a"
+  },
+  "kode": "KONTRASEPSI",
+  "nama": "cyclo-progynova tab",
+  "supplier": "ASIA",
+  "satuan": "STRIP",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "272000",
+  "harga_pokok": "204000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "wfv435",
+      "expired": "01/09/24",
+      "expired_date": {
+        "$date": "2024-01-08T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6404978c5239000024003c4b"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "doxycycline 100mg kf",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "1100",
+  "harga_pokok": "800",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "g21305j",
+      "expired": "01/07/27",
+      "expired_date": {
+        "$date": "2027-01-06T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640497d95239000024003c4c"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "lapicef 500 tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "18500",
+  "harga_pokok": "13700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "91062",
+      "expired": "01/10/27",
+      "expired_date": {
+        "$date": "2027-01-09T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640498505239000024003c4d"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "metronidazole 500mg fm ",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "115"
+  },
+  "harga": "500",
+  "harga_pokok": "255",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "036423",
+      "expired": "01/11/26",
+      "expired_date": {
+        "$date": "2026-01-10T17:00:00Z"
+      },
+      "stok": "115"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640499295239000024003c4e"
+  },
+  "kode": "VITAMIN",
+  "nama": "norestil tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "32"
+  },
+  "harga": "6500",
+  "harga_pokok": "4700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2210138",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "32"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049a2b5239000024003c4f"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "paracetamol tab 500 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "200"
+  },
+  "harga": "250",
+  "harga_pokok": "180",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2172320",
+      "expired": "01/05/25",
+      "expired_date": {
+        "$date": "2025-01-04T17:00:00Z"
+      },
+      "stok": "200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049a6b5239000024003c50"
+  },
+  "kode": "VITAMIN",
+  "nama": "prestrenol tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "50"
+  },
+  "harga": "8500",
+  "harga_pokok": "6100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "t103l00",
+      "expired": "01/01/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049b1c5239000024003c51"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "dexaharsen 0,5mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "210"
+  },
+  "harga": "350",
+  "harga_pokok": "170",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2083115",
+      "expired": "01/04/26",
+      "stok": 117
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049b855239000024003c52"
+  },
+  "kode": "ANALGESIK",
+  "nama": "diclofenac sodium 50mg novel",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "500",
+  "harga_pokok": "350",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "efl037",
+      "expired": "01/12/25",
+      "expired_date": {
+        "$date": "2025-01-11T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049bda5239000024003c53"
+  },
+  "kode": "ANTIHIPERTENSI",
+  "nama": "dopamet 250mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3500",
+  "harga_pokok": "2350",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "6234410",
+      "expired": "01/04/25",
+      "expired_date": {
+        "$date": "2025-01-03T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049cbf5239000024003c54"
+  },
+  "kode": "ANTIHIPERTENSI",
+  "nama": "nifedipine dexa",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "250",
+  "harga_pokok": "175",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "53j4191",
+      "expired": "01/09/26",
+      "expired_date": {
+        "$date": "2026-01-08T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049d025239000024003c55"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "omeprazole nova",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "400",
+  "harga_pokok": "290",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2212012",
+      "expired": "01/12/24",
+      "stok": 70
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049da55239000024003c56"
+  },
+  "kode": "ANALGESIK",
+  "nama": "tofedex",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "12000",
+  "harga_pokok": "8900",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "u5062",
+      "expired": "01/04/24",
+      "stok": 10
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049dde5239000024003c57"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "tremenza tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "120"
+  },
+  "harga": "2500",
+  "harga_pokok": "1850",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ck2341",
+      "expired": "01/10/25",
+      "stok": 44
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049e195239000024003c58"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "sanadryl exp 60ml",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "18500",
+  "harga_pokok": "13750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cc9716",
+      "expired": "01/03/24",
+      "expired_date": {
+        "$date": "2024-01-02T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049e905239000024003c59"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "betason-n 5gr cr",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "18000",
+  "harga_pokok": "13400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "l13641w",
+      "expired": "01/12/24",
+      "expired_date": {
+        "$date": "2024-01-11T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049ec15239000024003c5a"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "gentamicin mutifa 5gr cr",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "4500",
+  "harga_pokok": "3100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2h17",
+      "expired": "01/08/24",
+      "stok": 9
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049efe5239000024003c5b"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "miconazole 2% cr 10gr muti",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "5000",
+  "harga_pokok": "3400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2n05",
+      "expired": "01/11/24",
+      "stok": 4
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049f495239000024003c5c"
+  },
+  "kode": "ANTIDIABETES",
+  "nama": "metformin 500mg hexp",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "200"
+  },
+  "harga": "300",
+  "harga_pokok": "190",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "htmfnb",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049f825239000024003c5d"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "lactulax syr 60ml",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "3"
+  },
+  "harga": "74500",
+  "harga_pokok": "56000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "l2201ga",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "3"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64049fcb5239000024003c5e"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "laxadine emulsi 60ml",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "67500",
+  "harga_pokok": "50500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-04T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "022005",
+      "expired": "01/11/24",
+      "expired_date": {
+        "$date": "2024-01-10T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053af55239000024003c68"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "sucralfate syrup",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "19000",
+  "harga_pokok": "14000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "54a4231",
+      "expired": "01/12/24",
+      "stok": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053bfd5239000024003c6a"
+  },
+  "kode": "TENSI",
+  "nama": "amlodipine 10 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "700",
+  "harga_pokok": "460",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "talnf25",
+      "expired": "01/08/24",
+      "expired_date": {
+        "$date": "2024-01-07T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053c515239000024003c6d"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "borraginol n supp",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "5"
+  },
+  "harga": "18000",
+  "harga_pokok": "13300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1220230",
+      "expired": "01/01/25",
+      "expired_date": {
+        "$date": "2024-12-31T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053c8c5239000024003c6e"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "borraginol s supp",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "21500",
+  "harga_pokok": "16000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1219269",
+      "expired": "01/12/24",
+      "expired_date": {
+        "$date": "2024-01-11T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053ce05239000024003c6f"
+  },
+  "kode": "TENSI",
+  "nama": "amlodipine 5 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "400",
+  "harga_pokok": "260",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "talne24",
+      "expired": "01/07/24",
+      "expired_date": {
+        "$date": "2024-01-06T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053d505239000024003c70"
+  },
+  "kode": "NSAID",
+  "nama": "diklofenak sodium 50mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "500",
+  "harga_pokok": "350",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "efl037",
+      "expired": "01/12/25",
+      "expired_date": {
+        "$date": "2025-01-11T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053dd05239000024003c71"
+  },
+  "kode": "TENSI",
+  "nama": "furosemid ",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "300",
+  "harga_pokok": "170",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "042023",
+      "expired": "01/12/24",
+      "expired_date": {
+        "$date": "2024-01-11T17:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64053e435239000024003c72"
+  },
+  "kode": "TENSI",
+  "nama": "lisinopril 5 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "600",
+  "harga_pokok": "400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "eff025",
+      "expired": "01/06/24",
+      "expired_date": {
+        "$date": "2024-01-05T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64054c465239000024003c7a"
+  },
+  "kode": "TENSI",
+  "nama": "lisinopril 10 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "900",
+  "harga_pokok": "650",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "efj045",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64054c975239000024003c7b"
+  },
+  "kode": "TENSI",
+  "nama": "propanolol 10 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "200",
+  "harga_pokok": "110",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "53g0344",
+      "expired": "01/07/27",
+      "expired_date": {
+        "$date": "2027-01-06T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64054db85239000024003c7c"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "sanmol tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "40"
+  },
+  "harga": "700",
+  "harga_pokok": "490",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ch8318",
+      "expired": "01/08/24",
+      "expired_date": {
+        "$date": "2024-01-07T17:00:00Z"
+      },
+      "stok": "40"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64054f2f5239000024003c7d"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "salbutamol 4 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "210"
+  },
+  "harga": "250",
+  "harga_pokok": "130",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a083331",
+      "expired": "01/09/26",
+      "stok": 118
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640550165239000024003c7f"
+  },
+  "kode": "",
+  "nama": "spironolacton 25 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "10"
+  },
+  "harga": "700",
+  "harga_pokok": "490",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "22e0686",
+      "expired": "01/05/25",
+      "expired_date": {
+        "$date": "2025-01-04T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640551b55239000024003c81"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "breathy nasal",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "4"
+  },
+  "harga": "59500",
+  "harga_pokok": "44500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24i483",
+      "expired": "01/09/27",
+      "expired_date": {
+        "$date": "2027-01-08T17:00:00Z"
+      },
+      "stok": "4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640552a05239000024003c83"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "zelofen 4 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "700",
+  "harga_pokok": "600",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640557ed5239000024003c84"
+  },
+  "kode": "NSAID",
+  "nama": "bufect susp",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "4"
+  },
+  "harga": "25000",
+  "harga_pokok": "18500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ck1663",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640558605239000024003c85"
+  },
+  "kode": "ANTIVIRUS",
+  "nama": "isprinol syrup",
+  "supplier": "PT KALISTA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "5"
+  },
+  "harga": "100000",
+  "harga_pokok": "75000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24ff492",
+      "expired": "01/07/25",
+      "stok": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405588f5239000024003c86"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "sanmol syrup",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "7"
+  },
+  "harga": "25000",
+  "harga_pokok": "18750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cg9796",
+      "expired": "01/07/24",
+      "expired_date": {
+        "$date": "2024-01-06T17:00:00Z"
+      },
+      "stok": "7"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640559155239000024003c87"
+  },
+  "kode": "ANTI KEJANG",
+  "nama": "valproic acid",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "65500",
+  "harga_pokok": "49000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24k371",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405597f5239000024003c88"
+  },
+  "kode": "ANTI KEJANG",
+  "nama": "vellepsy syrup",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "120000",
+  "harga_pokok": "90000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24f022",
+      "expired": "01/05/24",
+      "expired_date": {
+        "$date": "2024-01-04T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640559cd5239000024003c89"
+  },
+  "kode": "ANTIVIRUS",
+  "nama": "acyclovyr 5% cream",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "2": "8"
+  },
+  "harga": "6000",
+  "harga_pokok": "4500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "5630501",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "8"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64055a455239000024003c8a"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "cetirizine 10 mg tablet",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "117"
+  },
+  "harga": "500",
+  "harga_pokok": "360",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "aj3891",
+      "expired": "01/04/25",
+      "expired_date": {
+        "$date": "2025-01-03T17:00:00Z"
+      },
+      "stok": "117"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64055bcd5239000024003c8b"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "ranitidine 150 mg tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "300",
+  "harga_pokok": "165",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a21539",
+      "expired": "01/08/25",
+      "expired_date": {
+        "$date": "2025-01-07T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64055d1f5239000024003c8d"
+  },
+  "kode": "ANTI ALERGI",
+  "nama": "ctm ",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "100"
+  },
+  "harga": "100",
+  "harga_pokok": "80",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2030920",
+      "expired": "01/08/25",
+      "stok": 25
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64055d5a5239000024003c8e"
+  },
+  "kode": "ANTI MUAL",
+  "nama": "domperidone tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "300",
+  "harga_pokok": "180",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "t.36220",
+      "expired": "01/10/26",
+      "expired_date": {
+        "$date": "2026-01-09T17:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640561c55239000024003c90"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "pronicy 4 mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "111"
+  },
+  "harga": "400",
+  "harga_pokok": "285",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0f24200",
+      "expired": "01/07/24",
+      "stok": 91
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640562015239000024003c91"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "lactulose syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "45500",
+  "harga_pokok": "34000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "efg137",
+      "expired": "01/07/24",
+      "expired_date": {
+        "$date": "2024-01-06T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640562555239000024003c92"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "nystatin susp",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "2"
+  },
+  "harga": "32000",
+  "harga_pokok": "24000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24l873",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640562e95239000024003c94"
+  },
+  "kode": "ANTI ALERGI",
+  "nama": "elox krim 5 gr",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "2": "3"
+  },
+  "harga": "76000",
+  "harga_pokok": "57000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2206078",
+      "expired": "01/06/25",
+      "stok": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640563205239000024003c95"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "microlax",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "2": "5"
+  },
+  "harga": "27500",
+  "harga_pokok": "20500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "d2k473d",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640563515239000024003c97"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "myco z",
+  "supplier": "ASIA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "136000",
+  "harga_pokok": "102000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2h4251",
+      "expired": "01/08/25",
+      "expired_date": {
+        "$date": "2025-01-07T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640563865239000024003c98"
+  },
+  "kode": "ANTIJAMUR",
+  "nama": "myconazole",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "5500",
+  "harga_pokok": "4100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "123048n",
+      "expired": "01/09/25",
+      "expired_date": {
+        "$date": "2025-01-08T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640563b65239000024003c99"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "l-bio",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "85"
+  },
+  "harga": "14000",
+  "harga_pokok": "10200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "o0a92",
+      "expired": "01/10/24",
+      "stok": 73
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640564005239000024003c9b"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "lasal nebu 2.5ml",
+  "supplier": "ASIA",
+  "satuan": "VIAL",
+  "stok": {
+    "2": "26"
+  },
+  "harga": "18000",
+  "harga_pokok": "13250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "232116",
+      "expired": "01/09/25",
+      "expired_date": {
+        "$date": "2025-01-08T17:00:00Z"
+      },
+      "stok": "26"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405c3a05239000024003cb5"
+  },
+  "kode": "VITAMIN",
+  "nama": "vit d",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "60"
+  },
+  "harga": "2000",
+  "harga_pokok": "1500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "f.3356002",
+      "expired": "01/03/23",
+      "stok": 20
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405cb295239000024003cbf"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "ziloven",
+  "supplier": "KARYA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "200"
+  },
+  "harga": "1000",
+  "harga_pokok": "600",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0227",
+      "expired": "31/07/2026",
+      "stok": 145
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405daa35239000024003cc6"
+  },
+  "kode": "VITAMIN",
+  "nama": "urdahex",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "pcs",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "21500",
+  "harga_pokok": "16000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405db4e5239000024003cc8"
+  },
+  "kode": "VITAMIN",
+  "nama": "santa-e",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "2": "50"
+  },
+  "harga": "15500",
+  "harga_pokok": "11500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ca2096",
+      "expired": "01/01/24",
+      "stok": 36
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405dbc15239000024003cc9"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "cerini syr",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "73500",
+  "harga_pokok": "55000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ck9725",
+      "expired": "01/10/24",
+      "stok": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405e2ad5239000024003ccc"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "salbutamol 2mg",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "205"
+  },
+  "harga": "200",
+  "harga_pokok": "150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a08230k",
+      "expired": "01/11/25",
+      "stok": 162
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405e7b55239000024003ccd"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "ondansetron 4mg otto",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "119"
+  },
+  "harga": "2000",
+  "harga_pokok": "1300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "22g0742",
+      "expired": "01/07/24",
+      "stok": 89
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6405fc865239000024003cd1"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "alleron",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "50"
+  },
+  "harga": "200",
+  "harga_pokok": "150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-05T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0110264",
+      "expired": "01/10/27",
+      "stok": 43
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406896e9c7e000019006e33"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "cetirizine syrup",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "5122168",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640689cf9c7e000019006e34"
+  },
+  "kode": "ANTI ALERGI",
+  "nama": "lerzin syrup",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "8000",
+  "harga_pokok": "6000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "20528",
+      "expired": "01/08/26",
+      "expired_date": {
+        "$date": "2026-01-07T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068a609c7e000019006e35"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "yusimox syr",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "3"
+  },
+  "harga": "8000",
+  "harga_pokok": "6000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "25929",
+      "expired": "01/10/25",
+      "expired_date": {
+        "$date": "2025-01-09T17:00:00Z"
+      },
+      "stok": "3"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068a939c7e000019006e36"
+  },
+  "kode": "ANTIPIRETIK",
+  "nama": "sanmol drop",
+  "supplier": "KARYA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "12"
+  },
+  "harga": "27500",
+  "harga_pokok": "20500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "cg1635",
+      "expired": "01/07/24",
+      "stok": 8
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068b509c7e000019006e37"
+  },
+  "kode": "VITAMIN",
+  "nama": "vitamin b6",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "200",
+  "harga_pokok": "150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2212082",
+      "expired": "01/12/25",
+      "expired_date": {
+        "$date": "2025-01-11T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068c079c7e000019006e38"
+  },
+  "kode": "ANTIVIRUS",
+  "nama": "acyclovir tab 200 mg",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "50"
+  },
+  "harga": "950",
+  "harga_pokok": "700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "56303004",
+      "expired": "01/08/24",
+      "expired_date": {
+        "$date": "2024-01-07T17:00:00Z"
+      },
+      "stok": "50"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068cce9c7e000019006e39"
+  },
+  "kode": "ANTI KEJANG",
+  "nama": "phenytoin",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "1000",
+  "harga_pokok": "750",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "j220070",
+      "expired": "14/09/24",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068d2e9c7e000019006e3a"
+  },
+  "kode": "ANTI KEJANG ",
+  "nama": "bamgetol",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3800",
+  "harga_pokok": "2850",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "a21878",
+      "expired": "01/09/24",
+      "expired_date": {
+        "$date": "2024-01-08T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068eff9c7e000019006e3b"
+  },
+  "kode": "ANTIRADANG",
+  "nama": "inflason",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "400",
+  "harga_pokok": "300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "bre021013",
+      "expired": "01/02/23",
+      "stok": 18
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64068f829c7e000019006e3c"
+  },
+  "kode": "EXPEKTORAN",
+  "nama": "epexol",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "1600",
+  "harga_pokok": "1200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ck2368",
+      "expired": "14/09/24",
+      "expired_date": {
+        "$date": "1970-01-01T00:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406902d9c7e000019006e3e"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "combivent",
+  "supplier": "MAISUNNAH",
+  "satuan": "VIAL",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "16000",
+  "harga_pokok": "12000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2984208",
+      "expired": "01/10/24",
+      "stok": 14
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406a2609c7e000019006e43"
+  },
+  "kode": "ANTIDIARE",
+  "nama": "zinc",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "2": "40"
+  },
+  "harga": "1000",
+  "harga_pokok": "700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "21tj009",
+      "expired": "01/09/23",
+      "stok": 25
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406ae889c7e000019006e48"
+  },
+  "kode": "",
+  "nama": "risperidone",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "3000",
+  "harga_pokok": "2500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "24/12/2024",
+      "stok": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406c1b89c7e000019006e4e"
+  },
+  "kode": "ANTIDIARE",
+  "nama": "inamid",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "20"
+  },
+  "harga": "250",
+  "harga_pokok": "200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2040021",
+      "expired": "01/08/24",
+      "expired_date": {
+        "$date": "2024-01-07T17:00:00Z"
+      },
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406c2189c7e000019006e4f"
+  },
+  "kode": "ANTIDIARE",
+  "nama": "diatabs",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "40"
+  },
+  "harga": "1000",
+  "harga_pokok": "875",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "22228002",
+      "expired": "01/09/25",
+      "stok": 36
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6406c2ca9c7e000019006e50"
+  },
+  "kode": "ANTIALERGI",
+  "nama": "orphen 4 mg",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "150",
+  "harga_pokok": "100",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "toy108",
+      "expired": "01/10/26",
+      "stok": 16
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640702449c7e000019006e62"
+  },
+  "kode": "ANTIBIOTIK",
+  "nama": "helixim syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "2": "11"
+  },
+  "harga": "13600",
+  "harga_pokok": "10200",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24731",
+      "expired": "01/11/24",
+      "stok": 4
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640705d69c7e000019006e63"
+  },
+  "kode": "VITAMIN",
+  "nama": "zink tab",
+  "supplier": "KARYA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "194"
+  },
+  "harga": "400",
+  "harga_pokok": "300",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2110133",
+      "expired": "01/10/23",
+      "stok": 154
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64070a879c7e000019006e67"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "ctm los zenith",
+  "supplier": "KARYA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "200",
+  "harga_pokok": "150",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0070920",
+      "expired": "01/09/26",
+      "stok": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64070cf49c7e000019006e6c"
+  },
+  "kode": "VITAMIN",
+  "nama": "asam urso 250 promed",
+  "supplier": "KARYA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "7500",
+  "harga_pokok": "5400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2602210",
+      "expired": "01/09/24",
+      "stok": 27
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64070d499c7e000019006e6d"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "odr 4mg syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "176000",
+  "harga_pokok": "132000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "x8212",
+      "expired": "01/09/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640723b19c7e000019006e7a"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "alletrol eye drop",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "19000",
+  "harga_pokok": "14000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-06T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "d.20560",
+      "expired": "01/09/23",
+      "stok": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640882099c7e000019006ec9"
+  },
+  "kode": "PENDARAHAN",
+  "nama": "asam tranexamat",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "3000",
+  "harga_pokok": "2000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-07T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "kttaca2",
+      "expired": "01/11/24",
+      "stok": 55
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640883739c7e000019006eca"
+  },
+  "kode": "OVULA",
+  "nama": "flagystatin vag",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "26"
+  },
+  "harga": "29500",
+  "harga_pokok": "22000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2dn120",
+      "expired": "01/11/25",
+      "expired_date": {
+        "$date": "2025-01-10T17:00:00Z"
+      },
+      "stok": "26"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6409a0a1720e0000c30054a7"
+  },
+  "kode": "ANTIHIPERTENSI",
+  "nama": "aspilet tab",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "200"
+  },
+  "harga": "1000",
+  "harga_pokok": "690",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2218170",
+      "expired": "01/01/25",
+      "stok": 130
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6409a505720e0000c30054a8"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "prednison",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "500",
+  "harga_pokok": "250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "0280820",
+      "expired": "01/08/26",
+      "expired_date": {
+        "$date": "2026-01-07T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6409a85e720e0000c30054ac"
+  },
+  "kode": "ALKES",
+  "nama": "ultrasonic gel 250 ml",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "4"
+  },
+  "harga": "15500",
+  "harga_pokok": "15500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "4"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6409a962720e0000c30054ae"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "maxbiotix",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "450"
+  },
+  "harga": "11500",
+  "harga_pokok": "8325",
+  "tanggal_dibuat": {
+    "$date": "2023-03-08T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "mb2j11",
+      "expired": "01/10/24",
+      "stok": 382
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640a93b8d2200000d20015e4"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "rymont granul sachet",
+  "supplier": "PT KALISTA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "140"
+  },
+  "harga": "9500",
+  "harga_pokok": "7000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24m183",
+      "expired": "01/11/24",
+      "stok": 130
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640aee24d2200000d2001606"
+  },
+  "kode": "VITAMIN",
+  "nama": "folavit 400",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "1500",
+  "harga_pokok": "1125",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "ck8031",
+      "expired": "01/10/24",
+      "stok": 65
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af08dd2200000d2001607"
+  },
+  "kode": "BATUK PILEK",
+  "nama": "trilac 4mg",
+  "supplier": "PUSPA",
+  "satuan": "pcs",
+  "stok": {
+    "2": "10"
+  },
+  "harga": "6200",
+  "harga_pokok": "4600",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "stok": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af11dd2200000d200160a"
+  },
+  "kode": "ALKES",
+  "nama": "underpad",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "30"
+  },
+  "harga": "4200",
+  "harga_pokok": "3153",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "30"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af15ad2200000d200160b"
+  },
+  "kode": "ALKES",
+  "nama": "handscond steril 7,5 maxter",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "9000",
+  "harga_pokok": "6757",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "stok": 4
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af1a9d2200000d200160c"
+  },
+  "kode": "ALKES",
+  "nama": "kasa steril threemed",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "10"
+  },
+  "harga": "3000",
+  "harga_pokok": "1982",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "10"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af1fed2200000d200160d"
+  },
+  "kode": "ALKES",
+  "nama": "plesterin bulat pe",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "200"
+  },
+  "harga": "350",
+  "harga_pokok": "225",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af24fd2200000d200160e"
+  },
+  "kode": "ALKES",
+  "nama": "alkoholswab",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "200"
+  },
+  "harga": "200",
+  "harga_pokok": "135",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af27dd2200000d200160f"
+  },
+  "kode": "ALKES",
+  "nama": "masker nebul anak",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "24000",
+  "harga_pokok": "18018",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640af2a3d2200000d2001611"
+  },
+  "kode": "ALKES",
+  "nama": "h202 3% 100ml",
+  "supplier": "INDOPRIMA MEDIKA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "5656",
+  "harga_pokok": "5656",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/01/24",
+      "expired_date": {
+        "$date": "2023-12-31T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640b1cfed2200000d200162a"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "ranivel syr",
+  "supplier": "ASIA",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "96000",
+  "harga_pokok": "72000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-09T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "24f515",
+      "expired": "01/07/24",
+      "stok": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c426ed2200000d2001662"
+  },
+  "kode": "ALKES",
+  "nama": "handscond steril 7 maxter",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "7500",
+  "harga_pokok": "5500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c42ebd2200000d2001663"
+  },
+  "kode": "ALKES",
+  "nama": "lomatuell h",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "18000",
+  "harga_pokok": "18000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c4379d2200000d2001664"
+  },
+  "kode": "ALKES",
+  "nama": "spuit 1ml onemed",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "950",
+  "harga_pokok": "700",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c43bcd2200000d2001665"
+  },
+  "kode": "ALKES",
+  "nama": "spuit 5ml bd syringe",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "2600",
+  "harga_pokok": "1900",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c43efd2200000d2001666"
+  },
+  "kode": "ALKES",
+  "nama": "spuit 10ml bd syringe",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "2"
+  },
+  "harga": "3200",
+  "harga_pokok": "2400",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c4446d2200000d2001667"
+  },
+  "kode": "ALKES",
+  "nama": "needle 23g",
+  "supplier": "AMELYS",
+  "satuan": "pcs",
+  "stok": {
+    "1": "5"
+  },
+  "harga": "700",
+  "harga_pokok": "500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "5"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640c4bffd2200000d2001669"
+  },
+  "kode": "ALKES",
+  "nama": "ngt 8/100",
+  "supplier": "RS. MUSLIMAT",
+  "satuan": "pcs",
+  "stok": {
+    "1": "3"
+  },
+  "harga": "51300",
+  "harga_pokok": "38461",
+  "tanggal_dibuat": {
+    "$date": "2023-03-10T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "stok": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640ee757d2200000d20016c9"
+  },
+  "kode": "saluran pernapasan",
+  "nama": "avamys spray",
+  "supplier": "MAISUNNAH",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "230000",
+  "harga_pokok": "225000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "expired_date": {
+        "$date": "2024-01-09T17:00:00Z"
+      },
+      "stok": "1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640ee869d2200000d20016cb"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "aloclair plus gel",
+  "supplier": "PUSPA",
+  "satuan": "TUBE",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "121500",
+  "harga_pokok": "91000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640ee890d2200000d20016cc"
+  },
+  "kode": "SALURAN CERNA",
+  "nama": "aloclair plus spray",
+  "supplier": "PT MILLENIUM PHARMACON Int",
+  "satuan": "BOTOL",
+  "stok": {
+    "1": "1"
+  },
+  "harga": "133500",
+  "harga_pokok": "100000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-12T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "1",
+      "expired": "01/10/24",
+      "stok": 0
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "640f2c71d2200000d20016fa"
+  },
+  "kode": "ANTIHISTAMIN",
+  "nama": "dexaharsen 0,75mg",
+  "supplier": "MAISUNNAH",
+  "satuan": "pcs",
+  "stok": {
+    "2": "205"
+  },
+  "harga": "350",
+  "harga_pokok": "250",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "2085110",
+      "expired": "01/04/26",
+      "stok": 191
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64102b2cd2200000d2001723"
+  },
+  "kode": "ANALGESIK",
+  "nama": "asam mefenamat 500",
+  "supplier": "ASIA",
+  "satuan": "pcs",
+  "stok": {
+    "1": "100"
+  },
+  "harga": "250",
+  "harga_pokok": "350",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "fl1064",
+      "expired": "01/05/24",
+      "expired_date": {
+        "$date": "2024-01-04T17:00:00Z"
+      },
+      "stok": "100"
+    }
+  ]
+}]

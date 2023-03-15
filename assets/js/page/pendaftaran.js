@@ -16,7 +16,7 @@ $(document).on('change', "select[name='poli']", function (event) {
 	$("#dpjp").val($(this).find(":selected").attr("data-dokter"));
 });
 
-$(document).on('click', "button[id='panggil']", function (event) {
+$(document).on('click', "#panggil", function (event) {
 	
     var nomor = $(this).data("nomor").toString();
     var $nomorantri = $(this).data("nomor");
@@ -385,7 +385,6 @@ function ajaxLoad(filename, content) {
 					  format: 'DD-MM-YYYY'
 					}
 				});
-				getRm();
 			}
 			else if(content == "modal-content-form-update"){
 				$('.filterTanggal').daterangepicker({
@@ -401,21 +400,6 @@ function ajaxLoad(filename, content) {
 			alert(xhr.responseText);
 		}
 	});
-}
-
-function getRm(){
-  $("#preloader").css("display", "block");
-  $.ajax({
-        type: "GET",
-        url: __base_url__+"rekam-medis/pendaftaran/get-rm",
-        contentType: false,
-        success: function (data) {
-				$("#preloader").css("display", "none");
-				$('input[name="no_rm"]').val(data.data);
-        },
-        error: function (xhr, status, error) {
-        }
-    });
 }
 
 function getPasienLama(){

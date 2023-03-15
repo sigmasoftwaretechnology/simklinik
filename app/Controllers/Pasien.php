@@ -8,10 +8,11 @@ class Pasien extends BaseController
 	public $mongo;
 
     public function __construct(){
+		helper('klinik_helper');
 		$this->mongo = new Mongo();
     }
 
-	public function index()
+	public function indexHapus()
 	{
 		$by = $this->request->getVar('by');
 		$isi = $this->request->getVar('isi');
@@ -88,8 +89,9 @@ class Pasien extends BaseController
 			} else {
 				$data = $this->request->getVar();
 				$pasien = new PasienModel();
+				$no_rm = new_number("pasien");
 				$dtPas = [
-					"no_rm" => $data['no_rm'],
+					"no_rm" => $no_rm,
 					"no_bpjs" => $data['no_bpjs'],
 					"no_ktp" => $data['no_ktp'],
 					"tgl_lahir" => date("Y-m-d",strtotime(str_replace("/", "-", $data['tgl_lahir']))),
@@ -135,7 +137,7 @@ class Pasien extends BaseController
 					"no_reg" => 'RE-'.time(),
 					"tanggal" => date("Y-m-d",strtotime($data['tanggal'])),
 					"jam" => date("h:i:s"),
-					"no_rm" => $data['no_rm'],
+					"no_rm" => $no_rm,
 					"nama" => ucwords(strtolower($data['nama'])),
 					"alamat" => $data['alamat'],
 					"poli" => $poli,
