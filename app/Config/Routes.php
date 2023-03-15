@@ -95,6 +95,7 @@ $routes->get('/farmasi/resep/detail', 'Farmasi::detailResep',['filter' => 'auth'
 $routes->get('/farmasi/obat/data-obat', 'Farmasi::dataObat',['filter' => 'auth']);
 $routes->get('/farmasi/obat/data-obat-pemeriksaan', 'Farmasi::dataObatPemeriksaan');
 $routes->get('/farmasi/obat/export', 'Farmasi::exportObat',['filter' => 'auth']);
+$routes->get('/farmasi/obat/hapus', 'Farmasi::hapusObat',['filter' => 'auth']);
 
 $routes->post('/farmasi/resep/save-resep', 'Farmasi::inputResep',['filter' => 'auth']);
 $routes->post('/farmasi/resep/save-resep-bebas', 'Farmasi::inputResepBebas',['filter' => 'auth']);

@@ -73,7 +73,7 @@ class Mongo{
         return $cursor;
 	}
 
-	function getLike($collectionName,$field = null,$data = null,$options,$and = null) {
+	function getLike($collectionName,$field = null,$data = null,$options=null,$and = null) {
 		$collection = $this->connection->$collectionName;
 		if($and == null){
 			$where = [

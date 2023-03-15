@@ -154,7 +154,7 @@ function ajaxDelete(filename, id) {
 		url: filename,
 		success: function (data) {
 			$('#modal-delete').modal('hide');
-			ajaxLoad(__base_url__+"obat");
+			ajaxLoad(__base_url__+"farmasi/obat");
 		},
 		error: function (xhr, status, error) {
 			alert(xhr.responseText);

@@ -42,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="col-8" id="content">
+			<div class="col-12" id="content">
 			<?php echo view('obat/tabel'); ?>
 			</div>
 			<div class="modal" id="modal-form-baru">
@@ -73,7 +73,7 @@
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 							<button type="button" class="btn btn-danger"
-								onclick="ajaxDelete('<?=base_url()?>/obat/hapus?id='+$('#delete_id').val())">
+								onclick="ajaxDelete('<?=base_url()?>/farmasi/obat/hapus?id='+$('#delete_id').val())">
 								Delete
 							</button>
 						</div>

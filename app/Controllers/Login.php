@@ -42,7 +42,6 @@ class Login extends BaseController
         $data = $this->mongo->getOne("pengguna", ["nama_pengguna" => $nik]);
         if ($data) {
             $pass = $data->password;
-           // var_dump($pass);exit();
             $verify_pass = password_verify($password, $pass);
             if ($verify_pass) {  
                 $dataPengguna = $this->mongo->getOne("karyawan", ["nama" => $data->nama_karyawan]);
