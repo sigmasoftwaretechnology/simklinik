@@ -139,10 +139,8 @@
         </div>
         <div class="row">
 			<div class="col-lg-4 col-4" id="nomor">
-				
 			</div>
 			<div class="col-lg-8 col-8">
-			
 			</div>
         </div>
     </div>
