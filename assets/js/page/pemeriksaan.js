@@ -107,8 +107,8 @@ function ajaxLoadDataKunjungan(no_rm) {
 					"<td>"+item.no_reg+"</td>"+
 					"<td>"+item.tanggal+"</td>"+
 					"<td class='text-center'>"+
-                    "<a href='"+ __base_url__ + "rekam-medis/view?no_reg=" + item.no_reg+"' target='_blank' type='button' class='btn btn-primary btn-xs'><i class='fa fa-book'></i></a>"+
-                    "&nbsp;<a data-noreg='"+item.no_reg+"' data-tglperiksa='"+item.tanggal+"' onclick='getPemeriksaan(this)' type='button' class='btn btn-danger btn-xs'><i class='fa fa-eye'></i></a>"+
+                    "<a href='"+ __base_url__ + "rekam-medis/view?no_reg=" + item.no_reg+"' target='_blank'><img src='"+__base_url__+"/assets/img/icon/printer.png'></a>"+
+                    "&nbsp;<a data-noreg='"+item.no_reg+"' data-tglperiksa='"+item.tanggal+"' onclick='getPemeriksaan(this)'><img src='"+__base_url__+"/assets/img/icon/file.png'></a>"+
                     "</td>"+
 					"</tr>";
 					$('#body-kunjungan').append(isi_tindakan);

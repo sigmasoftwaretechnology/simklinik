@@ -45,7 +45,7 @@ $(document).on('click', '.edit-detail', function(event){
 	$("input[name='stok']").val($(this).data('stok'));
 });
 
-$(document).on('submit', 'form#frmTindakan', function (event) {
+/* $(document).on('submit', 'form#frmTindakan', function (event) {
 	event.preventDefault();
 	var form = $(this);
 	var data = new FormData($(this)[0]);
@@ -94,7 +94,7 @@ $(document).on('submit', 'form#frmTindakan', function (event) {
 	});
 	return false;
 });
-
+ */
 function ajaxLoad(filename, content) {
 	content = typeof content !== 'undefined' ? content : 'content';
 	$.ajax({
@@ -272,6 +272,7 @@ function saveResep() {
 							//"<button type='button' id='cetak-label' class='btn btn-block btn-outline-danger btn-xs'>Label</button>"+
 						"</div>";
 			$("#btn-grup").html(txtbtn);
+			ajaxLoad(__base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val());
         },
         error: function (xhr, status, error) {
             $("#preloader").css("display", "none");

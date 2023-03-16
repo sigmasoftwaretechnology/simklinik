@@ -56,10 +56,10 @@
                                         class="fas fa-file"></i> Export</button>
                             </div>-->
                             <div class="col-4">
-                                <button type="button" class="btn btn-outline-danger btn-flat btn-xs"
+                                <button type="button" class="btn btn-danger btn-xs"
                                     data-backdrop="static" data-toggle="modal"
                                     data-href="<?php echo base_url();?>/farmasi/obat-masuk/tambah"
-                                    href="#modal-form-baru"><i class="far fa-plus-square"></i> Tambah Transaksi</button>
+                                    href="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/plus.png"> Tambah Transaksi</button>
                             </div>
                         </div>
                     </div>

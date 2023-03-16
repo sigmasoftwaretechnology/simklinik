@@ -29,13 +29,13 @@
 								<input class="form-control form-control-sm" id="filterNama" type="text" value="">
 							</div>
 							<div class="col-1">
-								<button id="filter" type="button" class="btn btn-outline-primary btn-xs"><i class="fas fa-search"></i> Filter</button>
+								<button id="filter" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/search.png"> Filter</button>
 							</div>
 
 							<div class="col-3">
-								<button type="button" class="btn btn-outline-primary btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/farmasi/obat/tambah" href="#modal-form-baru"><i class="far fa-plus-square"></i> Tambah Obat</button>
-								<button id="export" type="button" class="btn btn-outline-success btn-flat  btn-xs"><i class="fas fa-file"></i> Export</button>
+								<button type="button" class="btn btn-danger btn-xs"  
+								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/farmasi/obat/tambah" href="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/plus.png"> Tambah Obat</button>
+								<button id="export" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/export.png"> Export</button>
 							</div>
 						</div>
 					</div>

@@ -26,8 +26,8 @@
 					<div class="card-body p-2">
 						<div class="row">
 							<div class="col-4">
-								<button type="button" class="btn btn-outline-primary btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/rekam-medis/tindakan/tambah" href="#modal-form-baru"><i class="far fa-plus-square"></i> Tambah Tindakan</button>
+								<button type="button" class="btn btn-danger btn-xs"  
+								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/rekam-medis/tindakan/tambah" href="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/plus.png"> Tambah Tindakan</button>
 							</div>
 						</div>
 					</div>

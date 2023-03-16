@@ -2,12 +2,12 @@
 helper('klinik_helper');
 ?>
 <div class="card">
-	  <div class="card-body table-responsive p-0" style="height: 700px;">
+	  <div class="card-body table-responsive p-2" style="height: 900px;">
 		<table class="table table-head-fixed table-hover text-nowrap table-sm text-nowrap table-bordered">
 		  <thead>
 			<tr>
-				<th>No</th>
-						  <th class="text-center">Aksi</th>
+			  <th style="width:3%">No</th>
+				<th align="center" style="width:5%"></th>
 				<th>No Registrasi</th>
 			  <th>Tanggal Datang</th>
 			  <th>No RM</th>

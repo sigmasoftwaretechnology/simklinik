@@ -1,9 +1,10 @@
 <div class="card">
-	  <div class="card-body table-responsive p-0" style="height: 400px;">
+	  <div class="card-body table-responsive p-2" style="height: 900px;">
 		<table class="table table-head-fixed table-hover text-nowrap table-sm text-nowrap table-bordered">
 		  <thead>
 			<tr>
-			  <th class="text-center">Aksi</th>
+			  <th style="width:3%">No</th>
+				<th align="center" style="width:5%"></th>
 			  <th>No RM</th>
 			  <th>No BPJS</th>
 			  <th>Nama</th>
@@ -12,8 +13,9 @@
 			</tr>
 		  </thead>
 		  <tbody>
-			<?php foreach($row as $data):?>
+			<?php $no=1;foreach($row as $data):?>
 			<tr>
+			<td class="align-middle"><?=$no?></td>
 			<td class="text-center">
 				<a id="update-<?=$data->id?>" data-href="<?=base_url()?>/pasien/ubah?id=<?=$data->id?>" data-toggle="modal" data-target="#modal-form-pasien"><img src="<?php echo base_url(); ?>/assets/img/icon/edit.png"></a>
 				<a data-toggle="modal"
@@ -27,7 +29,7 @@
 			  <td class="align-middle"><?=$data->alamat?></td>
 			  <td class="align-middle"><?=$data->telp?></td>
 			</tr>
-			<?php endforeach;?>
+			<?php $no++;endforeach;?>
 		  </tbody>
 		</table>
 	  </div>

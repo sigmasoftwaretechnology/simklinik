@@ -28,11 +28,11 @@
 								<input class="form-control form-control-sm filterTanggal" id="filterTanggal1" type="text" value="<?=date('d-m-Y')?>">
 							</div>
 							<div class="col-3">
-								<button id="filter" type="button" class="btn btn-outline-primary btn-xs"><i class="fas fa-search"></i> Filter</button>
+								<button id="filter" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/search.png"> Filter</button>
 							</div>
 							<div class="col-4">
-								<button type="button" class="btn btn-outline-danger btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/farmasi/resep-bebas/tambah" href="#modal-form-baru"><i class="far fa-plus-square"></i> Tambah Penjualan</button>
+								<button type="button" class="btn btn-danger btn-xs"  
+								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/farmasi/resep-bebas/tambah" href="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/plus.png"> Tambah Penjualan</button>
 							</div>
 						</div>
 					</div>

@@ -17,9 +17,9 @@ helper('klinik_helper');
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <!-- Proassets Image -->
-        <div class="card card-primary card-outline">
+        <div class="card card-danger card-outline">
           <div class="card-body box-proassets">
             <h3 class="proassets-username text-center mb-0" id="nama_pasien"><?= $row->nama?></h3>
             <p class="text-muted text-center mb-0" id="no_reg"><?= $row->no_reg?></p>
@@ -58,7 +58,7 @@ helper('klinik_helper');
         <!-- /.card -->
       </div>
       <!-- /.col -->
-      <div class="col-md-8">
+      <div class="col-md-9">
         <div class="card">
           <div class="card-body pb-0 pt-0">
             <div class="row">
