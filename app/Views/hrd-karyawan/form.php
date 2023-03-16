@@ -93,6 +93,6 @@
 	</div>
 	<!-- /.card-body -->
 	<div class="card-footer">
-	  <button type="submit" class="btn btn-block btn-outline-primary btn-xs">Simpan</button>
+	<button type="submit" class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan</button>
 	</div>
  </form>

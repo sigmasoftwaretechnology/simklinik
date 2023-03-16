@@ -49,8 +49,8 @@
 				<a href="<?=base_url()?>/farmasi/resep">
 				<div class="card">
 				  <div class="card-body text-center p-3">
-					<img src="<?php echo base_url('assets/img/resep.png');?>">
-					<small class="mb-0 d-block">Input Resep</small>
+					<img src="<?php echo base_url('assets/img/drugs.png');?>">
+					<small class="mb-0 d-block">Penebusan Resep</small>
 				  </div>
 				</div>
 				</a>

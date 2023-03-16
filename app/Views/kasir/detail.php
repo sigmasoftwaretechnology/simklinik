@@ -7,7 +7,7 @@
 	<div class="card-body">
 		<div class="row">
 			<div class="col-9">
-				<div class="card card-outline card-success">
+				<div class="card card-outline card-danger">
 					<div class="card-header">
 						<h3 class="card-title">Invoice</h3>
 					</div>
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 			<div class="col-3">
-				<div class="card card-outline card-success">
+				<div class="card card-outline card-danger">
 						<div class="card-header">
 							<h3 class="card-title">Pembayaran</h3>
 						</div>
@@ -137,13 +137,13 @@
 								<div id="btn-grup">
 								<div class="row">
 									<div class="col-12">
-										<button type="button" id="simpan-pembayaran" class="btn btn-block btn-outline-success btn-xs">Simpan Pembayaran</button>
+										<button type="button" id="simpan-pembayaran" class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan Pembayaran</button>
 									</div>
 								</div>
 								<?php else:?>
 								<div class="row">
 									<div class="col-12">
-										<button type="button" id="cetak-invoice" class="btn btn-block btn-outline-success btn-xs">Cetak Kwitansi</button>
+										<button type="button" id="cetak-invoice" class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/printer.png"> Cetak Kwitansi</button>
 									</div>
 								</div>
 								<?php 

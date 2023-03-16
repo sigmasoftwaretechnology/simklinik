@@ -1,9 +1,27 @@
 var __base_url__ = $("#base_url").val();
 $(function () {	
-	setTimeout(function() {
-		location.reload();
-	}, 10000);	
+	/* setTimeout(function() {
+        loadlink();
+	}, 5000);	
+	
+	function loadlink() {
+		$('#nomor').load(__base_url__+'antrian/data', function() {
+			$(this).unwrap();
+		});
+	} */
+function slides(x) {
+	$('#nomor').load(__base_url__+'antrian/data', function() {
+			$(this).unwrap();
+		});
+      console.log("sd");
+};
+setInterval(function() {
+    slides(-30);
+}, 4000);
+
 });
+
+
 window.onload = function() {
 	jam();
 }

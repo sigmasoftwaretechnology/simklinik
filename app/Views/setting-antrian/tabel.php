@@ -2,13 +2,13 @@
 helper('klinik_helper');
 ?>
 <div class="card">
-	  <div class="card-body table-responsive p-0" style="height: 400px;">
+	  <div class="card-body table-responsive p-2" style="height: 400px;">
 		<table class="table table-head-fixed table-hover text-nowrap table-sm text-nowrap table-bordered">
 		  <thead>
 			<tr>
 			<th>Poli</th>
-			<th>No Antrian</th>
-			<th>Status</th>
+						<th>Status</th>
+			<th>No Antrian Berjalan</th>
 			  <th class="text-center">Aksi</th>
 			</tr>
 		  </thead>

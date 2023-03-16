@@ -23,7 +23,7 @@
 						  <td class="text-left"><?=$no++?></td>
 
 				<td class="text-center">
-				<button type="button" id="detail-<?=$data->no_reg?>" data-href="<?=base_url()?>/keuangan/kasir/detail?reg=<?=$data->no_reg?>" data-toggle="modal" data-target="#modal-form-detail" class="btn btn-outline-success btn-flat btn-xs"><i class="fa fa-edit"></i> Detail</button>				
+				<a id="detail-<?=$data->no_reg?>" data-href="<?=base_url()?>/keuangan/kasir/detail?reg=<?=$data->no_reg?>" data-toggle="modal" data-target="#modal-form-detail"><img src="<?php echo base_url(); ?>/assets/img/icon/file.png"></a>				
 			  </td>
 			  <td class="text-left"><?=$data->no_reg?></td>
 			  <td class="text-left"><?=$data->no_rm?></td>

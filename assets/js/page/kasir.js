@@ -228,10 +228,11 @@ function savePembayaran() {
 				)
 					var txtbtn = '<div class="row">'+
 									'<div class="col-12">'+
-										'<button type="button" id="cetak-invoice" class="btn btn-block btn-outline-success btn-xs">Cetak Kwitansi</button>'+
+										'<button type="button" id="cetak-invoice" class="btn btn-block btn-danger btn-xs"><img src="'+__base_url__+'/assets/img/icon/printer.png">Cetak Kwitansi</button>'+
 									'</div>'+
 								'</div>';
 			$("#btn-grup").html(txtbtn);
+			ajaxLoad(__base_url__+"keuangan/kasir?tanggal="+$("#filterTanggal1").val());
         },
         error: function (xhr, status, error) {
             $("#preloader").css("display", "none");

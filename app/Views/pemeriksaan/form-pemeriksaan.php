@@ -21,7 +21,7 @@ helper('klinik_helper');
         <!-- Proassets Image -->
         <div class="card card-danger card-outline">
           <div class="card-body box-proassets">
-            <h3 class="proassets-username text-center mb-0" id="nama_pasien"><?= $row->nama?></h3>
+            <h5 class="proassets-username text-center mb-0" id="nama_pasien"><?= $row->nama?></h5>
             <p class="text-muted text-center mb-0" id="no_reg"><?= $row->no_reg?></p>
             <p class="text-muted text-center mb-0" id="rm_pasien"><?= $row->no_rm?></p>
             <p class="text-muted text-center mb-0" id="alamat_pasien"><?= $row->alamat?></p>
@@ -241,7 +241,7 @@ helper('klinik_helper');
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group row">
-									<label class="col-md-2 font-weight-bold" id="plant"><code><sup>*</sup></code>Plant</label>
+									<label class="col-md-2 font-weight-bold" id="plant"><code><sup>*</sup></code>Plan</label>
 									<div class="col-md-10">
 										<div class="row">
 											<div class="col-md-12">
@@ -399,6 +399,19 @@ helper('klinik_helper');
 <link rel="stylesheet" href="<?php echo base_url('assets/css/ekko-lightbox.css');?>">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ttskch/select2-bootstrap4-theme@x.x.x/dist/select2-bootstrap4.min.css">
 <style>
+.note-editor.note-frame.card {
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+.note-statusbar {
+    display: none !important;
+}
+
+.note-editable p {
+    margin-bottom: 0 !important;
+}
+
 .select2-container--default .select2-selection--single {
     background-color: #fff;
     border: 1px solid #ced4da;

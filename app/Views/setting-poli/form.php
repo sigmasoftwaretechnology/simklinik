@@ -22,7 +22,7 @@
 		</div>
 		<div class="form-group mb-2">
 			<label class="mb-0">Dokter</label>
-            <select class="form-control form-control-sm" id="dokter" name="dokter">
+            <select class="form-control form-control-sm  col-4" id="dokter" name="dokter">
 				<?php foreach($dokter as $dtDokter):?>
 				<option value="<?=$dtDokter->_id."-".$dtDokter->gelar_depan." ".$dtDokter->nama." ".$dtDokter->gelar_belakang?>"><?=$dtDokter->gelar_depan." ".$dtDokter->nama." ".$dtDokter->gelar_belakang?></option>
 				<?php endforeach;?>
@@ -32,6 +32,6 @@
 	</div>
 	<!-- /.card-body -->
 	<div class="card-footer">
-	  <button type="submit" class="btn btn-block btn-outline-primary btn-xs">Simpan</button>
+	<button type="submit" class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan</button>
 	</div>
  </form>

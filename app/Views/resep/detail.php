@@ -7,14 +7,14 @@
 <div class="card-body">
     <div class="row">
         <div class="col-3">
-            <div class="card card-outline card-success">
+            <div class="card card-outline card-danger">
                 <div class="card-header">
                     <h3 class="card-title">View Resep</h3>
                 </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="proassets-username text-center mb-0" id="nama_pasien"><?=$dataRegis->nama?></h3>
+                            <h5 class="proassets-username text-center mb-0" id="nama_pasien"><?=$dataRegis->nama?></h5>
                             <p class="text-muted text-center mb-0" id="no_reg"><?=$dataRegis->no_reg?></p>
                             <p class="text-muted text-center mb-0" id="rm_pasien"><?=$dataRegis->no_rm?></p>
                             <p class="text-muted text-center mb-0" id="umur_pasien"><?=$dataRegis->umur?></p>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-9">
-            <div class="card card-outline card-success">
+            <div class="card card-outline card-danger">
                 <div class="card-header">
                     <h3 class="card-title">Input Resep</h3>
                 </div>
@@ -144,16 +144,18 @@
                             <?php if(!isset($dataRegis->lunas) || $dataRegis->lunas == ""):?>
                             <div class="col-6">
                                 <button type="button" id="simpan-resep"
-                                    class="btn btn-block btn-outline-success btn-xs">Update Resep</button>
+                                    class="btn btn-danger btn-xs">Update Resep</button>
                             </div>
                             <?php endif;?>
                             <div class="col-4">
 								<a href="<?php echo base_url();?>/farmasi/resep/cetak-label?reg=<?=$dataRegis->no_reg?>" target="_blank" type="button" id="cetak-label" class="btn btn-block btn-outline-danger btn-xs">Label</a>
 								</div>
                             <?php else:?>
-                            <div class="col-6">
+							<div class="col-4">
+							</div>
+                            <div class="col-4 text-center">
                                 <button type="button" id="simpan-resep"
-                                    class="btn btn-block btn-outline-primary btn-xs">Simpan Resep</button>
+                                    class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan Resep</button>
                             </div>
                             <?php endif;?>
                         </div>

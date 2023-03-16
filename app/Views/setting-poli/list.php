@@ -26,8 +26,8 @@
 					<div class="card-body p-2">
 						<div class="row">
 							<div class="col-4">
-								<button type="button" class="btn btn-outline-primary btn-flat btn-xs"  
-								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/setting/poli/tambah" href="#modal-form-baru"><i class="far fa-plus-square"></i> Tambah Poli</button>
+								<button type="button" class="btn btn-danger btn-xs"  
+								data-backdrop="static" data-toggle="modal" data-href="<?php echo base_url();?>/setting/poli/tambah" href="#modal-form-baru"><img src="<?php echo base_url(); ?>/assets/img/icon/plus.png"> Tambah Poli</button>
 							</div>
 						</div>
 					</div>

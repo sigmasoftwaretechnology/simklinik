@@ -262,16 +262,16 @@ function saveResep() {
 				  'Resep direkam',
 				  'success'
 				)
-			var txtbtn = "<div class='col-6'>"+
+			/* var txtbtn = "<div class='col-6'>"+
 							"<button type='button' id='simpan-resep' class='btn btn-block btn-outline-success btn-xs'>Update Resep</button>"+
 							"</div>"+
 							"<div class='col-6'>"+
 							"<a type='button' href='"+__base_url__+"/kasir/invoice?reg="+$("#no_reg").text()+"' id='cetak-invoice' class='btn btn-block btn-outline-warning btn-xs'>Invoice</a>"+
 							"</div>"+
-							//"<div class='col-4'>"+
-							//"<button type='button' id='cetak-label' class='btn btn-block btn-outline-danger btn-xs'>Label</button>"+
+							"<div class='col-4'>"+
+							"<button type='button' id='cetak-label' class='btn btn-block btn-outline-danger btn-xs'>Label</button>"+
 						"</div>";
-			$("#btn-grup").html(txtbtn);
+			$("#btn-grup").html(txtbtn); */
 			ajaxLoad(__base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val());
         },
         error: function (xhr, status, error) {

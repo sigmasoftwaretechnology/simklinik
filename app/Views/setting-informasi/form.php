@@ -39,7 +39,7 @@
                                     <div class="form-group row">
                                         <label for="inputAlamat" class="col-sm-2 col-form-label">Alamat</label>
                                         <div class="col-sm-10">
-                                            <textarea class="form-control" id="inputAlamat" name="alamat"
+                                            <textarea class="form-control form-control-sm" id="inputAlamat" name="alamat"
                                                 placeholder="Alamat" ><?=$data->alamat?></textarea>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@
                                     <div class="form-group row">
                                         <div class="offset-sm-2 col-sm-4">
                                             <button type="submit"
-                                                class="btn btn-block btn-outline-primary btn-xs">Submit</button>
+                                                class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan</button>
                                         </div>
                                     </div>
                                 </form>

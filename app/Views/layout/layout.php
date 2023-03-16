@@ -210,8 +210,8 @@ $data = $mongo->getOne("profil");
     <?php for ($i=1; $i < 10; $i++):?>
     <audio id="suarabel<?php echo $i; ?>" src="<?php echo base_url('assets')?>/suara/<?php echo $i; ?>.mp3"></audio>
     <?php endfor;?>
-    <audio id="polikia" src="<?php echo base_url('assets')?>/suara/polikia.mp3"></audio>
-    <audio id="polianak" src="<?php echo base_url('assets')?>/suara/polianak.mp3"></audio>
+    <audio id="poliumum" src="<?php echo base_url('assets')?>/suara/poliumum.mp3"></audio>
+    <audio id="poliumum2" src="<?php echo base_url('assets')?>/suara/poliumum2.mp3"></audio>
 </body>
 
 </html>

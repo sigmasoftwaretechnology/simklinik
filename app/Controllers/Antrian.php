@@ -17,4 +17,10 @@ class Antrian extends BaseController
 		$dtAntrian = $this->mongo->get("antrian", ["aktif" => "yes"]);
 		return view('antrian/display',compact('profil','dtAntrian'));
 	}
+	
+	public function data()
+	{
+		$dtAntrian = $this->mongo->get("antrian", ["aktif" => "yes"]);
+		return view('antrian/nomor-antrian',compact('dtAntrian'));
+	}
 }

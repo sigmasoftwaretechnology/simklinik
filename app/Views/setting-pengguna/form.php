@@ -163,7 +163,7 @@
                                         <li>
                                             <div class="custom-control custom-checkbox">
                                                 <input class="custom-control-input child" data-parent="keuangan" type="checkbox" id="keuanganLaporan"
-                                                    name="menu[]" <?php echo in_array("keuangan/laporan", $hakAkses) ? "checked" : ""?> value="keuangan/laporan">
+                                                    name="menu[]" <?php echo in_array("keuangan/laporan-keuangan", $hakAkses) ? "checked" : ""?> value="keuangan/laporan">
                                                 <label for="keuanganLaporan" class="custom-control-label">Laporan
                                                     Keuangan</label>
                                             </div>
@@ -247,7 +247,7 @@
                 <div class="col-3">
                 </div>
                 <div class="col-5">
-                    <button type="submit" class="btn btn-block btn-outline-primary btn-xs">Simpan</button>
+                    <button type="submit" class="btn btn-block btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/save.png"> Simpan</button>
                 </div>
             </div>
         </div>

@@ -138,17 +138,12 @@
             </div>
         </div>
         <div class="row">
-            <?php foreach($dtAntrian as $key => $antrian):?>
-            <div class="col-lg-6 col-6">
-                <div class="small-box bg-red text-center">
-                    <div class="inner">
-                        <h1><?php echo $antrian->poli?></h1>
-                            <h1 style="font-size:7rem"><?php echo $antrian->no_antrian;?></h1>
-                    </div>
-                    <!--<a class="small-box-footer"><?php echo $antrian->dpjp;?></a> -->
-                </div>
-            </div>
-            <?php endforeach;?>
+			<div class="col-lg-4 col-4" id="nomor">
+				
+			</div>
+			<div class="col-lg-8 col-8">
+			
+			</div>
         </div>
     </div>
     <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>
