@@ -119,7 +119,7 @@
 
     <div class="login-box">
         <!-- /.login-logo -->
-        <div class="card card-outline card-primary">
+        <div class="card card-outline card-danger">
             <div class="card-header text-center">
                 <p class="h1"><?=$profil->nama?></p>
             </div>
