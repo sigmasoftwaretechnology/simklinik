@@ -14,7 +14,8 @@ Class PCare
         $this->cons_id = "24564";
         $this->secret_key = "1yI069E403";
         $this->user_key = "1d4db2fb363e4329e39b44fc4ab82d92";
-        $this->base_url = "https://apijkn-dev.bpjs-kesehatan.go.id/vclaim-rest-dev";
+        //$this->base_url = "https://apijkn-dev.bpjs-kesehatan.go.id/vclaim-rest-dev";
+		$this->base_url = "http://127.0.0.1/pcare-dummy/";
         $this->setTimestamp()->setSignature();
     }
 
@@ -57,6 +58,19 @@ Class PCare
         $data = json_decode($content, true);
         $kunci = $this->cons_id.$this->secret_key.$this->timestamp;
         $data['response'] = json_decode($this->stringDecrypt($kunci, $data["response"]), true);
+        return $data;
+	}
+	
+    function getDataDummy($siteUrl){
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $this->base_url.$siteUrl);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $content = curl_exec($ch);
+        $err = curl_error($ch);
+        $data = json_decode($content, true);
         return $data;
 	}
 
