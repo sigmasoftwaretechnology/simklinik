@@ -16,14 +16,12 @@ class Home extends BaseController
 
 	public function index()
 	{
-        /* $noka = $this->request->getVar('noka');
+        $noka = $this->request->getVar('noka');
         $addHead = array( 
             'Content-Type: application/json; charset=utf-8',
             'Accept: Application/JSON'
         );
-        $data =  $this->pcare->getData("Peserta/nik/3519010708900001/tglSEP/2023-03-17",$addHead); 
-		var_dump($data);
-		exit(); */
+        $data =  $this->pcare->getDataDummy("peserta.json"); 
 		return view('dashboard/dashboard');
 	}
 
