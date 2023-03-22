@@ -97,6 +97,14 @@
         border-top-color: #f9c922;
         animation: spin 1.5s linear infinite
     }
+    .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #d47674;
+            color: white;
+        }
 
     @keyframes spin {
         0% {
@@ -116,7 +124,7 @@
         <div id="preloader-inner"></div>
     </div>
     <input type="hidden" id="base_url" value="<?php echo base_url();?>/">
-    <div class="row p-2 bg-red">
+    <div class="row p-2" style="background-color: #d47674;">
         <div class="col-lg-9 col-9">
             <h1><?=$profil->nama?></h1>
             <h4><?=$profil->alamat?></h4>
@@ -136,6 +144,10 @@
                 </div>
             </div>
         </div>
+        <div class="footer">
+        <marquee><span style="font-size: 45px">Klinik sehati melayani dengan sepenuh hati. </span></marquee>
+    </div>
+
     </div>
     <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js');?>"></script>
