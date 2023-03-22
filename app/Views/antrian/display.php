@@ -126,28 +126,22 @@
             <span class="h4" id="hasil">Hari,01 Januari 2020</span><br>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-12 col-12 text-center">
-            <h1>Antrian Poli Klinik</h1>
-        </div>
-    </div>
-    <div class="pl-3 pr-3">
+    <div class="pl-3 pr-3 pt-3">
         <div class="row">
-            <div class="col-lg-12 col-12 text-center">
-                <h4></h4>
+            <div class="col-md-4 col-4" id="nomor">
             </div>
-        </div>
-        <div class="row">
-			<div class="col-lg-4 col-4" id="nomor">
-			</div>
-			<div class="col-lg-8 col-8">
-			</div>
+            <div class="col-md-8 col-8">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div id="muteYouTubeVideoPlayer"></div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.bundle.min.js');?>"></script>
     <script src="<?php echo base_url('assets/js/adminlte.min.js');?>"></script>
     <script src="<?php echo base_url('assets/js/sweetalert2.min.js');?>"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
     <script src="<?php echo base_url("assets/js/page/antrian.js");?>"></script>
     <?= $this->renderSection('pagejs') ?>
 </body>
