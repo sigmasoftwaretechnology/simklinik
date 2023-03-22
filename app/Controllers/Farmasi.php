@@ -180,25 +180,33 @@ class Farmasi extends BaseController
     }
 
 	public function exportObat() {
-		$db     = \Config\Database::connect();
-		$query 	= $db->query("SELECT a.* FROM detail_obat a where a.deleted_at IS NULL");
-		$row 	= $query->getResult();
+		$options = ['sort' => ['nama' => 1]];
+		$dataObat = $this->mongo->get("obat", ['tanggal_dihapus' => ""],$options);
         $spreadsheet = new Spreadsheet();
         $spreadsheet->setActiveSheetIndex(0)
             ->setCellValue('A1', 'Nama')
             ->setCellValue('B1', 'Satuan')
-            ->setCellValue('C1', 'Stok')
+            ->setCellValue('C1', 'Supplier')
             ->setCellValue('D1', 'Harga Pokok')
-            ->setCellValue('E1', 'Harga	');
+            ->setCellValue('E1', 'Harga')
+            ->setCellValue('F1', 'Total Stok');
 
         $column = 2;
-        foreach ($row as $dtRes) {
+        foreach ($dataObat as $dtRes) {
+			if(isset($dtRes->batch)){
+				$stok=0;
+				foreach ($dtRes->batch as $dtBatch) {
+					//echo $dtBatch->stok;
+					$stok = $stok + (int)$dtBatch->stok;
+				}
+			}
             $spreadsheet->setActiveSheetIndex(0)
                 ->setCellValue('A' . $column, $dtRes->nama)
                 ->setCellValue('B' . $column, $dtRes->satuan)
-                ->setCellValue('C' . $column, $dtRes->stok)
+                ->setCellValue('C' . $column, $dtRes->supplier)
                 ->setCellValue('D' . $column, $dtRes->harga_pokok)
-                ->setCellValue('E' . $column, $dtRes->harga);
+                ->setCellValue('E' . $column, $dtRes->harga)
+                ->setCellValue('F' . $column, $stok);
             $column++;
         }
 
