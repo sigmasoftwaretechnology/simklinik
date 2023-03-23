@@ -93,6 +93,18 @@ class Mongo{
         return $resultingDocuments;
 	}
 
+	function getBetweenDate($collectionName,$field,$awal,$akhir) {
+		$collection = $this->connection->$collectionName;
+		$cursor = $collection->find();
+		$where = [ "$field" => array('$gte' => new MongoDB\BSON\UTCDateTime(strtotime("$awal")* 1000), '$lte' => new MongoDB\BSON\UTCDateTime(strtotime("$akhir")* 1000))];
+		$cursor = $collection->find($where);
+		$resultingDocuments = array();
+        foreach ($cursor as $key => $value) {
+            $resultingDocuments[$key] = $value;
+        }
+        return $resultingDocuments;
+	}
+
 	function getBetween($collectionName,$options) {
 		$collection = $this->connection->$collectionName;
 		$cursor = $collection->aggregate(

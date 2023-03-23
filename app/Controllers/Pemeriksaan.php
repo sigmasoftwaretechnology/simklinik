@@ -272,7 +272,6 @@ class Pemeriksaan extends BaseController
         $dompdf = new Dompdf();
 		$no_reg = $this->request->getVar('no_reg');
 		$data = $this->mongo->get("assessment", ["no_reg" => $no_reg]);
-		//var_dump($data[0]->no_reg);exit();
 		$db     = \Config\Database::connect();
 		$id_reg = $this->request->getVar('q');
 		$query 	= $db->query("select a.id,a.no_reg,b.no_rm,b.nama,b.no_bpjs,b.alamat,b.tgl_lahir from pendaftaran a join pasien b on b.id = a.no_rm  where a.no_reg = '$no_reg'");

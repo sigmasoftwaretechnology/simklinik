@@ -96,6 +96,15 @@
                                         <li>
                                             <div class="custom-control custom-checkbox">
                                                 <input class="custom-control-input child" type="checkbox"
+                                                    id="kartuPasien" data-parent="rekamMedis" name="menu[]" <?php echo in_array("pasien/cetak-kartu", $hakAkses) ? "checked" : ""?>
+                                                    value="pasien/cetak-kartu">
+                                                <label for="kartuPasien"
+                                                    class="custom-control-label">Cetak Kartu Pasien</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-control custom-checkbox">
+                                                <input class="custom-control-input child" type="checkbox"
                                                     id="rekamMedisTindakan" data-parent="rekamMedis" name="menu[]" <?php echo in_array("rekam-medis/tindakan", $hakAkses) ? "checked" : ""?>
                                                     value="rekam-medis/tindakan">
                                                 <label for="rekamMedisTindakan"
