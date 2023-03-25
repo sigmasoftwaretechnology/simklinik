@@ -12,27 +12,6 @@ class Pasien extends BaseController
 		$this->mongo = new Mongo();
     }
 
-	public function indexHapus()
-	{
-		$by = $this->request->getVar('by');
-		$isi = $this->request->getVar('isi');
-		$db     = \Config\Database::connect();
-		$where = " 1=1 ";
-		if($by == "nama"){
-			$where = $where." AND a.nama like '%$isi%'";
-		}
-		if($by == "alamat"){
-			$where = $where." AND a.alamat like '%$isi%'";
-		}
-		$query 	= $db->query("SELECT a.* FROM pasien a where $where AND a.deleted_at IS NULL");
-		$row 	= $query->getResult();
-        if ($this->request->isAJAX()) {
-			return view('pasien/tabel-pasien', compact('row'));
-        } else {
-			return view('pasien/list', compact('row'));
-        }
-	}
-	
 	public function tambah() {
 		$session = session();
 		$db     = \Config\Database::connect();

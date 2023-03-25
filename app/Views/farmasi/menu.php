@@ -34,6 +34,16 @@
 				  </div>
 				</div>
 				</a>
+			</div>	
+			<div class="col-md-2">
+				<a href="<?=base_url()?>/farmasi/obat-keluar">
+				<div class="card">
+				  <div class="card-body text-center p-3">
+					<img src="<?php echo base_url('assets/img/obat.png');?>">
+					<small class="mb-0 d-block">Obat Keluar</small>
+				  </div>
+				</div>
+				</a>
 			</div>
 			<div class="col-md-2">
 				<a href="<?=base_url()?>/farmasi/supplier">

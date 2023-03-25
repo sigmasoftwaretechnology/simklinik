@@ -81,6 +81,8 @@ $routes->get('/farmasi/obat/ubah', 'Farmasi::ubahObat',['filter' => 'auth']);
 $routes->post('/farmasi/obat/ubah', 'Farmasi::ubahObat',['filter' => 'auth']);
 $routes->get('/farmasi/obat/detail', 'Farmasi::detailObat',['filter' => 'auth']);
 $routes->post('/farmasi/obat/detail', 'Farmasi::detailObat',['filter' => 'auth']);
+$routes->get('/farmasi/obat-keluar', 'Farmasi::obatKeluar');
+$routes->get('/farmasi/obat-keluar/export', 'Farmasi::exportObatKeluar');
 
 $routes->get('/farmasi/supplier', 'Farmasi::supplier',['filter' => 'auth']);
 $routes->get('/farmasi/supplier/tambah', 'Farmasi::tambahSupplier',['filter' => 'auth']);
@@ -164,7 +166,6 @@ $routes->get('/antrian', 'Antrian::index');
 $routes->get('/error/akses-error', 'Error::aksesError');
 
 $routes->get('/keuangan/laporan-keuangan-2', 'Keuangan::laporanKeuangan2',['filter' => 'auth']);
-
 $routes->get('/rekam-medis/pendaftaran/get-rm', 'Rekammedis::getRM');
 
 

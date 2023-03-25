@@ -63,7 +63,6 @@ class Farmasi extends BaseController
 				"nama" => strtolower($data['nama']),
 				"supplier" => $data['supplier'],
 				"satuan" => $data['satuan'],
-				"stok" => $data['stok'],
 				"harga" => $data['harga'],
 				"harga_pokok" => $data['harga_pokok'],
 				"tanggal_dibuat" =>  date("Y-m-d"),
@@ -694,6 +693,71 @@ class Farmasi extends BaseController
 
         $writer = new Xlsx($spreadsheet);
         $filename = date('Y-m-d-His'). '-trans-obat-masuk';
+
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment;filename=' . $filename . '.xlsx');
+        header('Cache-Control: max-age=0');
+
+        $writer->save('php://output');    
+	}
+
+	public function obatKeluar()
+	{
+		$awal = date("Y-m-d", strtotime($this->request->getVar('awal')));
+		$akhir = date("Y-m-d", strtotime($this->request->getVar('akhir')));
+		if(!isset($awal)){
+			$awal = date("Y-m-d");
+		}
+		if(!isset($akhir)){
+			$akhir = date("Y-m-d");
+		}
+		$listAssessment = $this->mongo->getBetweenDate("assessment","tanggal_dibuat",$awal,$akhir);
+		$data = [
+			"assessment" => $listAssessment
+		];
+        if ($this->request->isAJAX()) {
+			return view('obat-keluar/tabel', $data);
+        } else {
+			return view('obat-keluar/list', $data);
+        }
+	}
+
+	public function exportObatKeluar()
+    {
+		$awal = date("Y-m-d", strtotime($this->request->getVar('awal')));
+		$akhir = date("Y-m-d", strtotime($this->request->getVar('akhir')));
+		if(!isset($awal)){
+			$awal = date("Y-m-d");
+		}
+		if(!isset($akhir)){
+			$akhir = date("Y-m-d");
+		}
+		$listAssessment = $this->mongo->getBetweenDate("assessment","tanggal_dibuat",$awal,$akhir);
+
+        $spreadsheet = new Spreadsheet();
+
+        $spreadsheet->setActiveSheetIndex(0)
+            ->setCellValue('A1', 'No')
+            ->setCellValue('B1', 'Tanggal')
+            ->setCellValue('C1', 'Nama Obat')
+            ->setCellValue('D1', 'Batch')
+            ->setCellValue('E1', 'Jml. Keluar');
+
+        $column = 2;
+		$no=1;
+        foreach ($listAssessment as $dtRes) {
+			foreach($dtRes->resep_obat as $dtObat){
+				$spreadsheet->setActiveSheetIndex(0)
+                ->setCellValue('A' . $column, $no++)
+                ->setCellValue('B' . $column, $dtRes->tanggal)
+                ->setCellValue('C' . $column, $dtObat->nama_obat)
+                ->setCellValue('D' . $column, $dtObat->batch_obat)
+                ->setCellValue('E' . $column, $dtObat->jumlah);
+            	$column++;
+			}
+        }
+        $writer = new Xlsx($spreadsheet);
+        $filename = date('Y-m-d-His'). '-lap-obat-keluar';
 
         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
         header('Content-Disposition: attachment;filename=' . $filename . '.xlsx');
