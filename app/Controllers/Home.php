@@ -16,10 +16,6 @@ class Home extends BaseController
 
 	public function index()
 	{
-		helper('klinik_helper');
-		$nomor = nomor_antrian("6410269e205b0000b7003c05");
-		echo $nomor;
-		exit();
         $noka = $this->request->getVar('noka');
         $addHead = array( 
             'Content-Type: application/json; charset=utf-8',

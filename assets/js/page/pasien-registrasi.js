@@ -20,6 +20,7 @@ $(document).on('change', "select[name='poli']", function (event) {
 $(document).on('click', "#panggil", function (event) {
 	
     var nomor = $(this).data("nomor").toString();
+	var $huruf = $(this).data("huruf");
     var $nomorantri = $(this).data("nomor");
     var $suarapoli = $(this).data("suara");
 
@@ -33,6 +34,7 @@ $(document).on('click', "#panggil", function (event) {
     document.getElementById('suarabelopen').currentTime=0;
     document.getElementById('suarabelopen').play();
     totalwaktu=document.getElementById('suarabelopen').duration*1000;
+
 	setTimeout(function() {
 		document.getElementById('suarabelnomorurut').pause();
 		document.getElementById('suarabelnomorurut').currentTime=0;
@@ -40,13 +42,21 @@ $(document).on('click', "#panggil", function (event) {
 		totalwaktu=document.getElementById('suarabelnomorurut').duration*1000;	
 	}, totalwaktu);
 	totalwaktu=totalwaktu+1500;
+
+	setTimeout(function() {
+		document.getElementById('suarabel'+$huruf).pause();
+		document.getElementById('suarabel'+$huruf).currentTime=0;
+		document.getElementById('suarabel'+$huruf).play();
+		totalwaktu=document.getElementById('suarabel'+$huruf).duration*1000;	
+	}, totalwaktu);
+	totalwaktu=totalwaktu+1000;
+
 	if($nomorantri<10){
 		setTimeout(function() {
 			document.getElementById('suarabel'+$nomorantri).pause();
 			document.getElementById('suarabel'+$nomorantri).currentTime=0;
 			document.getElementById('suarabel'+$nomorantri).play();
 		}, totalwaktu);
-	
 		totalwaktu=totalwaktu+1000;
 	} else if($nomorantri ==10){
 	//JIKA 10 MAKA MAIKAN SUARA SEPULUH

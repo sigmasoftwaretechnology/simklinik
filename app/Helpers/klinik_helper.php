@@ -71,10 +71,10 @@ function new_number($kode)
 	return str_replace($wildcard, $replace, $nomor->format);
 }
 
-function nomor_antrian($id)
+function nomor_antrian($poli)
 {
 	$mongo = new Mongo();
-	$nomor = $mongo->getOne("no_antrian", ["id_poli" => $id]);
+	$nomor = $mongo->getOne("no_antrian", ["nama_poli" => $poli]);
 	if ($nomor->tgl_sekarang == date('d')) {
 		$serial = $nomor->no_berikutnya;
 		$update = array('no_berikutnya' => $serial + 1);
@@ -86,8 +86,8 @@ function nomor_antrian($id)
 			'no_berikutnya' => 2,
 		);
 	}
-	$where = array('id_poli' => $id);
+	$where = array('nama_poli' => $poli);
 	$mongo->update('no_antrian', $update, $where);	
-	return $nomor->kode.$serial;
+	return $nomor->kode."-".$serial;
 }
 ?>

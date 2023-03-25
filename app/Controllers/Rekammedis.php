@@ -10,6 +10,7 @@ class Rekammedis extends BaseController
 	public $mongo;
 
     public function __construct(){
+		helper('klinik_helper');
 		$this->mongo = new Mongo();
     }
 
@@ -82,10 +83,7 @@ class Rekammedis extends BaseController
 			}
 
 			//--get antrian
-			$queryAntrian 	= $db->query("select count(a.id) as jumlah from pendaftaran a  where a.tanggal = '".date("Y-m-d")."' and a.poli='".$poli."'");
-			$rowAntrian 	= $queryAntrian->getRow();
-			$antrian 		= $rowAntrian->jumlah+1;
-
+			$antrian = nomor_antrian($poli);
 			$dtReg = [
 				"no_reg" => $data['no_reg'],
 				"tanggal" => date("Y-m-d",strtotime($data['tanggal'])),

@@ -196,6 +196,32 @@ $data = $mongo->getOne("profil");
     <script src="<?php echo base_url('assets/js/adminlte.min.js');?>"></script>
     <script src="<?php echo base_url('assets/js/sweetalert2.min.js');?>"></script>
     <?= $this->renderSection('pagejs') ?>
+    <audio id="suarabela" src="<?php echo base_url('assets')?>/suara/a.mp3"></audio>
+    <audio id="suarabelb" src="<?php echo base_url('assets')?>/suara/b.mp3"></audio>
+    <audio id="suarabelc" src="<?php echo base_url('assets')?>/suara/c.mp3"></audio>
+    <audio id="suarabeld" src="<?php echo base_url('assets')?>/suara/d.mp3"></audio>
+    <audio id="suarabele" src="<?php echo base_url('assets')?>/suara/e.mp3"></audio>
+    <audio id="suarabelf" src="<?php echo base_url('assets')?>/suara/f.mp3"></audio>
+    <audio id="suarabelg" src="<?php echo base_url('assets')?>/suara/g.mp3"></audio>
+    <audio id="suarabelh" src="<?php echo base_url('assets')?>/suara/h.mp3"></audio>
+    <audio id="suarabeli" src="<?php echo base_url('assets')?>/suara/i.mp3"></audio>
+    <audio id="suarabelj" src="<?php echo base_url('assets')?>/suara/j.mp3"></audio>
+    <audio id="suarabelk" src="<?php echo base_url('assets')?>/suara/k.mp3"></audio>
+    <audio id="suarabell" src="<?php echo base_url('assets')?>/suara/l.mp3"></audio>
+    <audio id="suarabelm" src="<?php echo base_url('assets')?>/suara/m.mp3"></audio>
+    <audio id="suarabeln" src="<?php echo base_url('assets')?>/suara/n.mp3"></audio>
+    <audio id="suarabelo" src="<?php echo base_url('assets')?>/suara/o.mp3"></audio>
+    <audio id="suarabelp" src="<?php echo base_url('assets')?>/suara/p.mp3"></audio>
+    <audio id="suarabelq" src="<?php echo base_url('assets')?>/suara/q.mp3"></audio>
+    <audio id="suarabelr" src="<?php echo base_url('assets')?>/suara/r.mp3"></audio>
+    <audio id="suarabels" src="<?php echo base_url('assets')?>/suara/s.mp3"></audio>
+    <audio id="suarabelt" src="<?php echo base_url('assets')?>/suara/t.mp3"></audio>
+    <audio id="suarabelu" src="<?php echo base_url('assets')?>/suara/u.mp3"></audio>
+    <audio id="suarabelv" src="<?php echo base_url('assets')?>/suara/v.mp3"></audio>
+    <audio id="suarabelw" src="<?php echo base_url('assets')?>/suara/w.mp3"></audio>
+    <audio id="suarabelx" src="<?php echo base_url('assets')?>/suara/x.mp3"></audio>
+    <audio id="suarabely" src="<?php echo base_url('assets')?>/suara/y.mp3"></audio>
+    <audio id="suarabelz" src="<?php echo base_url('assets')?>/suara/z.mp3"></audio>
     <audio id="suarabel" src="<?php echo base_url('assets')?>/suara/Airport_Bell.mp3"></audio>
     <audio id="suarabelopen" src="<?php echo base_url('assets')?>/suara/opening.mp3"></audio>
     <audio id="suarabelend" src="<?php echo base_url('assets')?>/suara/ending.mp3"></audio>
