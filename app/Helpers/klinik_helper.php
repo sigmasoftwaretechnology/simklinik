@@ -30,7 +30,6 @@ function hapus_spasi($text){
 function new_number($kode)
 {
 	$mongo = new Mongo();
-	
 	$nomor =  $mongo->getOne("no_transaksi", ["kode" => $kode]);
 	if ($nomor->tahun_sekarang == date('Y')) {
 		if ($nomor->bulan_sekarang == date('m')) {
@@ -70,5 +69,25 @@ function new_number($kode)
 	$replace = array(date('Y'), date('y'), date('m'), $serial_str);
 	
 	return str_replace($wildcard, $replace, $nomor->format);
+}
+
+function nomor_antrian($id)
+{
+	$mongo = new Mongo();
+	$nomor = $mongo->getOne("no_antrian", ["id_poli" => $id]);
+	if ($nomor->tgl_sekarang == date('d')) {
+		$serial = $nomor->no_berikutnya;
+		$update = array('no_berikutnya' => $serial + 1);
+	}
+	else{
+		$serial = 1;
+		$update = array (
+			'tgl_sekarang' => date('d'),
+			'no_berikutnya' => 2,
+		);
+	}
+	$where = array('id_poli' => $id);
+	$mongo->update('no_antrian', $update, $where);	
+	return $nomor->kode.$serial;
 }
 ?>
