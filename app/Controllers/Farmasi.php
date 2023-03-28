@@ -712,8 +712,33 @@ class Farmasi extends BaseController
 			$akhir = date("Y-m-d");
 		}
 		$listAssessment = $this->mongo->getBetweenDate("assessment","tanggal_dibuat",$awal,$akhir);
+		$obat=[];
+		foreach ($listAssessment as $dtRes) {
+			if(isset($dtRes->resep_obat)){
+				foreach($dtRes->resep_obat as $dtObat){
+					$obat[$dtRes->tanggal][] = [
+						"nama"=> $dtObat->nama_obat,
+						"jml"=> $dtObat->jumlah
+					];
+				}	
+			}
+        }
+		$groups = array();
+		foreach ($obat as $k => $val) {
+			foreach ($val as $i => $item_val) {
+				$key = $item_val['nama'];
+				if (!array_key_exists($key, $groups)) {
+					$groups[$key] = array(
+						'jml' => $item_val['jml'],
+						'tgl' => $k,
+					);
+				} else {
+					$groups[$key]['jml'] = $groups[$key]['jml'] + $item_val['jml'];
+				}
+			}
+		}
 		$data = [
-			"assessment" => $listAssessment
+			"lstObat" => $groups
 		];
         if ($this->request->isAJAX()) {
 			return view('obat-keluar/tabel', $data);
@@ -733,28 +758,48 @@ class Farmasi extends BaseController
 			$akhir = date("Y-m-d");
 		}
 		$listAssessment = $this->mongo->getBetweenDate("assessment","tanggal_dibuat",$awal,$akhir);
-
+		$obat=[];
+		foreach ($listAssessment as $dtRes) {
+			if(isset($dtRes->resep_obat)){
+				foreach($dtRes->resep_obat as $dtObat){
+					$obat[$dtRes->tanggal][] = [
+						"nama"=> $dtObat->nama_obat,
+						"jml"=> $dtObat->jumlah
+					];
+				}	
+			}
+        }
+		$groups = array();
+		foreach ($obat as $k => $val) {
+			foreach ($val as $i => $item_val) {
+				$key = $item_val['nama'];
+				if (!array_key_exists($key, $groups)) {
+					$groups[$key] = array(
+						'jml' => $item_val['jml'],
+						'tgl' => $k,
+					);
+				} else {
+					$groups[$key]['jml'] = $groups[$key]['jml'] + $item_val['jml'];
+				}
+			}
+		}
         $spreadsheet = new Spreadsheet();
 
         $spreadsheet->setActiveSheetIndex(0)
             ->setCellValue('A1', 'No')
             ->setCellValue('B1', 'Tanggal')
             ->setCellValue('C1', 'Nama Obat')
-            ->setCellValue('D1', 'Batch')
-            ->setCellValue('E1', 'Jml. Keluar');
+            ->setCellValue('D1', 'Jml. Keluar');
 
         $column = 2;
 		$no=1;
-        foreach ($listAssessment as $dtRes) {
-			foreach($dtRes->resep_obat as $dtObat){
-				$spreadsheet->setActiveSheetIndex(0)
-                ->setCellValue('A' . $column, $no++)
-                ->setCellValue('B' . $column, $dtRes->tanggal)
-                ->setCellValue('C' . $column, $dtObat->nama_obat)
-                ->setCellValue('D' . $column, $dtObat->batch_obat)
-                ->setCellValue('E' . $column, $dtObat->jumlah);
-            	$column++;
-			}
+        foreach ($groups as $k => $dtRes) {
+			$spreadsheet->setActiveSheetIndex(0)
+			->setCellValue('A' . $column, $no++)
+			->setCellValue('B' . $column, $dtRes['tgl'])
+			->setCellValue('C' . $column, $k)
+			->setCellValue('D' . $column, $dtRes['jml']);
+			$column++;
         }
         $writer = new Xlsx($spreadsheet);
         $filename = date('Y-m-d-His'). '-lap-obat-keluar';

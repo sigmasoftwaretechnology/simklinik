@@ -71,23 +71,14 @@ function new_number($kode)
 	return str_replace($wildcard, $replace, $nomor->format);
 }
 
-function nomor_antrian($poli)
+function nomor_antrian($poli,$tanggal)
 {
+	$db     = \Config\Database::connect();
 	$mongo = new Mongo();
-	$nomor = $mongo->getOne("no_antrian", ["nama_poli" => $poli]);
-	if ($nomor->tgl_sekarang == date('d')) {
-		$serial = $nomor->no_berikutnya;
-		$update = array('no_berikutnya' => $serial + 1);
-	}
-	else{
-		$serial = 1;
-		$update = array (
-			'tgl_sekarang' => date('d'),
-			'no_berikutnya' => 2,
-		);
-	}
-	$where = array('nama_poli' => $poli);
-	$mongo->update('no_antrian', $update, $where);	
-	return $nomor->kode."-".$serial;
+	$query = $db->query("select * from pendaftaran a  where a.tanggal = '".$tanggal."' and a.poli='".$poli."'");
+	$jml = $query->getNumRows();
+	$antrian = $jml+1;
+	$poli = $mongo->getOne("poli", ["nama" => $poli]);
+	return $poli->kode."-".$antrian;
 }
 ?>

@@ -6,22 +6,18 @@
 			  <th style="width:3%">No</th>
 			  <th>Tanggal</th>
 			  <th>Nama Obat</th>
-			  <th>Batch</th>
 			  <th>Jml. Keluar</th>
 			</tr>
 		  </thead>
 		  <tbody>
-		  	<?php if(count($assessment) > 0):?>
-			<?php $no=1;foreach($assessment as $data):?>
-				<?php foreach($data->resep_obat as $dtObat):?>
-					<tr>
+		  	<?php if(count($lstObat) > 0):?>
+			<?php $no=1;foreach($lstObat as $k => $data):?>
+				<tr>
 					<td class="text-left"><?=$no++?></td>
-					<td class="text-left"><?=$data->tanggal?></td>
-					<td class="text-left"><?=$dtObat->nama_obat?></td>
-					<td class="text-left"><?=$dtObat->batch_obat?></td>
-					<td class="text-left"><?=$dtObat->jumlah?></td>
-					</tr>
-				<?php endforeach;?>
+					<td class="text-left"><?=$data['tgl']?></td>
+					<td class="text-left"><?=$k?></td>
+					<td class="text-left"><?=$data['jml']?></td>
+				</tr>
 			<?php endforeach;?>
 			<?php endif;?>
 		  </tbody>

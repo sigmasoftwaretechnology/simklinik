@@ -83,7 +83,7 @@ class Rekammedis extends BaseController
 			}
 
 			//--get antrian
-			$antrian = nomor_antrian($poli);
+			$antrian = nomor_antrian($poli,date("Y-m-d",strtotime($data['tanggal'])));
 			$dtReg = [
 				"no_reg" => $data['no_reg'],
 				"tanggal" => date("Y-m-d",strtotime($data['tanggal'])),
