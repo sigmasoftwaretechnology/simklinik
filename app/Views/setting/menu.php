@@ -75,6 +75,16 @@
                     </div>
                 </a>
             </div>
+            <div class="col-md-2">
+                <a href="<?=base_url()?>/setting/display-antrian">
+                    <div class="card">
+                        <div class="card-body text-center p-3">
+                            <img src="<?php echo base_url('assets/img/monitor.png');?>">
+                            <small class="mb-0 d-block">Diplay Antrian</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>

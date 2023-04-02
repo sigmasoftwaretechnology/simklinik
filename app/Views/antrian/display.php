@@ -97,14 +97,15 @@
         border-top-color: #f9c922;
         animation: spin 1.5s linear infinite
     }
+
     .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #d47674;
-            color: white;
-        }
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #d47674;
+        color: white;
+    }
 
     @keyframes spin {
         0% {
@@ -134,19 +135,20 @@
             <span class="h4" id="hasil">Hari,01 Januari 2020</span><br>
         </div>
     </div>
-    <div class="pl-3 pr-3 pt-3">
+    <div class="pl-3">
         <div class="row">
-            <div class="col-md-4 col-4" id="nomor">
+            <div class="col-md-4 col-4 pt-3" id="nomor">
             </div>
             <div class="col-md-8 col-8">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <div id="muteYouTubeVideoPlayer"></div>
-                </div>
+                <video style="width:100%;max-height:100%" autoplay muted loop controls>
+                    <source src="<?php echo base_url("public/display/movie.mp4");?>"
+                        type="video/mp4">
+                </video>
             </div>
         </div>
         <div class="footer">
-        <marquee><span style="font-size: 45px">Klinik sehati melayani dengan sepenuh hati. </span></marquee>
-    </div>
+            <marquee><span style="font-size: 45px">Klinik sehati melayani dengan sepenuh hati. </span></marquee>
+        </div>
 
     </div>
     <script src="<?php echo base_url('assets/js/jquery.min.js');?>"></script>

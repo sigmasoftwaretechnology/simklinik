@@ -4,6 +4,7 @@ namespace App\Controllers;
 use  App\Models\KaryawanModel;
 use App\Libraries\Mongo;
 use Dompdf\Dompdf;
+use CodeIgniter\Files\File;
 
 class Setting extends BaseController
 {
@@ -283,7 +284,7 @@ class Setting extends BaseController
 		return $this->response->setJSON($dataResponse);			
     }
 
-  public function antrian()
+  	public function antrian()
     {
 		$dataAntrian = $this->mongo->get("antrian");
 		$data = [
@@ -331,4 +332,45 @@ class Setting extends BaseController
 		];
 		return $this->response->setJSON($dataResponse);			
     }
+
+	public function displayAntrian()
+    {
+		if ($this->request->getMethod() == "get") {
+			$data = $this->mongo->getOne("display");
+			return view('setting-display/form',compact('data'));
+		}
+		else{
+			$data = $this->request->getVar();
+			$file = $this->request->getFile("file_video");
+			if($file->getPath() == ""){
+				$dataResponse = [
+					"fail" => true,
+					'errors' => (object) array('file_video' => 'Pilih file dulu'),
+				];
+				return $this->response->setJSON($dataResponse);    
+			}
+			$file_type = $file->getMimeType();
+			if ($file_type !=='video/mp4')
+			{
+				$dataResponse = [
+					"fail" => true,
+					'errors' => (object) array('file_video' => 'File wajib mp4'),
+				];
+				return $this->response->setJSON($dataResponse);    
+			}
+			$newName = $file->getRandomName();
+			$file->move(ROOTPATH . 'public/display', $newName);
+			$id = $data['id'];
+			$dtInf = [
+				"file" => $newName,
+			];
+			$result = $this->mongo->updateById("display",$dtInf,$id);
+			$dataResponse = [
+				"fail" => false,
+				'error' => "",
+			];
+			return $this->response->setJSON($dataResponse);
+		}
+    }
+
 }

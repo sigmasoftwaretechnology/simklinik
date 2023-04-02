@@ -154,6 +154,9 @@ $routes->get('/setting/antrian/non-aktif', 'Setting::nonaktifAntrian');
 $routes->get('/setting/antrian/aktif', 'Setting::aktifAntrian');
 $routes->get('/setting/antrian/reset', 'Setting::resetAntrian');
 
+$routes->get('/setting/display-antrian', 'Setting::displayAntrian');
+$routes->post('/setting/display-antrian', 'Setting::displayAntrian');
+
 $routes->get('/hrd', 'Home::hrd',['filter' => 'auth']);
 $routes->get('/hrd/karyawan', 'Hrd::karyawan',['filter' => 'auth']);
 $routes->get('/hrd/karyawan/tambah', 'Hrd::tambahKaryawan',['filter' => 'auth']);
