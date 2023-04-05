@@ -74,6 +74,7 @@ class Pasien extends BaseController
 					"no_bpjs" => $data['no_bpjs'],
 					"no_ktp" => $data['no_ktp'],
 					"tgl_lahir" => date("Y-m-d",strtotime(str_replace("/", "-", $data['tgl_lahir']))),
+					"panggilan" => $data['panggilan'],
 					"nama" => ucwords(strtolower($data['nama'])),
 					"alamat" => $data['alamat'],
 					"telp" => $data['telp'],

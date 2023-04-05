@@ -20,7 +20,19 @@
                             <div class="col-md-12">
                                 <div class="form-group mb-1">
                                     <label class="mb-0">No RM</label>
-                                    <input type="text" class="form-control form-control-sm col-4" readonly name="no_rm" placeholder="Dibuat Otomatis" value="">
+                                    <input type="text" class="form-control form-control-sm col-4" readonly name="no_rm"
+                                        placeholder="Dibuat Otomatis" value="">
+                                </div>
+                                <div class="form-group mb-1">
+                                    <label class="mb-0">Panggilan</label>
+                                    <select class="form-control form-control-sm col-3" id="panggilan" name="panggilan">
+                                        <option value="">- Pilih Panggilan -<c/option>
+                                        <option value="Tn">Tn</option>
+                                        <option value="Ny">Ny</option>
+                                        <option value="Pr">Pr</option>
+                                        <option value="Lk">Lk</option>
+                                    </select>
+                                    <div id="error-panggilan" class="invalid-feedback"></div>
                                 </div>
                                 <div class="form-group mb-1">
                                     <label class="mb-0" for="exampleInputNama">Nama</label>
@@ -153,7 +165,8 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label class="mb-0" for="exampleInputNama">Tanggal Daftar</label>
-											<input type="text" class="form-control form-control-sm col-4 filterTanggal" name="tanggal" value="<?=date("d-m-Y")?>">
+                                            <input type="text" class="form-control form-control-sm col-4 filterTanggal"
+                                                name="tanggal" value="<?=date("d-m-Y")?>">
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +184,7 @@
                                                 </option>
                                                 <?php endforeach;?>
                                             </select>
-											<div id="error-poli" class="invalid-feedback"></div>
+                                            <div id="error-poli" class="invalid-feedback"></div>
                                         </div>
                                     </div>
                                 </div>
