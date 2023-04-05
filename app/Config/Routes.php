@@ -171,6 +171,8 @@ $routes->get('/error/akses-error', 'Error::aksesError');
 $routes->get('/keuangan/laporan-keuangan-2', 'Keuangan::laporanKeuangan2',['filter' => 'auth']);
 $routes->get('/rekam-medis/pendaftaran/get-rm', 'Rekammedis::getRM');
 
+$routes->get('/rekam-medis/pendaftaran-mongo', 'Rekammedis::daftarMongo');
+
 
 /*
  * --------------------------------------------------------------------

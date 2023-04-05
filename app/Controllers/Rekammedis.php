@@ -417,4 +417,25 @@ class Rekammedis extends BaseController
 		return $this->response->setJSON($data);			
     }
 
+	public function daftarMongo(){
+		$this->reorderAntrian('2023-04-04','Poli Obgyn sore');
+	}
+
+	public function reorderAntrian($tanggal,$poli){
+		$db     = \Config\Database::connect();
+		$query = $db->query("select * from pendaftaran a  where a.tanggal = '$tanggal' and a.poli='$poli'");
+		$data = $query->getResult();
+		$poli =  $this->mongo->getOne("poli", ["nama" => $poli]);
+		$i = 1;
+		$builder = $db->table('pendaftaran');
+		foreach($data as $dt){
+			$antrian = "D"."-".$i++;
+			$data = [
+				"antrian" => $antrian
+			];
+			$builder->where('id', $dt->id);
+			$builder->update($data);
+		}
+	}
+
 }

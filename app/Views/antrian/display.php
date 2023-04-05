@@ -141,8 +141,7 @@
             </div>
             <div class="col-md-8 col-8">
                 <video style="width:100%;max-height:100%" autoplay muted loop controls>
-                    <source src="<?php echo base_url("public/display/movie.mp4");?>"
-                        type="video/mp4">
+                    <source src="<?php echo base_url("public/display/".$dtDisplay->file);?>" type="video/mp4">
                 </video>
             </div>
         </div>

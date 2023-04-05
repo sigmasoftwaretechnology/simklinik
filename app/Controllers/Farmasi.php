@@ -716,8 +716,13 @@ class Farmasi extends BaseController
 		foreach ($listAssessment as $dtRes) {
 			if(isset($dtRes->resep_obat)){
 				foreach($dtRes->resep_obat as $dtObat){
+					$dt = $this->mongo->getOneById("obat",$dtObat->id_obat);
 					$obat[$dtRes->tanggal][] = [
 						"nama"=> $dtObat->nama_obat,
+						"supplier"=> $dt->supplier,
+						"satuan"=> $dt->satuan,
+						"harga_pokok"=> $dt->harga_pokok,
+						"harga"=> $dt->harga,
 						"jml"=> $dtObat->jumlah
 					];
 				}	
@@ -730,6 +735,10 @@ class Farmasi extends BaseController
 				if (!array_key_exists($key, $groups)) {
 					$groups[$key] = array(
 						'jml' => $item_val['jml'],
+						'supplier' => $item_val['supplier'],
+						'satuan' => $item_val['satuan'],
+						'harga' => $item_val['harga'],
+						'harga_pokok' => $item_val['harga_pokok'],
 						'tgl' => $k,
 					);
 				} else {
@@ -762,8 +771,13 @@ class Farmasi extends BaseController
 		foreach ($listAssessment as $dtRes) {
 			if(isset($dtRes->resep_obat)){
 				foreach($dtRes->resep_obat as $dtObat){
+					$dt = $this->mongo->getOneById("obat",$dtObat->id_obat);
 					$obat[$dtRes->tanggal][] = [
 						"nama"=> $dtObat->nama_obat,
+						"supplier"=> $dt->supplier,
+						"satuan"=> $dt->satuan,
+						"harga_pokok"=> $dt->harga_pokok,
+						"harga"=> $dt->harga,
 						"jml"=> $dtObat->jumlah
 					];
 				}	
@@ -776,6 +790,10 @@ class Farmasi extends BaseController
 				if (!array_key_exists($key, $groups)) {
 					$groups[$key] = array(
 						'jml' => $item_val['jml'],
+						'supplier' => $item_val['supplier'],
+						'satuan' => $item_val['satuan'],
+						'harga' => $item_val['harga'],
+						'harga_pokok' => $item_val['harga_pokok'],
 						'tgl' => $k,
 					);
 				} else {
@@ -789,7 +807,11 @@ class Farmasi extends BaseController
             ->setCellValue('A1', 'No')
             ->setCellValue('B1', 'Tanggal')
             ->setCellValue('C1', 'Nama Obat')
-            ->setCellValue('D1', 'Jml. Keluar');
+            ->setCellValue('D1', 'Satuan')
+            ->setCellValue('E1', 'Supplier')
+            ->setCellValue('F1', 'Harga Beli')
+            ->setCellValue('G1', 'Harga Jual')
+            ->setCellValue('H1', 'Jml. Keluar');
 
         $column = 2;
 		$no=1;
@@ -798,7 +820,11 @@ class Farmasi extends BaseController
 			->setCellValue('A' . $column, $no++)
 			->setCellValue('B' . $column, $dtRes['tgl'])
 			->setCellValue('C' . $column, $k)
-			->setCellValue('D' . $column, $dtRes['jml']);
+			->setCellValue('D' . $column, $dtRes['satuan'])
+			->setCellValue('E' . $column, $dtRes['supplier'])
+			->setCellValue('F' . $column, $dtRes['harga_pokok'])
+			->setCellValue('G' . $column, $dtRes['harga'])
+			->setCellValue('H' . $column, $dtRes['jml']);
 			$column++;
         }
         $writer = new Xlsx($spreadsheet);

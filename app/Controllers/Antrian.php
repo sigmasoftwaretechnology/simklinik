@@ -15,7 +15,8 @@ class Antrian extends BaseController
 	{
 		$profil = $this->mongo->getOne("profil");
 		$dtAntrian = $this->mongo->get("antrian", ["aktif" => "yes"]);
-		return view('antrian/display',compact('profil','dtAntrian'));
+		$dtDisplay = $this->mongo->getOne("display");
+		return view('antrian/display',compact('profil','dtAntrian','dtDisplay'));
 	}
 	
 	public function data()
