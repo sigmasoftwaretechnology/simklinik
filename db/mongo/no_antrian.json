@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "641e7348b0108f225268af5c"
+  },
+  "kode": "A",
+  "no_berikutnya": 8,
+  "tgl_sekarang": "25",
+  "id_poli": "641b0580c06b000011004fe4",
+  "nama_poli": "Poli Umum"
+},{
+  "_id": {
+    "$oid": "641e737cb0108f225268af63"
+  },
+  "kode": "B",
+  "no_berikutnya": 2,
+  "tgl_sekarang": "25",
+  "id_poli": "641b083ec06b000011004fe6",
+  "nama_poli": "Poli Umum 2"
+}]

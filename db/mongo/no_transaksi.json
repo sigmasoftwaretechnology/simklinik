@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "64111c8c31b3d065f9e7cfe4"
+  },
+  "kode": "pasien",
+  "nama": "Pasien",
+  "format": "#M#-#Y2#-#SERIAL#",
+  "digit_serial": "3",
+  "is_reset_serial": "0",
+  "reset_serial": "bulanan",
+  "tahun_sekarang": "2023",
+  "bulan_sekarang": "03",
+  "serial_berikutnya": 610
+}]

@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "641b09f4c06b000011004fea"
+  },
+  "poli": "Poli Umum 2",
+  "no_antrian": "B-1",
+  "dpjp": "dr Eva ",
+  "aktif": "yes"
+},{
+  "_id": {
+    "$oid": "641b0a00c06b000011004feb"
+  },
+  "poli": "Poli Umum",
+  "no_antrian": "7",
+  "dpjp": "dr Yulianti ",
+  "aktif": "yes"
+}]

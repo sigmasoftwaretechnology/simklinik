@@ -10,6 +10,7 @@
     "rekam-medis/pendaftaran",
     "rekam-medis/pasien-registrasi",
     "rekam-medis/pasien",
+    "pasien/cetak-kartu",
     "rekam-medis/pemeriksaan",
     "rekam-medis/tindakan",
     "farmasi",

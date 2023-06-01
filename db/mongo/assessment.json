@@ -1,0 +1,178 @@
+[{
+  "_id": {
+    "$oid": "641bce94c06b000011004ff0"
+  },
+  "no_reg": "RE-1679543505",
+  "no_rm": "03-23-596",
+  "nama": "Katini",
+  "umur": "32 th",
+  "alamat_pasien": "sdsf",
+  "tanggal": "23-03-2023",
+  "jam": "10:59:16",
+  "subject": "wwewrew",
+  "object": {
+    "ku": "erewr",
+    "t": "",
+    "n": "",
+    "s": "",
+    "rr": "",
+    "bb": "",
+    "tb": "",
+    "gda": ""
+  },
+  "assessment": {
+    "icdx": [],
+    "tindakan": []
+  },
+  "plant": {
+    "resep": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>sadsadsad</p>"
+  },
+  "pemeriksaan_penunjang": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>sadasd</p>",
+  "lunas": "lunas",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  },
+  "input_resep_obat": "Superadmin",
+  "resep_obat": [
+    {
+      "id_obat": "63ddd812d16b00004e002e2f",
+      "nama_obat": "asi-m",
+      "batch_obat": "2212071",
+      "kali": "-",
+      "waktu_minum": "sesudah makan",
+      "harga": "4000",
+      "jumlah": "10"
+    },
+    {
+      "id_obat": "63e4516aaa7800002e0069a4",
+      "nama_obat": "cefila 100 mg-kapsul",
+      "batch_obat": "eb102",
+      "kali": "-",
+      "waktu_minum": "sesudah makan",
+      "harga": "33500",
+      "jumlah": "5"
+    }
+  ],
+  "input_pembayaran": "Superadmin",
+  "jumlah_bayar": "210000",
+  "kembali": "2500",
+  "total_bayar": "207500"
+},{
+  "_id": {
+    "$oid": "641bd1a499bebd5d5f65167a"
+  },
+  "no_reg": "RE-1679543505",
+  "no_rm": "03-23-596",
+  "nama": "Katini",
+  "umur": "32 th",
+  "alamat_pasien": "sdsf",
+  "tanggal": "23-03-2023",
+  "jam": "10:59:16",
+  "subject": "wwewrew",
+  "object": {
+    "ku": "erewr",
+    "t": "",
+    "n": "",
+    "s": "",
+    "rr": "",
+    "bb": "",
+    "tb": "",
+    "gda": ""
+  },
+  "assessment": {
+    "icdx": [],
+    "tindakan": []
+  },
+  "plant": {
+    "resep": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>sadsadsad</p>"
+  },
+  "pemeriksaan_penunjang": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>sadasd</p>",
+  "lunas": "lunas",
+  "tanggal_dibuat": {
+    "$date": "2023-03-21T17:00:00Z"
+  },
+  "input_resep_obat": "Superadmin",
+  "resep_obat": [
+    {
+      "id_obat": "63ddd812d16b00004e002e2f",
+      "nama_obat": "asi-m",
+      "batch_obat": "2212071",
+      "kali": "-",
+      "waktu_minum": "sesudah makan",
+      "harga": "4000",
+      "jumlah": "3"
+    }
+  ],
+  "input_pembayaran": "Superadmin",
+  "jumlah_bayar": "210000",
+  "kembali": "2500",
+  "total_bayar": "207500"
+},{
+  "_id": {
+    "$oid": "64789c0a6274000048006f89"
+  },
+  "no_reg": "RE-1685625773",
+  "no_rm": "03-23-595",
+  "nama": "Rini",
+  "umur": "25 th",
+  "alamat_pasien": "sasAS",
+  "tanggal": "01-06-2023",
+  "jam": "20:24:26",
+  "subject": "sdfsdf",
+  "object": {
+    "ku": "",
+    "t": "",
+    "n": "",
+    "s": "",
+    "rr": "",
+    "bb": "",
+    "tb": "",
+    "gda": ""
+  },
+  "assessment": {
+    "icdx": [],
+    "tindakan": []
+  },
+  "plant": {
+    "resep": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>dfsdfdsf</p>"
+  },
+  "pemeriksaan_penunjang": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>sdfdsf</p>",
+  "lunas": "",
+  "tanggal_dibuat": {
+    "$date": "2023-05-31T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "64789c256274000048006f8a"
+  },
+  "no_reg": "RE-1685625806",
+  "no_rm": "03-23-598",
+  "nama": "Cristina",
+  "umur": "28 th",
+  "alamat_pasien": "asdasdasd",
+  "tanggal": "01-06-2023",
+  "jam": "20:24:53",
+  "subject": "dfgdfg",
+  "object": {
+    "ku": "",
+    "t": "",
+    "n": "",
+    "s": "",
+    "rr": "",
+    "bb": "",
+    "tb": "",
+    "gda": ""
+  },
+  "assessment": {
+    "icdx": [],
+    "tindakan": []
+  },
+  "plant": {
+    "resep": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>fghdf</p>"
+  },
+  "pemeriksaan_penunjang": "<p style='font-size:10pt;margin-bottom:3px;margin-top:3px'>fch</p>",
+  "lunas": "",
+  "tanggal_dibuat": {
+    "$date": "2023-05-31T17:00:00Z"
+  }
+}]

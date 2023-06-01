@@ -14,4 +14,36 @@
     "$date": "2023-02-18T06:00:00Z"
   },
   "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "640f4001ba570000f000243f"
+  },
+  "nik": "01.03.2023",
+  "gelar_depan": "dr",
+  "nama": "Yulianti",
+  "gelar_belakang": "",
+  "unit": "Dokter",
+  "atasan": "Direktur",
+  "str": "",
+  "tahun_akhir_str": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "641b0833c06b000011004fe5"
+  },
+  "nik": "09.09.2021",
+  "gelar_depan": "dr",
+  "nama": "Eva",
+  "gelar_belakang": "",
+  "unit": "Direktur",
+  "atasan": "",
+  "str": "",
+  "tahun_akhir_str": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
 }]

@@ -1,0 +1,221 @@
+[{
+  "_id": {
+    "$oid": "640f40e9ba570000f0002441"
+  },
+  "no_reg": "RE-1678721257",
+  "tanggal": "2023-03-13",
+  "jam": "10:27:37",
+  "no_rm": "03-23-1",
+  "nama": "Tri Yuni",
+  "alamat": "sfwe",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": 1,
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641b087ec06b000011004fe7"
+  },
+  "no_reg": "RE-1679493239",
+  "tanggal": "2023-03-22",
+  "jam": "08:54:06",
+  "no_rm": "03-23-1",
+  "nama": "Tri Yuni",
+  "alamat": "sfwe",
+  "poli": "Poli Umum 2",
+  "dpjp": "dr Eva ",
+  "tipe": "Umum",
+  "antrian": 1,
+  "user_input": "Superadmin",
+  "status": "L",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641b0969c06b000011004fe8"
+  },
+  "no_reg": "RE-1679493481",
+  "tanggal": "2023-03-22",
+  "jam": "08:58:01",
+  "no_rm": "03-23-594",
+  "nama": "Gracia",
+  "alamat": "asd",
+  "poli": "Poli Umum 2",
+  "dpjp": "",
+  "tipe": "Umum",
+  "antrian": 2,
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641b09dbc06b000011004fe9"
+  },
+  "no_reg": "RE-1679493595",
+  "tanggal": "2023-03-22",
+  "jam": "08:59:55",
+  "no_rm": "03-23-595",
+  "nama": "Rini",
+  "alamat": "sasAS",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": 1,
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641bccd1c06b000011004fef"
+  },
+  "no_reg": "RE-1679543505",
+  "tanggal": "2023-03-23",
+  "jam": "10:51:45",
+  "no_rm": "03-23-596",
+  "nama": "Katini",
+  "alamat": "sdsf",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": 1,
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641e751ec06b000011004ff6"
+  },
+  "no_reg": "RE-1679717662",
+  "tanggal": "2023-03-25",
+  "jam": "11:14:22",
+  "no_rm": "03-23-597",
+  "nama": "Rini Zub Aidah",
+  "alamat": "gg",
+  "poli": "Poli Umum 2",
+  "dpjp": "dr Eva ",
+  "tipe": "Umum",
+  "antrian": "B-1",
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-24T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641e7a40c06b000011004ff7"
+  },
+  "no_reg": "RE-1679718976",
+  "tanggal": "2023-03-25",
+  "jam": "11:36:16",
+  "no_rm": "03-23-598",
+  "nama": "Cristina",
+  "alamat": "asdasdasd",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": "A-7",
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-24T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6422eaedc06b000011004ff9"
+  },
+  "no_reg": "RE-1680009965",
+  "tanggal": "2023-03-28",
+  "jam": "08:26:05",
+  "no_rm": "03-23-607",
+  "nama": "Caca",
+  "alamat": "dsf",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": "A-1",
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-27T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "6422eb46c06b000011004ffa"
+  },
+  "no_reg": "RE-1680010054",
+  "tanggal": "2023-03-28",
+  "jam": "08:27:34",
+  "no_rm": "03-23-609",
+  "nama": "Eni Sueb",
+  "alamat": "sdfdsf",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": "A-2",
+  "user_input": "Superadmin",
+  "status": "B",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-27T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "64789bc16274000048006f86"
+  },
+  "no_reg": "RE-1685625773",
+  "tanggal": "2023-06-01",
+  "jam": "08:23:12",
+  "no_rm": "03-23-595",
+  "nama": "Rini",
+  "alamat": "sasAS",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": "A-1",
+  "user_input": "Superadmin",
+  "status": "L",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-05-31T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "64789bdc6274000048006f87"
+  },
+  "no_reg": "RE-1685625806",
+  "tanggal": "2023-06-01",
+  "jam": "08:23:40",
+  "no_rm": "03-23-598",
+  "nama": "Cristina",
+  "alamat": "asdasdasd",
+  "poli": "Poli Umum",
+  "dpjp": "dr Yulianti ",
+  "tipe": "Umum",
+  "antrian": "A-2",
+  "user_input": "Superadmin",
+  "status": "L",
+  "dilayani": "",
+  "tanggal_dibuat": {
+    "$date": "2023-05-31T17:00:00Z"
+  }
+}]

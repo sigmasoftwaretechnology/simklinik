@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "640f35a7ba570000f0002433"
+  },
+  "nama": "Direktur",
+  "parent": "",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "640f3fd4ba570000f000243c"
+  },
+  "nama": "Dokter",
+  "parent": "Direktur",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "640f3fdcba570000f000243d"
+  },
+  "nama": "Perawat",
+  "parent": "Direktur",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "640f3fe7ba570000f000243e"
+  },
+  "nama": "Resepsionis",
+  "parent": "Direktur",
+  "tanggal_dibuat": {
+    "$date": "2023-03-13T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+}]

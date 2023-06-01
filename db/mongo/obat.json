@@ -3,18 +3,22 @@
     "$oid": "638845645d230000bf0031f0"
   },
   "kode": "VITAMIN",
-  "nama": "apialys sirup",
+  "nama": "apialys sireeup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "4"
-  },
+  "stok": [
+    null,
+    null,
+    "4"
+  ],
   "harga": "60000",
   "harga_pokok": "45000",
   "tanggal_dibuat": {
     "$date": "2023-03-13T17:00:00Z"
   },
-  "tanggal_dihapus": "",
+  "tanggal_dihapus": {
+    "$date": "2023-03-14T13:44:59Z"
+  },
   "batch": [
     {
       "batch": "30332",
@@ -30,15 +34,17 @@
   "nama": "apialys drop",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "9"
-  },
+  "stok": [
+    null,
+    null,
+    "9"
+  ],
   "harga": "72000",
   "harga_pokok": "54000",
   "tanggal_dibuat": {
     "$date": "2023-03-08T17:00:00Z"
   },
-  "tanggal_dihapus": "",
+  "tanggal_dihapus": "r",
   "batch": [
     {
       "batch": "a0532",
@@ -54,9 +60,11 @@
   "nama": "asi-m",
   "supplier": "PT KALISTA",
   "satuan": "pcs",
-  "stok": {
-    "2": "120"
-  },
+  "stok": [
+    null,
+    null,
+    "120"
+  ],
   "harga": "4000",
   "harga_pokok": "2900",
   "tanggal_dibuat": {
@@ -67,10 +75,7 @@
     {
       "batch": "2212071",
       "expired": "01/12/24",
-      "expired_date": {
-        "$date": "2024-01-11T17:00:00Z"
-      },
-      "stok": "120"
+      "stok": 110
     }
   ]
 },{
@@ -81,9 +86,11 @@
   "nama": "cefila dry syrup",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "3"
-  },
+  "stok": [
+    null,
+    null,
+    "3"
+  ],
   "harga": "153500",
   "harga_pokok": "115000",
   "tanggal_dibuat": {
@@ -105,9 +112,11 @@
   "nama": "cefila 100 mg-kapsul",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "20"
-  },
+  "stok": [
+    null,
+    null,
+    "20"
+  ],
   "harga": "33500",
   "harga_pokok": "25000",
   "tanggal_dibuat": {
@@ -118,10 +127,7 @@
     {
       "batch": "eb102",
       "expired": "01/12/24",
-      "expired_date": {
-        "$date": "2024-01-11T17:00:00Z"
-      },
-      "stok": "20"
+      "stok": 15
     }
   ]
 },{
@@ -132,9 +138,11 @@
   "nama": "dom suspensi",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "61500",
   "harga_pokok": "46000",
   "tanggal_dibuat": {
@@ -159,9 +167,10 @@
   "nama": "imunos syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "0"
-  },
+  "stok": [
+    null,
+    "0"
+  ],
   "harga": "86700",
   "harga_pokok": "65000",
   "tanggal_dibuat": {
@@ -186,9 +195,11 @@
   "nama": "imunos plus syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "122700",
   "harga_pokok": "92000",
   "tanggal_dibuat": {
@@ -213,9 +224,11 @@
   "nama": "imunos kaplet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "10700",
   "harga_pokok": "8000",
   "tanggal_dibuat": {
@@ -240,9 +253,10 @@
   "nama": "l-bio sachet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "0"
-  },
+  "stok": [
+    null,
+    "0"
+  ],
   "harga": "10500",
   "harga_pokok": "7750",
   "tanggal_dibuat": {
@@ -267,9 +281,11 @@
   "nama": "l-zinc syrup",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "4"
-  },
+  "stok": [
+    null,
+    null,
+    "4"
+  ],
   "harga": "63500",
   "harga_pokok": "47500",
   "tanggal_dibuat": {
@@ -291,15 +307,18 @@
   "nama": "lapisiv syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "28000",
   "harga_pokok": "21000",
   "tanggal_dibuat": {
     "$date": "2023-02-08T06:00:00Z"
   },
-  "tanggal_dihapus": "",
+  "tanggal_dihapus": {
+    "$date": "2023-03-14T14:05:02Z"
+  },
   "batch": [
     {
       "batch": "1",
@@ -318,9 +337,10 @@
   "nama": "lasal syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "37500",
   "harga_pokok": "28000",
   "tanggal_dibuat": {
@@ -342,9 +362,11 @@
   "nama": "lasal 2 mg cap",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "2": "30"
-  },
+  "stok": [
+    null,
+    null,
+    "30"
+  ],
   "harga": "2500",
   "harga_pokok": "2100",
   "tanggal_dibuat": {
@@ -366,9 +388,11 @@
   "nama": "lasal 4-kapsul",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "2500",
   "harga_pokok": "1800",
   "tanggal_dibuat": {
@@ -393,9 +417,11 @@
   "nama": "lasal sirup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "4"
-  },
+  "stok": [
+    null,
+    null,
+    "4"
+  ],
   "harga": "43000",
   "harga_pokok": "32000",
   "tanggal_dibuat": {
@@ -420,9 +446,10 @@
   "nama": "lasal com",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -447,9 +474,10 @@
   "nama": "rhelafen susp",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "28000",
   "harga_pokok": "21000",
   "tanggal_dibuat": {
@@ -474,9 +502,11 @@
   "nama": "tiriz kaplet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "5500",
   "harga_pokok": "4000",
   "tanggal_dibuat": {
@@ -501,9 +531,11 @@
   "nama": "tiriz drop",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "4"
-  },
+  "stok": [
+    null,
+    null,
+    "4"
+  ],
   "harga": "100000",
   "harga_pokok": "75000",
   "tanggal_dibuat": {
@@ -528,9 +560,11 @@
   "nama": "fervit drop",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "10"
-  },
+  "stok": [
+    null,
+    null,
+    "10"
+  ],
   "harga": "53500",
   "harga_pokok": "40000",
   "tanggal_dibuat": {
@@ -552,9 +586,10 @@
   "nama": "lapimuc drop",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "50000",
   "harga_pokok": "37500",
   "tanggal_dibuat": {
@@ -579,9 +614,11 @@
   "nama": "lapisiv-t tablet",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "115"
-  },
+  "stok": [
+    null,
+    null,
+    "115"
+  ],
   "harga": "3000",
   "harga_pokok": "2150",
   "tanggal_dibuat": {
@@ -603,9 +640,11 @@
   "nama": "queenvit",
   "supplier": "PT KALISTA",
   "satuan": "pcs",
-  "stok": {
-    "2": "30"
-  },
+  "stok": [
+    null,
+    null,
+    "30"
+  ],
   "harga": "9600",
   "harga_pokok": "7200",
   "tanggal_dibuat": {
@@ -627,9 +666,10 @@
   "nama": "vitacur syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "53300",
   "harga_pokok": "40000",
   "tanggal_dibuat": {
@@ -654,9 +694,10 @@
   "nama": "apetic drop",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "33500",
   "harga_pokok": "25000",
   "tanggal_dibuat": {
@@ -681,9 +722,10 @@
   "nama": "apetic susp",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "37000",
   "harga_pokok": "27500",
   "tanggal_dibuat": {
@@ -708,9 +750,10 @@
   "nama": "apetic forte susp",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "43500",
   "harga_pokok": "32500",
   "tanggal_dibuat": {
@@ -735,10 +778,11 @@
   "nama": "lapiflox 500 tab",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10",
-    "2": "100"
-  },
+  "stok": [
+    null,
+    "10",
+    "100"
+  ],
   "harga": "19000",
   "harga_pokok": "14000",
   "tanggal_dibuat": {
@@ -771,9 +815,12 @@
   "nama": "lapimox 500-kaplet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "3": "100"
-  },
+  "stok": [
+    null,
+    null,
+    null,
+    "100"
+  ],
   "harga": "4500",
   "harga_pokok": "3250",
   "tanggal_dibuat": {
@@ -798,9 +845,11 @@
   "nama": "promavit kapsul",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "510"
-  },
+  "stok": [
+    null,
+    null,
+    "510"
+  ],
   "harga": "6500",
   "harga_pokok": "4800",
   "tanggal_dibuat": {
@@ -822,9 +871,11 @@
   "nama": "cal-95 kaplet",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "290"
-  },
+  "stok": [
+    null,
+    null,
+    "290"
+  ],
   "harga": "10000",
   "harga_pokok": "7300",
   "tanggal_dibuat": {
@@ -846,10 +897,11 @@
   "nama": "nonemi tablet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10",
-    "2": "100"
-  },
+  "stok": [
+    null,
+    "10",
+    "100"
+  ],
   "harga": "2600",
   "harga_pokok": "1900",
   "tanggal_dibuat": {
@@ -876,9 +928,12 @@
   "nama": "microgest 100 mg-kapsul",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "3": "30"
-  },
+  "stok": [
+    null,
+    null,
+    null,
+    "30"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -903,9 +958,10 @@
   "nama": "microgest 200-kapsul",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "15"
-  },
+  "stok": [
+    null,
+    "15"
+  ],
   "harga": "35000",
   "harga_pokok": "26000",
   "tanggal_dibuat": {
@@ -927,9 +983,10 @@
   "nama": "odr syrup",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "133500",
   "harga_pokok": "100000",
   "tanggal_dibuat": {
@@ -951,10 +1008,11 @@
   "nama": "analtram",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10",
-    "2": "100"
-  },
+  "stok": [
+    null,
+    "10",
+    "100"
+  ],
   "harga": "12000",
   "harga_pokok": "9000",
   "tanggal_dibuat": {
@@ -987,9 +1045,11 @@
   "nama": "kingvit",
   "supplier": "PT KALISTA",
   "satuan": "pcs",
-  "stok": {
-    "2": "30"
-  },
+  "stok": [
+    null,
+    null,
+    "30"
+  ],
   "harga": "9600",
   "harga_pokok": "7200",
   "tanggal_dibuat": {
@@ -1014,9 +1074,10 @@
   "nama": "lavit-c 500",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "2700",
   "harga_pokok": "2000",
   "tanggal_dibuat": {
@@ -1041,9 +1102,10 @@
   "nama": "lavit-c 1000",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4200",
   "harga_pokok": "3100",
   "tanggal_dibuat": {
@@ -1068,9 +1130,10 @@
   "nama": "avogin kaplet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "5500",
   "harga_pokok": "4100",
   "tanggal_dibuat": {
@@ -1095,9 +1158,10 @@
   "nama": "genoclom tablet",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "18700",
   "harga_pokok": "14000",
   "tanggal_dibuat": {
@@ -1122,9 +1186,11 @@
   "nama": "lapistan 500 mg",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "2500",
   "harga_pokok": "1700",
   "tanggal_dibuat": {
@@ -1149,9 +1215,11 @@
   "nama": "labumin kapsul",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "60"
-  },
+  "stok": [
+    null,
+    null,
+    "60"
+  ],
   "harga": "11900",
   "harga_pokok": "8900",
   "tanggal_dibuat": {
@@ -1176,9 +1244,10 @@
   "nama": "floralgyn kapsul",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "17600",
   "harga_pokok": "13200",
   "tanggal_dibuat": {
@@ -1203,9 +1272,11 @@
   "nama": "l-vit d3 5000iu",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "2": "30"
-  },
+  "stok": [
+    null,
+    null,
+    "30"
+  ],
   "harga": "5000",
   "harga_pokok": "3800",
   "tanggal_dibuat": {
@@ -1227,9 +1298,10 @@
   "nama": "acitral chewable tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "2000",
   "harga_pokok": "1465",
   "tanggal_dibuat": {
@@ -1254,9 +1326,10 @@
   "nama": "acitral liquid 120ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "59500",
   "harga_pokok": "44500",
   "tanggal_dibuat": {
@@ -1281,9 +1354,10 @@
   "nama": "alco oral drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "121500",
   "harga_pokok": "91000",
   "tanggal_dibuat": {
@@ -1308,9 +1382,10 @@
   "nama": "alco plus dmp syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "71000",
   "harga_pokok": "53000",
   "tanggal_dibuat": {
@@ -1335,9 +1410,10 @@
   "nama": "alco plus syrup 100ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "87000",
   "harga_pokok": "65000",
   "tanggal_dibuat": {
@@ -1362,9 +1438,10 @@
   "nama": "anadex dragee tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4200",
   "harga_pokok": "3100",
   "tanggal_dibuat": {
@@ -1389,9 +1466,10 @@
   "nama": "anadex syrup 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "48000",
   "harga_pokok": "36000",
   "tanggal_dibuat": {
@@ -1416,9 +1494,10 @@
   "nama": "antrain inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "15000",
   "harga_pokok": "11200",
   "tanggal_dibuat": {
@@ -1443,9 +1522,10 @@
   "nama": "antrain tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3000",
   "harga_pokok": "2200",
   "tanggal_dibuat": {
@@ -1470,9 +1550,10 @@
   "nama": "ceptik 100-kapsul",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "46000",
   "harga_pokok": "34500",
   "tanggal_dibuat": {
@@ -1497,9 +1578,10 @@
   "nama": "ceptik syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "157500",
   "harga_pokok": "118000",
   "tanggal_dibuat": {
@@ -1524,9 +1606,10 @@
   "nama": "ceptik 200 tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "57000",
   "harga_pokok": "42800",
   "tanggal_dibuat": {
@@ -1551,9 +1634,10 @@
   "nama": "clabat 500 tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "26100",
   "harga_pokok": "19528",
   "tanggal_dibuat": {
@@ -1578,9 +1662,10 @@
   "nama": "clabat dry syrup 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "143000",
   "harga_pokok": "107000",
   "tanggal_dibuat": {
@@ -1605,9 +1690,10 @@
   "nama": "clabat forte dry syrup 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "171500",
   "harga_pokok": "128500",
   "tanggal_dibuat": {
@@ -1632,9 +1718,10 @@
   "nama": "clabat inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "141500",
   "harga_pokok": "106000",
   "tanggal_dibuat": {
@@ -1659,9 +1746,10 @@
   "nama": "cliad tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "5000",
   "harga_pokok": "3640",
   "tanggal_dibuat": {
@@ -1686,9 +1774,10 @@
   "nama": "clinium gel",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "60000",
   "harga_pokok": "45000",
   "tanggal_dibuat": {
@@ -1713,9 +1802,10 @@
   "nama": "clinium 300-kapsul",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14000",
   "harga_pokok": "10380",
   "tanggal_dibuat": {
@@ -1740,9 +1830,11 @@
   "nama": "cobazim 1000",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "8000",
   "harga_pokok": "6000",
   "tanggal_dibuat": {
@@ -1764,9 +1856,11 @@
   "nama": "cobazim 3000",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "2"
-  },
+  "stok": [
+    null,
+    null,
+    "2"
+  ],
   "harga": "16500",
   "harga_pokok": "14100",
   "tanggal_dibuat": {
@@ -1788,9 +1882,10 @@
   "nama": "colme ear drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "64500",
   "harga_pokok": "48150",
   "tanggal_dibuat": {
@@ -1815,9 +1910,10 @@
   "nama": "colme eye drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "64500",
   "harga_pokok": "51350",
   "tanggal_dibuat": {
@@ -1842,9 +1938,10 @@
   "nama": "cortamine syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "77500",
   "harga_pokok": "58000",
   "tanggal_dibuat": {
@@ -1869,9 +1966,10 @@
   "nama": "cortamin tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4800",
   "harga_pokok": "3600",
   "tanggal_dibuat": {
@@ -1896,9 +1994,11 @@
   "nama": "coten-100",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "22000",
   "harga_pokok": "16500",
   "tanggal_dibuat": {
@@ -1923,9 +2023,10 @@
   "nama": "coten licaps",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "11200",
   "harga_pokok": "8400",
   "tanggal_dibuat": {
@@ -1950,9 +2051,10 @@
   "nama": "curfos syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "184000",
   "harga_pokok": "138000",
   "tanggal_dibuat": {
@@ -1977,9 +2079,10 @@
   "nama": "daily d3-1000iu",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3600",
   "harga_pokok": "2675",
   "tanggal_dibuat": {
@@ -2004,9 +2107,10 @@
   "nama": "dazolin infus",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "160500",
   "harga_pokok": "120375",
   "tanggal_dibuat": {
@@ -2031,9 +2135,10 @@
   "nama": "dazolin n-ovula",
   "supplier": "PT MBS",
   "satuan": "OVULA",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "19500",
   "harga_pokok": "14500",
   "tanggal_dibuat": {
@@ -2058,9 +2163,11 @@
   "nama": "diagit tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "3800",
   "harga_pokok": "2810",
   "tanggal_dibuat": {
@@ -2085,9 +2192,11 @@
   "nama": "diflam 50mg tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "6000",
   "harga_pokok": "4500",
   "tanggal_dibuat": {
@@ -2112,9 +2221,10 @@
   "nama": "digenta cr 10gr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "132000",
   "harga_pokok": "99000",
   "tanggal_dibuat": {
@@ -2139,9 +2249,11 @@
   "nama": "erdobat kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "11300",
   "harga_pokok": "8450",
   "tanggal_dibuat": {
@@ -2166,9 +2278,10 @@
   "nama": "erdobat dry syrup 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "87000",
   "harga_pokok": "65000",
   "tanggal_dibuat": {
@@ -2193,9 +2306,11 @@
   "nama": "erythrin 500-kap",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "79000",
   "harga_pokok": "59000",
   "tanggal_dibuat": {
@@ -2220,9 +2335,10 @@
   "nama": "erythrin dry syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "79000",
   "harga_pokok": "59000",
   "tanggal_dibuat": {
@@ -2247,9 +2363,10 @@
   "nama": "extimon inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "473000",
   "harga_pokok": "355000",
   "tanggal_dibuat": {
@@ -2274,9 +2391,10 @@
   "nama": "fenris susp jeruk",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "51000",
   "harga_pokok": "38000",
   "tanggal_dibuat": {
@@ -2301,9 +2419,11 @@
   "nama": "fertin tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "27000",
   "harga_pokok": "20300",
   "tanggal_dibuat": {
@@ -2328,9 +2448,10 @@
   "nama": "fetik supp",
   "supplier": "PT MBS",
   "satuan": "SUPPOSITORIA",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "25000",
   "harga_pokok": "18600",
   "tanggal_dibuat": {
@@ -2355,9 +2476,10 @@
   "nama": "gastridin inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "40000",
   "harga_pokok": "30000",
   "tanggal_dibuat": {
@@ -2382,9 +2504,11 @@
   "nama": "gastridin  tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "9000",
   "harga_pokok": "6700",
   "tanggal_dibuat": {
@@ -2409,9 +2533,10 @@
   "nama": "gitas inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "43000",
   "harga_pokok": "32100",
   "tanggal_dibuat": {
@@ -2436,9 +2561,10 @@
   "nama": "gitas plus kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9700",
   "harga_pokok": "7250",
   "tanggal_dibuat": {
@@ -2463,9 +2589,10 @@
   "nama": "hesmin fc caps",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "15000",
   "harga_pokok": "11000",
   "tanggal_dibuat": {
@@ -2490,9 +2617,11 @@
   "nama": "immucea kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "14500",
   "harga_pokok": "10833",
   "tanggal_dibuat": {
@@ -2517,9 +2646,10 @@
   "nama": "immucea syrup ",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "140000",
   "harga_pokok": "105000",
   "tanggal_dibuat": {
@@ -2544,9 +2674,10 @@
   "nama": "inadryl expec 50ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "37500",
   "harga_pokok": "28000",
   "tanggal_dibuat": {
@@ -2571,9 +2702,10 @@
   "nama": "inadryl expec 100ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "61500",
   "harga_pokok": "46000",
   "tanggal_dibuat": {
@@ -2598,9 +2730,11 @@
   "nama": "inbion kapsul",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "4200",
   "harga_pokok": "3100",
   "tanggal_dibuat": {
@@ -2622,9 +2756,10 @@
   "nama": "inclarin tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "8600",
   "harga_pokok": "6400",
   "tanggal_dibuat": {
@@ -2649,9 +2784,10 @@
   "nama": "indexon inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "19500",
   "harga_pokok": "14500",
   "tanggal_dibuat": {
@@ -2676,9 +2812,11 @@
   "nama": "indexon tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "30"
-  },
+  "stok": [
+    null,
+    null,
+    "30"
+  ],
   "harga": "1500",
   "harga_pokok": "1075",
   "tanggal_dibuat": {
@@ -2703,9 +2841,10 @@
   "nama": "inerson cr 15gr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "126000",
   "harga_pokok": "94500",
   "tanggal_dibuat": {
@@ -2730,9 +2869,11 @@
   "nama": "inlacta 500 dha",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "10000",
   "harga_pokok": "7500",
   "tanggal_dibuat": {
@@ -2757,9 +2898,10 @@
   "nama": "inmatrol eye drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "65000",
   "harga_pokok": "48600",
   "tanggal_dibuat": {
@@ -2784,9 +2926,10 @@
   "nama": "interbi 250mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "50000",
   "harga_pokok": "37200",
   "tanggal_dibuat": {
@@ -2811,9 +2954,10 @@
   "nama": "interbi cr 5g",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "48000",
   "harga_pokok": "36000",
   "tanggal_dibuat": {
@@ -2838,9 +2982,10 @@
   "nama": "interdoxin 100mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12000",
   "harga_pokok": "8900",
   "tanggal_dibuat": {
@@ -2865,9 +3010,10 @@
   "nama": "interdoxin 50mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "7400",
   "harga_pokok": "5500",
   "tanggal_dibuat": {
@@ -2892,9 +3038,10 @@
   "nama": "interhistin syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "61000",
   "harga_pokok": "45500",
   "tanggal_dibuat": {
@@ -2919,9 +3066,10 @@
   "nama": "interhisti tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1300",
   "harga_pokok": "970",
   "tanggal_dibuat": {
@@ -2946,9 +3094,10 @@
   "nama": "interlac vit-d3",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "15400",
   "harga_pokok": "11533",
   "tanggal_dibuat": {
@@ -2973,9 +3122,10 @@
   "nama": "interlac probiotik drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "386500",
   "harga_pokok": "290000",
   "tanggal_dibuat": {
@@ -3000,9 +3150,10 @@
   "nama": "interlac sch",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14800",
   "harga_pokok": "11100",
   "tanggal_dibuat": {
@@ -3027,9 +3178,10 @@
   "nama": "interlac tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14000",
   "harga_pokok": "10500",
   "tanggal_dibuat": {
@@ -3054,9 +3206,10 @@
   "nama": "intermoxil 500mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "5900",
   "harga_pokok": "4365",
   "tanggal_dibuat": {
@@ -3081,9 +3234,10 @@
   "nama": "intermoxil inj",
   "supplier": "PT MBS",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "57500",
   "harga_pokok": "43000",
   "tanggal_dibuat": {
@@ -3108,9 +3262,10 @@
   "nama": "interpec 15",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "70500",
   "harga_pokok": "52800",
   "tanggal_dibuat": {
@@ -3135,9 +3290,10 @@
   "nama": "interpec 30",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "76000",
   "harga_pokok": "56800",
   "tanggal_dibuat": {
@@ -3162,9 +3318,10 @@
   "nama": "interxantin",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "17500",
   "harga_pokok": "13000",
   "tanggal_dibuat": {
@@ -3189,9 +3346,10 @@
   "nama": "interzinc tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6400",
   "harga_pokok": "4750",
   "tanggal_dibuat": {
@@ -3216,9 +3374,10 @@
   "nama": "interzinc syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "63500",
   "harga_pokok": "47500",
   "tanggal_dibuat": {
@@ -3243,9 +3402,10 @@
   "nama": "interzole cr 5g",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "40000",
   "harga_pokok": "30000",
   "tanggal_dibuat": {
@@ -3270,9 +3430,10 @@
   "nama": "interzole tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9500",
   "harga_pokok": "7100",
   "tanggal_dibuat": {
@@ -3297,9 +3458,10 @@
   "nama": "intidrol 16mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14200",
   "harga_pokok": "10650",
   "tanggal_dibuat": {
@@ -3324,9 +3486,10 @@
   "nama": "intidrol 4mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6000",
   "harga_pokok": "4450",
   "tanggal_dibuat": {
@@ -3351,9 +3514,10 @@
   "nama": "intidrol inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "190000",
   "harga_pokok": "142500",
   "tanggal_dibuat": {
@@ -3378,9 +3542,10 @@
   "nama": "intrizin drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "139000",
   "harga_pokok": "104000",
   "tanggal_dibuat": {
@@ -3405,9 +3570,10 @@
   "nama": "intrizin syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "99500",
   "harga_pokok": "74000",
   "tanggal_dibuat": {
@@ -3432,9 +3598,10 @@
   "nama": "intrizin tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "10300",
   "harga_pokok": "7700",
   "tanggal_dibuat": {
@@ -3459,9 +3626,10 @@
   "nama": "invlomit 4 inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "61000",
   "harga_pokok": "45500",
   "tanggal_dibuat": {
@@ -3486,9 +3654,10 @@
   "nama": "invlomit 8 inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "121500",
   "harga_pokok": "91000",
   "tanggal_dibuat": {
@@ -3513,9 +3682,10 @@
   "nama": "invlomit 4 tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "26400",
   "harga_pokok": "19750",
   "tanggal_dibuat": {
@@ -3540,9 +3710,10 @@
   "nama": "invlomit 8 tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "39000",
   "harga_pokok": "29250",
   "tanggal_dibuat": {
@@ -3567,9 +3738,10 @@
   "nama": "lycalvit syrup 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "62000",
   "harga_pokok": "46500",
   "tanggal_dibuat": {
@@ -3594,9 +3766,10 @@
   "nama": "lycalvit tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "2500",
   "harga_pokok": "1875",
   "tanggal_dibuat": {
@@ -3621,9 +3794,10 @@
   "nama": "lyvit syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "60000",
   "harga_pokok": "45000",
   "tanggal_dibuat": {
@@ -3648,9 +3822,10 @@
   "nama": "mefinter 500",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3300",
   "harga_pokok": "2450",
   "tanggal_dibuat": {
@@ -3675,9 +3850,10 @@
   "nama": "mustela cr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "546500",
   "harga_pokok": "410000",
   "tanggal_dibuat": {
@@ -3702,9 +3878,10 @@
   "nama": "mustela serum",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "469000",
   "harga_pokok": "352000",
   "tanggal_dibuat": {
@@ -3729,9 +3906,10 @@
   "nama": "ossovit syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "111500",
   "harga_pokok": "83500",
   "tanggal_dibuat": {
@@ -3756,9 +3934,10 @@
   "nama": "ossovit kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "7600",
   "harga_pokok": "5675",
   "tanggal_dibuat": {
@@ -3783,9 +3962,10 @@
   "nama": "ottopain ear drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "113500",
   "harga_pokok": "85000",
   "tanggal_dibuat": {
@@ -3810,9 +3990,10 @@
   "nama": "oxtercid inj",
   "supplier": "PT MBS",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "136000",
   "harga_pokok": "102000",
   "tanggal_dibuat": {
@@ -3837,9 +4018,11 @@
   "nama": "pamol 125 supp",
   "supplier": "PT MBS",
   "satuan": "SUPPOSITORIA",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "20500",
   "harga_pokok": "15250",
   "tanggal_dibuat": {
@@ -3864,9 +4047,11 @@
   "nama": "pamol 250 supp",
   "supplier": "PT MBS",
   "satuan": "SUPPOSITORIA",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "30000",
   "harga_pokok": "22500",
   "tanggal_dibuat": {
@@ -3891,9 +4076,11 @@
   "nama": "pamol drop",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "71500",
   "harga_pokok": "53500",
   "tanggal_dibuat": {
@@ -3918,9 +4105,11 @@
   "nama": "pamol syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "43000",
   "harga_pokok": "32000",
   "tanggal_dibuat": {
@@ -3945,9 +4134,11 @@
   "nama": "pamol tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "1500",
   "harga_pokok": "975",
   "tanggal_dibuat": {
@@ -3972,9 +4163,10 @@
   "nama": "pantopump inj",
   "supplier": "PT MBS",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "272500",
   "harga_pokok": "204500",
   "tanggal_dibuat": {
@@ -3999,9 +4191,10 @@
   "nama": "physiomer baby comfort",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "244000",
   "harga_pokok": "183000",
   "tanggal_dibuat": {
@@ -4026,9 +4219,10 @@
   "nama": "physiomer baby hypertonic",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "212500",
   "harga_pokok": "159500",
   "tanggal_dibuat": {
@@ -4053,9 +4247,10 @@
   "nama": "prestrenol",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6900",
   "harga_pokok": "5150",
   "tanggal_dibuat": {
@@ -4080,9 +4275,10 @@
   "nama": "prome expect 100ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "70000",
   "harga_pokok": "52500",
   "tanggal_dibuat": {
@@ -4107,9 +4303,10 @@
   "nama": "prome expect 60ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "46000",
   "harga_pokok": "34250",
   "tanggal_dibuat": {
@@ -4134,9 +4331,10 @@
   "nama": "promedex syrup ",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "50000",
   "harga_pokok": "37250",
   "tanggal_dibuat": {
@@ -4161,9 +4359,10 @@
   "nama": "promedex tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3000",
   "harga_pokok": "2200",
   "tanggal_dibuat": {
@@ -4188,9 +4387,10 @@
   "nama": "promeno",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "15000",
   "harga_pokok": "11200",
   "tanggal_dibuat": {
@@ -4215,9 +4415,10 @@
   "nama": "rycef inj",
   "supplier": "PT MBS",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "308000",
   "harga_pokok": "231000",
   "tanggal_dibuat": {
@@ -4242,9 +4443,10 @@
   "nama": "salticin cr 5gr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "43000",
   "harga_pokok": "32250",
   "tanggal_dibuat": {
@@ -4269,9 +4471,10 @@
   "nama": "salticin inj",
   "supplier": "PT MBS",
   "satuan": "INJEKSI",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "37000",
   "harga_pokok": "27500",
   "tanggal_dibuat": {
@@ -4296,9 +4499,10 @@
   "nama": "sanoskin melladerm plus gel",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "321500",
   "harga_pokok": "241000",
   "tanggal_dibuat": {
@@ -4323,9 +4527,10 @@
   "nama": "sanoskin oxy gel",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "536500",
   "harga_pokok": "402600",
   "tanggal_dibuat": {
@@ -4350,9 +4555,10 @@
   "nama": "sedofen 500 caps",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "20000",
   "harga_pokok": "15000",
   "tanggal_dibuat": {
@@ -4377,9 +4583,10 @@
   "nama": "sedrofen forte syr",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "136000",
   "harga_pokok": "102000",
   "tanggal_dibuat": {
@@ -4404,9 +4611,10 @@
   "nama": "sedrofen syr",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "101500",
   "harga_pokok": "76000",
   "tanggal_dibuat": {
@@ -4431,9 +4639,10 @@
   "nama": "spiranter kaps",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12700",
   "harga_pokok": "9050",
   "tanggal_dibuat": {
@@ -4458,9 +4667,10 @@
   "nama": "spirocon kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "38500",
   "harga_pokok": "28900",
   "tanggal_dibuat": {
@@ -4485,9 +4695,10 @@
   "nama": "starxon inj",
   "supplier": "PT MBS",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "376000",
   "harga_pokok": "282000",
   "tanggal_dibuat": {
@@ -4512,9 +4723,10 @@
   "nama": "sucralbat susp",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "96000",
   "harga_pokok": "72000",
   "tanggal_dibuat": {
@@ -4539,9 +4751,10 @@
   "nama": "theobron elixir 100ml",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "67000",
   "harga_pokok": "50000",
   "tanggal_dibuat": {
@@ -4566,9 +4779,10 @@
   "nama": "theobron kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4300",
   "harga_pokok": "3200",
   "tanggal_dibuat": {
@@ -4593,9 +4807,10 @@
   "nama": "thiamycin 1000mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12500",
   "harga_pokok": "9275",
   "tanggal_dibuat": {
@@ -4620,9 +4835,10 @@
   "nama": "thiamyvin 500mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6900",
   "harga_pokok": "5170",
   "tanggal_dibuat": {
@@ -4647,9 +4863,10 @@
   "nama": "thiamycin forte syr",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "125500",
   "harga_pokok": "94000",
   "tanggal_dibuat": {
@@ -4674,9 +4891,10 @@
   "nama": "thiamycin syr",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "74500",
   "harga_pokok": "55750",
   "tanggal_dibuat": {
@@ -4701,9 +4919,10 @@
   "nama": "tilidon tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "7500",
   "harga_pokok": "5620",
   "tanggal_dibuat": {
@@ -4728,9 +4947,10 @@
   "nama": "tilidon syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "76500",
   "harga_pokok": "57300",
   "tanggal_dibuat": {
@@ -4755,9 +4975,10 @@
   "nama": "triamcort tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "5700",
   "harga_pokok": "4270",
   "tanggal_dibuat": {
@@ -4782,9 +5003,10 @@
   "nama": "thriamcort-a cr 10gr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "110000",
   "harga_pokok": "82500",
   "tanggal_dibuat": {
@@ -4809,9 +5031,10 @@
   "nama": "trifed syrup",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "49000",
   "harga_pokok": "36500",
   "tanggal_dibuat": {
@@ -4836,9 +5059,10 @@
   "nama": "trifed tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4500",
   "harga_pokok": "3050",
   "tanggal_dibuat": {
@@ -4863,9 +5087,10 @@
   "nama": "urinter kap",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "8500",
   "harga_pokok": "6180",
   "tanggal_dibuat": {
@@ -4890,9 +5115,10 @@
   "nama": "vitazet ",
   "supplier": "PT MBS",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "322500",
   "harga_pokok": "242000",
   "tanggal_dibuat": {
@@ -4917,9 +5143,10 @@
   "nama": "xybat tss",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6700",
   "harga_pokok": "5000",
   "tanggal_dibuat": {
@@ -4944,9 +5171,10 @@
   "nama": "zoter cr 5gr",
   "supplier": "PT MBS",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "78000",
   "harga_pokok": "58500",
   "tanggal_dibuat": {
@@ -4971,9 +5199,10 @@
   "nama": "zycin 500mg",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "71000",
   "harga_pokok": "53000",
   "tanggal_dibuat": {
@@ -4998,9 +5227,10 @@
   "nama": "zoter tab",
   "supplier": "PT MBS",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "16500",
   "harga_pokok": "12250",
   "tanggal_dibuat": {
@@ -5025,9 +5255,11 @@
   "nama": "prevenar (pvc)",
   "supplier": "PT BINA SAN PRIMA",
   "satuan": "VIAL",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "900000",
   "harga_pokok": "800000",
   "tanggal_dibuat": {
@@ -5052,9 +5284,10 @@
   "nama": "je",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "57000",
   "harga_pokok": "57000",
   "tanggal_dibuat": {
@@ -5079,9 +5312,10 @@
   "nama": "cervarix",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "PFS",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "809500",
   "harga_pokok": "809500",
   "tanggal_dibuat": {
@@ -5106,9 +5340,10 @@
   "nama": "havrix 720 junior",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "PFS",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "385500",
   "harga_pokok": "385500",
   "tanggal_dibuat": {
@@ -5133,9 +5368,10 @@
   "nama": "pentabio",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "223000",
   "harga_pokok": "223000",
   "tanggal_dibuat": {
@@ -5160,9 +5396,10 @@
   "nama": "pentabio 2,5ml",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "134000",
   "harga_pokok": "134000",
   "tanggal_dibuat": {
@@ -5187,9 +5424,10 @@
   "nama": "diptheria nitoxin (ads 10000 ui)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3868500",
   "harga_pokok": "3868500",
   "tanggal_dibuat": {
@@ -5214,9 +5452,10 @@
   "nama": "biosat-1.5 (ats 1500 ui)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "227500",
   "harga_pokok": "227500",
   "tanggal_dibuat": {
@@ -5241,9 +5480,10 @@
   "nama": "biosave (abu)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1271500",
   "harga_pokok": "1271500",
   "tanggal_dibuat": {
@@ -5268,9 +5508,10 @@
   "nama": "serum antibisa ular polivalen ii",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": ""
-  },
+  "stok": [
+    null,
+    ""
+  ],
   "harga": "105804090",
   "harga_pokok": "105804090",
   "tanggal_dibuat": {
@@ -5295,9 +5536,10 @@
   "nama": "ppd 2ut",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1025700",
   "harga_pokok": "1025700",
   "tanggal_dibuat": {
@@ -5322,9 +5564,10 @@
   "nama": "cerviscan hrhpv qpcr",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "180000",
   "harga_pokok": "180000",
   "tanggal_dibuat": {
@@ -5349,9 +5592,10 @@
   "nama": "fastbio-rbd",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3000",
   "harga_pokok": "3000",
   "tanggal_dibuat": {
@@ -5376,9 +5620,10 @@
   "nama": "typherix pfs",
   "supplier": "PT BINA SAN PRIMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1",
   "harga_pokok": "1",
   "tanggal_dibuat": {
@@ -5403,9 +5648,10 @@
   "nama": "varilrix vial",
   "supplier": "PT BINA SAN PRIMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1",
   "harga_pokok": "1",
   "tanggal_dibuat": {
@@ -5430,10 +5676,11 @@
   "nama": "resep",
   "supplier": "INSTALASI FARMASI KLINIK SEHATI",
   "satuan": "pcs",
-  "stok": {
-    "1": "3",
-    "2": "1000"
-  },
+  "stok": [
+    null,
+    "3",
+    "1000"
+  ],
   "harga": "2000",
   "harga_pokok": "2000",
   "tanggal_dibuat": {
@@ -5460,9 +5707,11 @@
   "nama": "racikan puyer",
   "supplier": "INSTALASI FARMASI KLINIK SEHATI",
   "satuan": "pcs",
-  "stok": {
-    "2": "1000"
-  },
+  "stok": [
+    null,
+    null,
+    "1000"
+  ],
   "harga": "150",
   "harga_pokok": "150",
   "tanggal_dibuat": {
@@ -5484,9 +5733,10 @@
   "nama": "racikan kapsul",
   "supplier": "INSTALASI FARMASI KLINIK SEHATI",
   "satuan": "pcs",
-  "stok": {
-    "1": "1000"
-  },
+  "stok": [
+    null,
+    "1000"
+  ],
   "harga": "200",
   "harga_pokok": "200",
   "tanggal_dibuat": {
@@ -5508,9 +5758,10 @@
   "nama": "alostop",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3700",
   "harga_pokok": "2750",
   "tanggal_dibuat": {
@@ -5535,9 +5786,10 @@
   "nama": "astina 4",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9500",
   "harga_pokok": "7000",
   "tanggal_dibuat": {
@@ -5562,9 +5814,10 @@
   "nama": "astina 6",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12000",
   "harga_pokok": "9000",
   "tanggal_dibuat": {
@@ -5589,9 +5842,10 @@
   "nama": "bonesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "6500",
   "harga_pokok": "4750",
   "tanggal_dibuat": {
@@ -5616,9 +5870,10 @@
   "nama": "diosete",
   "supplier": "PT PENTA VALEN",
   "satuan": "STRIP",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14700",
   "harga_pokok": "11000",
   "tanggal_dibuat": {
@@ -5643,9 +5898,10 @@
   "nama": "dipa c",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1500",
   "harga_pokok": "1100",
   "tanggal_dibuat": {
@@ -5670,9 +5926,10 @@
   "nama": "dipa c",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "1500",
   "harga_pokok": "1100",
   "tanggal_dibuat": {
@@ -5697,9 +5954,10 @@
   "nama": "escovit",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12500",
   "harga_pokok": "9250",
   "tanggal_dibuat": {
@@ -5724,9 +5982,10 @@
   "nama": "esfolat",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4000",
   "harga_pokok": "2880",
   "tanggal_dibuat": {
@@ -5751,9 +6010,10 @@
   "nama": "eturol",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "7500",
   "harga_pokok": "5500",
   "tanggal_dibuat": {
@@ -5778,9 +6038,10 @@
   "nama": "fetavita",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "11000",
   "harga_pokok": "8250",
   "tanggal_dibuat": {
@@ -5805,9 +6066,10 @@
   "nama": "fibrinase",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "19500",
   "harga_pokok": "14500",
   "tanggal_dibuat": {
@@ -5832,9 +6094,10 @@
   "nama": "hepa balance",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "16700",
   "harga_pokok": "12500",
   "tanggal_dibuat": {
@@ -5859,9 +6122,10 @@
   "nama": "imesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "7700",
   "harga_pokok": "5750",
   "tanggal_dibuat": {
@@ -5886,9 +6150,10 @@
   "nama": "krili",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "12000",
   "harga_pokok": "9000",
   "tanggal_dibuat": {
@@ -5913,9 +6178,10 @@
   "nama": "lipesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9500",
   "harga_pokok": "7000",
   "tanggal_dibuat": {
@@ -5940,9 +6206,10 @@
   "nama": "slimesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9700",
   "harga_pokok": "8000",
   "tanggal_dibuat": {
@@ -5967,9 +6234,10 @@
   "nama": "tonicard",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "22000",
   "harga_pokok": "16500",
   "tanggal_dibuat": {
@@ -5994,9 +6262,10 @@
   "nama": "tride",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "2700",
   "harga_pokok": "2000",
   "tanggal_dibuat": {
@@ -6021,9 +6290,10 @@
   "nama": "trobesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "9000",
   "harga_pokok": "6750",
   "tanggal_dibuat": {
@@ -6048,9 +6318,10 @@
   "nama": "ubesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14000",
   "harga_pokok": "10500",
   "tanggal_dibuat": {
@@ -6075,9 +6346,10 @@
   "nama": "vitafol",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3500",
   "harga_pokok": "2500",
   "tanggal_dibuat": {
@@ -6102,9 +6374,10 @@
   "nama": "avesco 10mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "5600",
   "harga_pokok": "4200",
   "tanggal_dibuat": {
@@ -6129,9 +6402,10 @@
   "nama": "avesco 20mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "8600",
   "harga_pokok": "6400",
   "tanggal_dibuat": {
@@ -6156,9 +6430,10 @@
   "nama": "avesco 40mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "13600",
   "harga_pokok": "10200",
   "tanggal_dibuat": {
@@ -6183,9 +6458,10 @@
   "nama": "ciprazol",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "20000",
   "harga_pokok": "15000",
   "tanggal_dibuat": {
@@ -6210,9 +6486,10 @@
   "nama": "dipasolon",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "4000",
   "harga_pokok": "3000",
   "tanggal_dibuat": {
@@ -6237,9 +6514,10 @@
   "nama": "dipthen",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "16000",
   "harga_pokok": "11850",
   "tanggal_dibuat": {
@@ -6264,9 +6542,10 @@
   "nama": "domesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "3700",
   "harga_pokok": "2750",
   "tanggal_dibuat": {
@@ -6291,9 +6570,10 @@
   "nama": "fibesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "20000",
   "harga_pokok": "15000",
   "tanggal_dibuat": {
@@ -6318,9 +6598,10 @@
   "nama": "fexoven od",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "5700",
   "harga_pokok": "4250",
   "tanggal_dibuat": {
@@ -6345,9 +6626,10 @@
   "nama": "femaplex",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "22500",
   "harga_pokok": "16666",
   "tanggal_dibuat": {
@@ -6372,9 +6654,10 @@
   "nama": "gabesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "14700",
   "harga_pokok": "11000",
   "tanggal_dibuat": {
@@ -6399,9 +6682,10 @@
   "nama": "hepamed",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "20000",
   "harga_pokok": "15000",
   "tanggal_dibuat": {
@@ -6426,9 +6710,10 @@
   "nama": "hyper rho",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3223500",
   "harga_pokok": "2420000",
   "tanggal_dibuat": {
@@ -6453,9 +6738,10 @@
   "nama": "inflesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -6480,9 +6766,10 @@
   "nama": "miniten",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "7000",
   "harga_pokok": "5250",
   "tanggal_dibuat": {
@@ -6507,9 +6794,10 @@
   "nama": "ondesco tab 8mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -6531,9 +6819,10 @@
   "nama": "plavesco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "50"
-  },
+  "stok": [
+    null,
+    "50"
+  ],
   "harga": "22000",
   "harga_pokok": "16500",
   "tanggal_dibuat": {
@@ -6558,9 +6847,10 @@
   "nama": "puresco",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "4500",
   "harga_pokok": "3250",
   "tanggal_dibuat": {
@@ -6585,9 +6875,10 @@
   "nama": "suvesco 10mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "8500",
   "harga_pokok": "6250",
   "tanggal_dibuat": {
@@ -6612,9 +6903,11 @@
   "nama": "suvesco 20mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "2": "20"
-  },
+  "stok": [
+    null,
+    null,
+    "20"
+  ],
   "harga": "14000",
   "harga_pokok": "10500",
   "tanggal_dibuat": {
@@ -6639,9 +6932,10 @@
   "nama": "suvesco 40mg",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "21700",
   "harga_pokok": "16250",
   "tanggal_dibuat": {
@@ -6666,9 +6960,10 @@
   "nama": "zithrolan ",
   "supplier": "PT PENTA VALEN",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "38000",
   "harga_pokok": "28500",
   "tanggal_dibuat": {
@@ -6693,9 +6988,10 @@
   "nama": "bcg",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "AMP",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "17300",
   "harga_pokok": "17300",
   "tanggal_dibuat": {
@@ -6720,9 +7016,10 @@
   "nama": "bio td",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "AMP",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "92400",
   "harga_pokok": "92400",
   "tanggal_dibuat": {
@@ -6747,9 +7044,10 @@
   "nama": "tetanus (tt)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "14700",
   "harga_pokok": "14700",
   "tanggal_dibuat": {
@@ -6774,9 +7072,10 @@
   "nama": "bio tt",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "AMP",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "48400",
   "harga_pokok": "48400",
   "tanggal_dibuat": {
@@ -6801,9 +7100,10 @@
   "nama": "difteri tetanus (dt)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "15600",
   "harga_pokok": "15600",
   "tanggal_dibuat": {
@@ -6828,9 +7128,10 @@
   "nama": "tetanus difteri (td)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "16200",
   "harga_pokok": "16200",
   "tanggal_dibuat": {
@@ -6855,9 +7156,10 @@
   "nama": "menivax",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "168000",
   "harga_pokok": "168000",
   "tanggal_dibuat": {
@@ -6882,9 +7184,10 @@
   "nama": "polio (sabin) bivalen (bopv)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "10500",
   "harga_pokok": "10500",
   "tanggal_dibuat": {
@@ -6909,9 +7212,10 @@
   "nama": "inactivated polio vaccine (ipv)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "20500",
   "harga_pokok": "20500",
   "tanggal_dibuat": {
@@ -6936,9 +7240,10 @@
   "nama": "campak",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "10500",
   "harga_pokok": "10500",
   "tanggal_dibuat": {
@@ -6963,9 +7268,10 @@
   "nama": "hepatitis b rekombinan uniject (dws)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "POUCH",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "100700",
   "harga_pokok": "100700",
   "tanggal_dibuat": {
@@ -6990,9 +7296,10 @@
   "nama": "hepatitis b rekombinan uniject (anak)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "POUCH",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "100700",
   "harga_pokok": "100700",
   "tanggal_dibuat": {
@@ -7017,9 +7324,10 @@
   "nama": "flubio",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "100700",
   "harga_pokok": "100700",
   "tanggal_dibuat": {
@@ -7044,9 +7352,10 @@
   "nama": "measles rubella (mr)",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "70000",
   "harga_pokok": "70000",
   "tanggal_dibuat": {
@@ -7071,9 +7380,10 @@
   "nama": "varicella",
   "supplier": "PT. KIMIA FARMA",
   "satuan": "VIAL",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "480500",
   "harga_pokok": "480500",
   "tanggal_dibuat": {
@@ -7098,9 +7408,11 @@
   "nama": "maltofer fol chew",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "24"
-  },
+  "stok": [
+    null,
+    null,
+    "24"
+  ],
   "harga": "5000",
   "harga_pokok": "3600",
   "tanggal_dibuat": {
@@ -7122,9 +7434,10 @@
   "nama": "pyrazinamid kf",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "750",
   "harga_pokok": "550",
   "tanggal_dibuat": {
@@ -7149,9 +7462,11 @@
   "nama": "rifampicin 450mg kf",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "102"
-  },
+  "stok": [
+    null,
+    null,
+    "102"
+  ],
   "harga": "3500",
   "harga_pokok": "2400",
   "tanggal_dibuat": {
@@ -7176,9 +7491,11 @@
   "nama": "sirplus",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "240"
-  },
+  "stok": [
+    null,
+    null,
+    "240"
+  ],
   "harga": "350",
   "harga_pokok": "350",
   "tanggal_dibuat": {
@@ -7200,9 +7517,11 @@
   "nama": "blank",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "0"
-  },
+  "stok": [
+    null,
+    null,
+    "0"
+  ],
   "harga": "1",
   "harga_pokok": "1",
   "tanggal_dibuat": {
@@ -7227,9 +7546,11 @@
   "nama": "vitamin b12 ipi",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "204"
-  },
+  "stok": [
+    null,
+    null,
+    "204"
+  ],
   "harga": "200",
   "harga_pokok": "100",
   "tanggal_dibuat": {
@@ -7251,9 +7572,11 @@
   "nama": "amoxsan drop ",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "2"
-  },
+  "stok": [
+    null,
+    null,
+    "2"
+  ],
   "harga": "37000",
   "harga_pokok": "27500",
   "tanggal_dibuat": {
@@ -7278,9 +7601,10 @@
   "nama": "claneksi ds syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "88000",
   "harga_pokok": "66000",
   "tanggal_dibuat": {
@@ -7305,9 +7629,10 @@
   "nama": "sanprima syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "43500",
   "harga_pokok": "32500",
   "tanggal_dibuat": {
@@ -7332,9 +7657,10 @@
   "nama": "betason-n 5gr cr",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "3"
-  },
+  "stok": [
+    null,
+    "3"
+  ],
   "harga": "18000",
   "harga_pokok": "13400",
   "tanggal_dibuat": {
@@ -7356,9 +7682,10 @@
   "nama": "genoint sk",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "6500",
   "harga_pokok": "4800",
   "tanggal_dibuat": {
@@ -7383,9 +7710,10 @@
   "nama": "mupirocin 10gr cr",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "47500",
   "harga_pokok": "35500",
   "tanggal_dibuat": {
@@ -7410,9 +7738,11 @@
   "nama": "azithromycin 500mg kf",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "29"
-  },
+  "stok": [
+    null,
+    null,
+    "29"
+  ],
   "harga": "3500",
   "harga_pokok": "2500",
   "tanggal_dibuat": {
@@ -7434,9 +7764,11 @@
   "nama": "cefixime tab 100mg dexa",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "115"
-  },
+  "stok": [
+    null,
+    null,
+    "115"
+  ],
   "harga": "950",
   "harga_pokok": "710",
   "tanggal_dibuat": {
@@ -7458,9 +7790,11 @@
   "nama": "clindamycin 300mg novel",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "115"
-  },
+  "stok": [
+    null,
+    null,
+    "115"
+  ],
   "harga": "2000",
   "harga_pokok": "1500",
   "tanggal_dibuat": {
@@ -7485,9 +7819,10 @@
   "nama": "cyclo-progynova tab",
   "supplier": "ASIA",
   "satuan": "STRIP",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "272000",
   "harga_pokok": "204000",
   "tanggal_dibuat": {
@@ -7512,9 +7847,11 @@
   "nama": "doxycycline 100mg kf",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "1100",
   "harga_pokok": "800",
   "tanggal_dibuat": {
@@ -7539,9 +7876,10 @@
   "nama": "lapicef 500 tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "18500",
   "harga_pokok": "13700",
   "tanggal_dibuat": {
@@ -7566,9 +7904,11 @@
   "nama": "metronidazole 500mg fm ",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "115"
-  },
+  "stok": [
+    null,
+    null,
+    "115"
+  ],
   "harga": "500",
   "harga_pokok": "255",
   "tanggal_dibuat": {
@@ -7593,9 +7933,11 @@
   "nama": "norestil tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "32"
-  },
+  "stok": [
+    null,
+    null,
+    "32"
+  ],
   "harga": "6500",
   "harga_pokok": "4700",
   "tanggal_dibuat": {
@@ -7620,9 +7962,10 @@
   "nama": "paracetamol tab 500 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "200"
-  },
+  "stok": [
+    null,
+    "200"
+  ],
   "harga": "250",
   "harga_pokok": "180",
   "tanggal_dibuat": {
@@ -7647,9 +7990,11 @@
   "nama": "prestrenol tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "50"
-  },
+  "stok": [
+    null,
+    null,
+    "50"
+  ],
   "harga": "8500",
   "harga_pokok": "6100",
   "tanggal_dibuat": {
@@ -7671,9 +8016,11 @@
   "nama": "dexaharsen 0,5mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "210"
-  },
+  "stok": [
+    null,
+    null,
+    "210"
+  ],
   "harga": "350",
   "harga_pokok": "170",
   "tanggal_dibuat": {
@@ -7695,9 +8042,10 @@
   "nama": "diclofenac sodium 50mg novel",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "500",
   "harga_pokok": "350",
   "tanggal_dibuat": {
@@ -7722,9 +8070,10 @@
   "nama": "dopamet 250mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3500",
   "harga_pokok": "2350",
   "tanggal_dibuat": {
@@ -7749,9 +8098,10 @@
   "nama": "nifedipine dexa",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "250",
   "harga_pokok": "175",
   "tanggal_dibuat": {
@@ -7776,9 +8126,10 @@
   "nama": "omeprazole nova",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "400",
   "harga_pokok": "290",
   "tanggal_dibuat": {
@@ -7800,9 +8151,10 @@
   "nama": "tofedex",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "12000",
   "harga_pokok": "8900",
   "tanggal_dibuat": {
@@ -7824,9 +8176,11 @@
   "nama": "tremenza tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "120"
-  },
+  "stok": [
+    null,
+    null,
+    "120"
+  ],
   "harga": "2500",
   "harga_pokok": "1850",
   "tanggal_dibuat": {
@@ -7848,9 +8202,10 @@
   "nama": "sanadryl exp 60ml",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "18500",
   "harga_pokok": "13750",
   "tanggal_dibuat": {
@@ -7875,9 +8230,10 @@
   "nama": "betason-n 5gr cr",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "18000",
   "harga_pokok": "13400",
   "tanggal_dibuat": {
@@ -7902,9 +8258,10 @@
   "nama": "gentamicin mutifa 5gr cr",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "4500",
   "harga_pokok": "3100",
   "tanggal_dibuat": {
@@ -7926,9 +8283,10 @@
   "nama": "miconazole 2% cr 10gr muti",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "5000",
   "harga_pokok": "3400",
   "tanggal_dibuat": {
@@ -7950,9 +8308,10 @@
   "nama": "metformin 500mg hexp",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "200"
-  },
+  "stok": [
+    null,
+    "200"
+  ],
   "harga": "300",
   "harga_pokok": "190",
   "tanggal_dibuat": {
@@ -7977,9 +8336,11 @@
   "nama": "lactulax syr 60ml",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "3"
-  },
+  "stok": [
+    null,
+    null,
+    "3"
+  ],
   "harga": "74500",
   "harga_pokok": "56000",
   "tanggal_dibuat": {
@@ -8004,9 +8365,10 @@
   "nama": "laxadine emulsi 60ml",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "67500",
   "harga_pokok": "50500",
   "tanggal_dibuat": {
@@ -8031,9 +8393,10 @@
   "nama": "sucralfate syrup",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "19000",
   "harga_pokok": "14000",
   "tanggal_dibuat": {
@@ -8055,9 +8418,10 @@
   "nama": "amlodipine 10 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "700",
   "harga_pokok": "460",
   "tanggal_dibuat": {
@@ -8082,9 +8446,11 @@
   "nama": "borraginol n supp",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "5"
-  },
+  "stok": [
+    null,
+    null,
+    "5"
+  ],
   "harga": "18000",
   "harga_pokok": "13300",
   "tanggal_dibuat": {
@@ -8109,9 +8475,10 @@
   "nama": "borraginol s supp",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "21500",
   "harga_pokok": "16000",
   "tanggal_dibuat": {
@@ -8136,9 +8503,10 @@
   "nama": "amlodipine 5 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "400",
   "harga_pokok": "260",
   "tanggal_dibuat": {
@@ -8163,9 +8531,10 @@
   "nama": "diklofenak sodium 50mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "500",
   "harga_pokok": "350",
   "tanggal_dibuat": {
@@ -8190,9 +8559,10 @@
   "nama": "furosemid ",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "300",
   "harga_pokok": "170",
   "tanggal_dibuat": {
@@ -8217,9 +8587,10 @@
   "nama": "lisinopril 5 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "600",
   "harga_pokok": "400",
   "tanggal_dibuat": {
@@ -8244,9 +8615,10 @@
   "nama": "lisinopril 10 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "900",
   "harga_pokok": "650",
   "tanggal_dibuat": {
@@ -8271,9 +8643,10 @@
   "nama": "propanolol 10 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "200",
   "harga_pokok": "110",
   "tanggal_dibuat": {
@@ -8298,9 +8671,10 @@
   "nama": "sanmol tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "40"
-  },
+  "stok": [
+    null,
+    "40"
+  ],
   "harga": "700",
   "harga_pokok": "490",
   "tanggal_dibuat": {
@@ -8325,9 +8699,11 @@
   "nama": "salbutamol 4 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "210"
-  },
+  "stok": [
+    null,
+    null,
+    "210"
+  ],
   "harga": "250",
   "harga_pokok": "130",
   "tanggal_dibuat": {
@@ -8349,9 +8725,11 @@
   "nama": "spironolacton 25 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "10"
-  },
+  "stok": [
+    null,
+    null,
+    "10"
+  ],
   "harga": "700",
   "harga_pokok": "490",
   "tanggal_dibuat": {
@@ -8376,9 +8754,11 @@
   "nama": "breathy nasal",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "4"
-  },
+  "stok": [
+    null,
+    null,
+    "4"
+  ],
   "harga": "59500",
   "harga_pokok": "44500",
   "tanggal_dibuat": {
@@ -8403,9 +8783,10 @@
   "nama": "zelofen 4 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "700",
   "harga_pokok": "600",
   "tanggal_dibuat": {
@@ -8427,9 +8808,10 @@
   "nama": "bufect susp",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "4"
-  },
+  "stok": [
+    null,
+    "4"
+  ],
   "harga": "25000",
   "harga_pokok": "18500",
   "tanggal_dibuat": {
@@ -8454,9 +8836,11 @@
   "nama": "isprinol syrup",
   "supplier": "PT KALISTA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "5"
-  },
+  "stok": [
+    null,
+    null,
+    "5"
+  ],
   "harga": "100000",
   "harga_pokok": "75000",
   "tanggal_dibuat": {
@@ -8478,9 +8862,11 @@
   "nama": "sanmol syrup",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "7"
-  },
+  "stok": [
+    null,
+    null,
+    "7"
+  ],
   "harga": "25000",
   "harga_pokok": "18750",
   "tanggal_dibuat": {
@@ -8505,9 +8891,10 @@
   "nama": "valproic acid",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "65500",
   "harga_pokok": "49000",
   "tanggal_dibuat": {
@@ -8532,9 +8919,10 @@
   "nama": "vellepsy syrup",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "120000",
   "harga_pokok": "90000",
   "tanggal_dibuat": {
@@ -8559,9 +8947,11 @@
   "nama": "acyclovyr 5% cream",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "2": "8"
-  },
+  "stok": [
+    null,
+    null,
+    "8"
+  ],
   "harga": "6000",
   "harga_pokok": "4500",
   "tanggal_dibuat": {
@@ -8586,9 +8976,11 @@
   "nama": "cetirizine 10 mg tablet",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "117"
-  },
+  "stok": [
+    null,
+    null,
+    "117"
+  ],
   "harga": "500",
   "harga_pokok": "360",
   "tanggal_dibuat": {
@@ -8613,9 +9005,10 @@
   "nama": "ranitidine 150 mg tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "300",
   "harga_pokok": "165",
   "tanggal_dibuat": {
@@ -8640,9 +9033,11 @@
   "nama": "ctm ",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "100"
-  },
+  "stok": [
+    null,
+    null,
+    "100"
+  ],
   "harga": "100",
   "harga_pokok": "80",
   "tanggal_dibuat": {
@@ -8664,9 +9059,10 @@
   "nama": "domperidone tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "300",
   "harga_pokok": "180",
   "tanggal_dibuat": {
@@ -8691,9 +9087,11 @@
   "nama": "pronicy 4 mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "111"
-  },
+  "stok": [
+    null,
+    null,
+    "111"
+  ],
   "harga": "400",
   "harga_pokok": "285",
   "tanggal_dibuat": {
@@ -8715,9 +9113,10 @@
   "nama": "lactulose syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "45500",
   "harga_pokok": "34000",
   "tanggal_dibuat": {
@@ -8742,9 +9141,11 @@
   "nama": "nystatin susp",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "2"
-  },
+  "stok": [
+    null,
+    null,
+    "2"
+  ],
   "harga": "32000",
   "harga_pokok": "24000",
   "tanggal_dibuat": {
@@ -8769,9 +9170,11 @@
   "nama": "elox krim 5 gr",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "2": "3"
-  },
+  "stok": [
+    null,
+    null,
+    "3"
+  ],
   "harga": "76000",
   "harga_pokok": "57000",
   "tanggal_dibuat": {
@@ -8793,9 +9196,11 @@
   "nama": "microlax",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "2": "5"
-  },
+  "stok": [
+    null,
+    null,
+    "5"
+  ],
   "harga": "27500",
   "harga_pokok": "20500",
   "tanggal_dibuat": {
@@ -8820,9 +9225,10 @@
   "nama": "myco z",
   "supplier": "ASIA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "136000",
   "harga_pokok": "102000",
   "tanggal_dibuat": {
@@ -8847,9 +9253,10 @@
   "nama": "myconazole",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "TUBE",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "5500",
   "harga_pokok": "4100",
   "tanggal_dibuat": {
@@ -8874,9 +9281,11 @@
   "nama": "l-bio",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "85"
-  },
+  "stok": [
+    null,
+    null,
+    "85"
+  ],
   "harga": "14000",
   "harga_pokok": "10200",
   "tanggal_dibuat": {
@@ -8898,9 +9307,11 @@
   "nama": "lasal nebu 2.5ml",
   "supplier": "ASIA",
   "satuan": "VIAL",
-  "stok": {
-    "2": "26"
-  },
+  "stok": [
+    null,
+    null,
+    "26"
+  ],
   "harga": "18000",
   "harga_pokok": "13250",
   "tanggal_dibuat": {
@@ -8925,9 +9336,10 @@
   "nama": "vit d",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "60"
-  },
+  "stok": [
+    null,
+    "60"
+  ],
   "harga": "2000",
   "harga_pokok": "1500",
   "tanggal_dibuat": {
@@ -8949,9 +9361,10 @@
   "nama": "ziloven",
   "supplier": "KARYA",
   "satuan": "pcs",
-  "stok": {
-    "1": "200"
-  },
+  "stok": [
+    null,
+    "200"
+  ],
   "harga": "1000",
   "harga_pokok": "600",
   "tanggal_dibuat": {
@@ -8973,9 +9386,10 @@
   "nama": "urdahex",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "pcs",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "21500",
   "harga_pokok": "16000",
   "tanggal_dibuat": {
@@ -8997,9 +9411,11 @@
   "nama": "santa-e",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "2": "50"
-  },
+  "stok": [
+    null,
+    null,
+    "50"
+  ],
   "harga": "15500",
   "harga_pokok": "11500",
   "tanggal_dibuat": {
@@ -9021,9 +9437,10 @@
   "nama": "cerini syr",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "73500",
   "harga_pokok": "55000",
   "tanggal_dibuat": {
@@ -9045,9 +9462,11 @@
   "nama": "salbutamol 2mg",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "205"
-  },
+  "stok": [
+    null,
+    null,
+    "205"
+  ],
   "harga": "200",
   "harga_pokok": "150",
   "tanggal_dibuat": {
@@ -9069,9 +9488,11 @@
   "nama": "ondansetron 4mg otto",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "119"
-  },
+  "stok": [
+    null,
+    null,
+    "119"
+  ],
   "harga": "2000",
   "harga_pokok": "1300",
   "tanggal_dibuat": {
@@ -9093,9 +9514,10 @@
   "nama": "alleron",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "50"
-  },
+  "stok": [
+    null,
+    "50"
+  ],
   "harga": "200",
   "harga_pokok": "150",
   "tanggal_dibuat": {
@@ -9117,9 +9539,10 @@
   "nama": "cetirizine syrup",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -9144,9 +9567,10 @@
   "nama": "lerzin syrup",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "8000",
   "harga_pokok": "6000",
   "tanggal_dibuat": {
@@ -9171,9 +9595,11 @@
   "nama": "yusimox syr",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "3"
-  },
+  "stok": [
+    null,
+    null,
+    "3"
+  ],
   "harga": "8000",
   "harga_pokok": "6000",
   "tanggal_dibuat": {
@@ -9198,9 +9624,11 @@
   "nama": "sanmol drop",
   "supplier": "KARYA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "12"
-  },
+  "stok": [
+    null,
+    null,
+    "12"
+  ],
   "harga": "27500",
   "harga_pokok": "20500",
   "tanggal_dibuat": {
@@ -9222,9 +9650,10 @@
   "nama": "vitamin b6",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "200",
   "harga_pokok": "150",
   "tanggal_dibuat": {
@@ -9249,9 +9678,10 @@
   "nama": "acyclovir tab 200 mg",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "50"
-  },
+  "stok": [
+    null,
+    "50"
+  ],
   "harga": "950",
   "harga_pokok": "700",
   "tanggal_dibuat": {
@@ -9276,9 +9706,10 @@
   "nama": "phenytoin",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "1000",
   "harga_pokok": "750",
   "tanggal_dibuat": {
@@ -9303,9 +9734,10 @@
   "nama": "bamgetol",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3800",
   "harga_pokok": "2850",
   "tanggal_dibuat": {
@@ -9330,9 +9762,10 @@
   "nama": "inflason",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "400",
   "harga_pokok": "300",
   "tanggal_dibuat": {
@@ -9354,9 +9787,10 @@
   "nama": "epexol",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "1600",
   "harga_pokok": "1200",
   "tanggal_dibuat": {
@@ -9381,9 +9815,10 @@
   "nama": "combivent",
   "supplier": "MAISUNNAH",
   "satuan": "VIAL",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "16000",
   "harga_pokok": "12000",
   "tanggal_dibuat": {
@@ -9405,9 +9840,11 @@
   "nama": "zinc",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "2": "40"
-  },
+  "stok": [
+    null,
+    null,
+    "40"
+  ],
   "harga": "1000",
   "harga_pokok": "700",
   "tanggal_dibuat": {
@@ -9429,9 +9866,10 @@
   "nama": "risperidone",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "3000",
   "harga_pokok": "2500",
   "tanggal_dibuat": {
@@ -9453,9 +9891,10 @@
   "nama": "inamid",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "20"
-  },
+  "stok": [
+    null,
+    "20"
+  ],
   "harga": "250",
   "harga_pokok": "200",
   "tanggal_dibuat": {
@@ -9480,9 +9919,10 @@
   "nama": "diatabs",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "40"
-  },
+  "stok": [
+    null,
+    "40"
+  ],
   "harga": "1000",
   "harga_pokok": "875",
   "tanggal_dibuat": {
@@ -9504,9 +9944,10 @@
   "nama": "orphen 4 mg",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "150",
   "harga_pokok": "100",
   "tanggal_dibuat": {
@@ -9528,9 +9969,11 @@
   "nama": "helixim syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "2": "11"
-  },
+  "stok": [
+    null,
+    null,
+    "11"
+  ],
   "harga": "13600",
   "harga_pokok": "10200",
   "tanggal_dibuat": {
@@ -9552,9 +9995,11 @@
   "nama": "zink tab",
   "supplier": "KARYA",
   "satuan": "pcs",
-  "stok": {
-    "2": "194"
-  },
+  "stok": [
+    null,
+    null,
+    "194"
+  ],
   "harga": "400",
   "harga_pokok": "300",
   "tanggal_dibuat": {
@@ -9576,9 +10021,10 @@
   "nama": "ctm los zenith",
   "supplier": "KARYA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "200",
   "harga_pokok": "150",
   "tanggal_dibuat": {
@@ -9600,9 +10046,10 @@
   "nama": "asam urso 250 promed",
   "supplier": "KARYA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "7500",
   "harga_pokok": "5400",
   "tanggal_dibuat": {
@@ -9624,9 +10071,10 @@
   "nama": "odr 4mg syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "176000",
   "harga_pokok": "132000",
   "tanggal_dibuat": {
@@ -9648,9 +10096,10 @@
   "nama": "alletrol eye drop",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "19000",
   "harga_pokok": "14000",
   "tanggal_dibuat": {
@@ -9672,9 +10121,10 @@
   "nama": "asam tranexamat",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "3000",
   "harga_pokok": "2000",
   "tanggal_dibuat": {
@@ -9696,9 +10146,11 @@
   "nama": "flagystatin vag",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "26"
-  },
+  "stok": [
+    null,
+    null,
+    "26"
+  ],
   "harga": "29500",
   "harga_pokok": "22000",
   "tanggal_dibuat": {
@@ -9723,9 +10175,11 @@
   "nama": "aspilet tab",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "2": "200"
-  },
+  "stok": [
+    null,
+    null,
+    "200"
+  ],
   "harga": "1000",
   "harga_pokok": "690",
   "tanggal_dibuat": {
@@ -9747,9 +10201,10 @@
   "nama": "prednison",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "500",
   "harga_pokok": "250",
   "tanggal_dibuat": {
@@ -9774,9 +10229,10 @@
   "nama": "ultrasonic gel 250 ml",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "4"
-  },
+  "stok": [
+    null,
+    "4"
+  ],
   "harga": "15500",
   "harga_pokok": "15500",
   "tanggal_dibuat": {
@@ -9801,9 +10257,10 @@
   "nama": "maxbiotix",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "450"
-  },
+  "stok": [
+    null,
+    "450"
+  ],
   "harga": "11500",
   "harga_pokok": "8325",
   "tanggal_dibuat": {
@@ -9825,9 +10282,10 @@
   "nama": "rymont granul sachet",
   "supplier": "PT KALISTA",
   "satuan": "pcs",
-  "stok": {
-    "1": "140"
-  },
+  "stok": [
+    null,
+    "140"
+  ],
   "harga": "9500",
   "harga_pokok": "7000",
   "tanggal_dibuat": {
@@ -9849,9 +10307,10 @@
   "nama": "folavit 400",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "1500",
   "harga_pokok": "1125",
   "tanggal_dibuat": {
@@ -9873,9 +10332,11 @@
   "nama": "trilac 4mg",
   "supplier": "PUSPA",
   "satuan": "pcs",
-  "stok": {
-    "2": "10"
-  },
+  "stok": [
+    null,
+    null,
+    "10"
+  ],
   "harga": "6200",
   "harga_pokok": "4600",
   "tanggal_dibuat": {
@@ -9897,9 +10358,10 @@
   "nama": "underpad",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "30"
-  },
+  "stok": [
+    null,
+    "30"
+  ],
   "harga": "4200",
   "harga_pokok": "3153",
   "tanggal_dibuat": {
@@ -9924,9 +10386,10 @@
   "nama": "handscond steril 7,5 maxter",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "9000",
   "harga_pokok": "6757",
   "tanggal_dibuat": {
@@ -9948,9 +10411,10 @@
   "nama": "kasa steril threemed",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "10"
-  },
+  "stok": [
+    null,
+    "10"
+  ],
   "harga": "3000",
   "harga_pokok": "1982",
   "tanggal_dibuat": {
@@ -9975,9 +10439,10 @@
   "nama": "plesterin bulat pe",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "200"
-  },
+  "stok": [
+    null,
+    "200"
+  ],
   "harga": "350",
   "harga_pokok": "225",
   "tanggal_dibuat": {
@@ -10002,9 +10467,10 @@
   "nama": "alkoholswab",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "200"
-  },
+  "stok": [
+    null,
+    "200"
+  ],
   "harga": "200",
   "harga_pokok": "135",
   "tanggal_dibuat": {
@@ -10029,9 +10495,10 @@
   "nama": "masker nebul anak",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "pcs",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "24000",
   "harga_pokok": "18018",
   "tanggal_dibuat": {
@@ -10056,9 +10523,10 @@
   "nama": "h202 3% 100ml",
   "supplier": "INDOPRIMA MEDIKA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "5656",
   "harga_pokok": "5656",
   "tanggal_dibuat": {
@@ -10083,9 +10551,10 @@
   "nama": "ranivel syr",
   "supplier": "ASIA",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "96000",
   "harga_pokok": "72000",
   "tanggal_dibuat": {
@@ -10107,9 +10576,10 @@
   "nama": "handscond steril 7 maxter",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "7500",
   "harga_pokok": "5500",
   "tanggal_dibuat": {
@@ -10134,9 +10604,10 @@
   "nama": "lomatuell h",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "18000",
   "harga_pokok": "18000",
   "tanggal_dibuat": {
@@ -10161,9 +10632,10 @@
   "nama": "spuit 1ml onemed",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "950",
   "harga_pokok": "700",
   "tanggal_dibuat": {
@@ -10188,9 +10660,10 @@
   "nama": "spuit 5ml bd syringe",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "2600",
   "harga_pokok": "1900",
   "tanggal_dibuat": {
@@ -10215,9 +10688,10 @@
   "nama": "spuit 10ml bd syringe",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "2"
-  },
+  "stok": [
+    null,
+    "2"
+  ],
   "harga": "3200",
   "harga_pokok": "2400",
   "tanggal_dibuat": {
@@ -10242,9 +10716,10 @@
   "nama": "needle 23g",
   "supplier": "AMELYS",
   "satuan": "pcs",
-  "stok": {
-    "1": "5"
-  },
+  "stok": [
+    null,
+    "5"
+  ],
   "harga": "700",
   "harga_pokok": "500",
   "tanggal_dibuat": {
@@ -10269,9 +10744,10 @@
   "nama": "ngt 8/100",
   "supplier": "RS. MUSLIMAT",
   "satuan": "pcs",
-  "stok": {
-    "1": "3"
-  },
+  "stok": [
+    null,
+    "3"
+  ],
   "harga": "51300",
   "harga_pokok": "38461",
   "tanggal_dibuat": {
@@ -10293,9 +10769,10 @@
   "nama": "avamys spray",
   "supplier": "MAISUNNAH",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "230000",
   "harga_pokok": "225000",
   "tanggal_dibuat": {
@@ -10320,9 +10797,10 @@
   "nama": "aloclair plus gel",
   "supplier": "PUSPA",
   "satuan": "TUBE",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "121500",
   "harga_pokok": "91000",
   "tanggal_dibuat": {
@@ -10344,9 +10822,10 @@
   "nama": "aloclair plus spray",
   "supplier": "PT MILLENIUM PHARMACON Int",
   "satuan": "BOTOL",
-  "stok": {
-    "1": "1"
-  },
+  "stok": [
+    null,
+    "1"
+  ],
   "harga": "133500",
   "harga_pokok": "100000",
   "tanggal_dibuat": {
@@ -10368,9 +10847,11 @@
   "nama": "dexaharsen 0,75mg",
   "supplier": "MAISUNNAH",
   "satuan": "pcs",
-  "stok": {
-    "2": "205"
-  },
+  "stok": [
+    null,
+    null,
+    "205"
+  ],
   "harga": "350",
   "harga_pokok": "250",
   "tanggal_dibuat": {
@@ -10392,9 +10873,10 @@
   "nama": "asam mefenamat 500",
   "supplier": "ASIA",
   "satuan": "pcs",
-  "stok": {
-    "1": "100"
-  },
+  "stok": [
+    null,
+    "100"
+  ],
   "harga": "250",
   "harga_pokok": "350",
   "tanggal_dibuat": {
@@ -10409,6 +10891,48 @@
         "$date": "2024-01-04T17:00:00Z"
       },
       "stok": "100"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "641be158c06b000011004ff2"
+  },
+  "kode": "sade",
+  "nama": "contexin",
+  "supplier": "Dump Truk 1",
+  "satuan": "tab",
+  "harga": "5000",
+  "harga_pokok": "5500",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "kojskkd",
+      "expired": "12/12/2024",
+      "stok": "20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "641be260c06b000011004ff4"
+  },
+  "kode": "jfghgfh",
+  "nama": "aspilet",
+  "supplier": "Dump Truk 1",
+  "satuan": "botol",
+  "harga": "2500",
+  "harga_pokok": "3000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  },
+  "tanggal_dihapus": "",
+  "batch": [
+    {
+      "batch": "kokos",
+      "expired": "12/12/2023",
+      "stok": "200"
     }
   ]
 }]

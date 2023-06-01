@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "641be1f2c06b000011004ff3"
+  },
+  "no_transaksi": "TRO-1679548914",
+  "tanggal": "23-03-2023",
+  "input_obat_masuk": "Superadmin",
+  "detail_obat": [
+    {
+      "id_obat": "641be158c06b000011004ff2",
+      "nama_obat": "contexin",
+      "harga": "5000",
+      "batch": "kojskkd",
+      "expired": "12/12/2024",
+      "jumlah": "20",
+      "total": "100000"
+    }
+  ],
+  "total_bayar": "100000",
+  "jumlah_bayar": "105000",
+  "kembali": "5000",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "641be30bc06b000011004ff5"
+  },
+  "no_transaksi": "TRO-1679549195",
+  "tanggal": "23-03-2023",
+  "input_obat_masuk": "Superadmin",
+  "detail_obat": [
+    {
+      "id_obat": "641be260c06b000011004ff4",
+      "nama_obat": "aspilet",
+      "harga": "2500",
+      "batch": "kokos",
+      "expired": "12/12/2023",
+      "jumlah": "200",
+      "total": "500000"
+    }
+  ],
+  "total_bayar": "500000",
+  "jumlah_bayar": "500000",
+  "kembali": "0",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  }
+}]

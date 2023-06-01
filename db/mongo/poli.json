@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "641b0580c06b000011004fe4"
+  },
+  "kode": "A",
+  "nama": "Poli Umum",
+  "id_dokter": "640f4001ba570000f000243f",
+  "dokter": "dr Yulianti ",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+},{
+  "_id": {
+    "$oid": "641b083ec06b000011004fe6"
+  },
+  "kode": "B",
+  "nama": "Poli Umum 2",
+  "id_dokter": "641b0833c06b000011004fe5",
+  "dokter": "dr Eva ",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T05:00:00Z"
+  },
+  "tanggal_dihapus": ""
+}]

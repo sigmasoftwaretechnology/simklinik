@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "641be0a7c06b000011004ff1"
+  },
+  "nama": "Dump Truk 1",
+  "alamat": "wewewe",
+  "telp": "0351 9089 983",
+  "tanggal_dibuat": {
+    "$date": "2023-03-22T17:00:00Z"
+  },
+  "tanggal_dihapus": ""
+}]
