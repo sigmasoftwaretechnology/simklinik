@@ -10,6 +10,7 @@
 			  <th>Supplier</th>
 			  <th>Harga Pokok</th>
 			  <th>Harga</th>
+			  <th>Stok</th>
 			</tr>
 		  </thead>
 		  <tbody>
@@ -26,6 +27,15 @@
 			  <td class="text-left"><?=$data->supplier?></td>
 			  <td class="text-left"><?="Rp " . number_format($data->harga_pokok,2,',','.')?></td>
 			  <td class="text-left"><?="Rp " . number_format($data->harga,2,',','.')?></td>
+			  <td class="text-left">
+				<?php
+				$stok = 0;
+				foreach($data->batch as $batch){
+					$stok = $stok+(int)$batch->stok;
+				}
+				echo $stok;
+				?>	
+			</td>
 			</tr>
 			<?php endforeach;?>
 			<?php endif;?>
