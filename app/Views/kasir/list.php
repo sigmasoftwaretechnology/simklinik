@@ -28,6 +28,9 @@
 							<div class="col-sm-2">
 								<input class="form-control form-control-sm filterTanggal" id="filterTanggal1" type="text" value="<?=date('d-m-Y')?>">
 							</div>
+							<div class="col-sm-2">
+								<input class="form-control form-control-sm" id="nama" type="text" value="" placeholder="RM/Nama Pasien">
+							</div>
 							<div class="col-3">
 								<button id="filter" type="button" class="btn btn-danger btn-xs"><img src="<?php echo base_url(); ?>/assets/img/icon/search.png"> Filter</button>
 							</div>

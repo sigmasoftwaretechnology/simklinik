@@ -4,7 +4,7 @@
 		  <thead>
 			<tr>
 						  <th style="width:3%">No</th>
-						  				<th align="center" style="width:5%"></th>
+						  				<th align="center" style="width:5%">Aksi</th>
 
 			  <th>Registrasi</th>
 			  <th>RM</th>

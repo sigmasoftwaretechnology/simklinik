@@ -18,10 +18,19 @@ class Keuangan extends BaseController
 	public function kasir()
     {
 		$tanggal = $this->request->getVar('tanggal');
+		$text = $this->request->getVar('text');
 		if(is_null($tanggal)){
 			$tanggal = date("d-m-Y");
 		}
-		$dataRegis = $this->mongo->get("assessment", ["tanggal" => $tanggal]);
+        if (isset($text)) {
+			$text = strtolower($text);
+			$options = ['sort' => ['tanggal_dibuat' => 1]];
+			$dataRegis = $this->mongo->getLike("assessment","nama",$text,$options,["tanggal" => $tanggal]);
+
+        }
+        else{
+			$dataRegis = $this->mongo->get("assessment", ["tanggal" => $tanggal]);
+        }
 		$data = [
 			"reg" => $dataRegis
 		];

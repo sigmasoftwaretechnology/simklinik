@@ -1,7 +1,7 @@
 var __base_url__ = $("#base_url").val();
 $(function () {
 	$("#filter").click(function(){
-		ajaxLoad(__base_url__+"keuangan/kasir?tanggal="+$("#filterTanggal1").val());
+		ajaxLoad(__base_url__+"keuangan/kasir?tanggal="+$("#filterTanggal1").val()+"&text="+$("#nama").val());
     }); 
 	
 	$('.filterTanggal').daterangepicker({
@@ -232,7 +232,7 @@ function savePembayaran() {
 									'</div>'+
 								'</div>';
 			$("#btn-grup").html(txtbtn);
-			ajaxLoad(__base_url__+"keuangan/kasir?tanggal="+$("#filterTanggal1").val());
+			ajaxLoad(__base_url__+"keuangan/kasir?tanggal="+$("#filterTanggal1").val()+"&text="+$("#nama").val());
         },
         error: function (xhr, status, error) {
             $("#preloader").css("display", "none");

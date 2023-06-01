@@ -1,7 +1,7 @@
 var __base_url__ = $("#base_url").val();
 $(function () {
 	$("#filter").click(function(){
-		ajaxLoad(__base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val());
+		ajaxLoad(__base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val()+"&text="+$("#nama").val());
     }); 
 	
 	$('.filterTanggal').daterangepicker({
@@ -272,7 +272,7 @@ function saveResep() {
 							"<button type='button' id='cetak-label' class='btn btn-block btn-outline-danger btn-xs'>Label</button>"+
 						"</div>";
 			$("#btn-grup").html(txtbtn); */
-			ajaxLoad(__base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val());
+			ajaxLoad(_base_url__+"farmasi/resep?tanggal="+$("#filterTanggal1").val()+"&text="+$("#nama").val());
         },
         error: function (xhr, status, error) {
             $("#preloader").css("display", "none");
